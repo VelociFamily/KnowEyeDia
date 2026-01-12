@@ -1,0 +1,42 @@
+# Unity project ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+Artifacts/
+Recordings/
+ProjectSettings/PackageManager/UnityPackageManagerDiagnostics.json
+
+# Cache servers
+CacheServer/
+
+# IDE caches
+.vs/
+.idea/
+.Rider/
+
+# Auto-generated C# project files (Unity regenerates these)
+*.csproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# Unity packages and archives
+*.unitypackage
+*.zip
+*.rar
+*.7z
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Keep VS Code settings tracked (if present)
+!.vscode/
