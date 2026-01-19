@@ -14,6 +14,7 @@ namespace KnowEyeDia.Installers
     {
         [Header("Scene References")]
         [SerializeField] private PlayerView _playerView;
+        [SerializeField] private WorldView _worldView;
 
         protected override void Configure(IContainerBuilder builder)
         {
@@ -22,22 +23,25 @@ namespace KnowEyeDia.Installers
 
             // UseCases
             builder.Register<PlayerSurvivalUseCase>(Lifetime.Singleton);
+            builder.Register<WorldGenerationUseCase>(Lifetime.Singleton).As<IWorldService>().AsSelf();
 
             // Gateways
             builder.Register<UnityInputService>(Lifetime.Singleton).As<IInputService>();
 
             // Presenters
             builder.Register<PlayerPresenter>(Lifetime.Singleton).AsImplementedInterfaces();
+            builder.Register<WorldPresenter>(Lifetime.Singleton).AsImplementedInterfaces();
 
             // Views
             if (_playerView != null)
-            {
                 builder.RegisterComponent(_playerView);
-            }
             else
-            {
-                Debug.LogWarning("PlayerView is not assigned in GameLifetimeScope inspector! Please drag the Player object into the slot.");
-            }
+                Debug.LogWarning("PlayerView missing in GameLifetimeScope.");
+
+            if (_worldView != null)
+                builder.RegisterComponent(_worldView);
+            else
+                Debug.LogWarning("WorldView missing in GameLifetimeScope.");
         }
     }
 }
