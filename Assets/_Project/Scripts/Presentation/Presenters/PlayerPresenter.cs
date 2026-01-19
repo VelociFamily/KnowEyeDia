@@ -13,6 +13,7 @@ namespace KnowEyeDia.Presentation.Presenters
         private readonly PlayerEntity _playerEntity;
         private readonly PlayerSurvivalUseCase _survivalUseCase;
         private readonly IInputService _inputService;
+        private readonly IWorldService _worldService;
         private readonly PlayerView _view;
 
         [Inject]
@@ -20,11 +21,13 @@ namespace KnowEyeDia.Presentation.Presenters
             PlayerEntity playerEntity,
             PlayerSurvivalUseCase survivalUseCase,
             IInputService inputService,
+            IWorldService worldService,
             PlayerView view)
         {
             _playerEntity = playerEntity;
             _survivalUseCase = survivalUseCase;
             _inputService = inputService;
+            _worldService = worldService;
             _view = view;
         }
 
@@ -32,6 +35,11 @@ namespace KnowEyeDia.Presentation.Presenters
         {
             // Initialization
             Debug.Log("PlayerPresenter Started");
+            
+            // Set initial position on terrain
+             Vector3 currentPos = _view.transform.position;
+             float height = _worldService.GetHeightAt(currentPos.x, currentPos.z);
+             _view.SetPosition(new Vector3(currentPos.x, height, currentPos.z));
         }
 
         public void Tick()
@@ -44,17 +52,23 @@ namespace KnowEyeDia.Presentation.Presenters
             // 2. Input & Movement
             Vector2 input = _inputService.GetMovementInput();
             
-            // Simple movement logic here (or move to a MovementUseCase if complex)
-            // For now, doing it here to drive the view.
             if (input != Vector2.zero)
             {
                 // Move logic
                 Vector3 currentPos = _view.transform.position;
                 Vector3 move = new Vector3(input.x, 0, input.y) * 5f * dt; // Speed 5
-                _view.SetPosition(currentPos + move);
-            }
+                
+                Vector3 targetPos = currentPos + move;
+                
+                // Adjust Y based on terrain
+                float targetHeight = _worldService.GetHeightAt(targetPos.x, targetPos.z);
+                
+                // Simple snap to height (walk up/down stairs instantly)
+                // or we could Lerp for smoothness. Snapping is safer for 2D/2.5D grids.
+                targetPos.y = targetHeight;
 
-            // Sync other view states (e.g. Health UI) if we had a view for it.
+                _view.SetPosition(targetPos);
+            }
         }
     }
 }
