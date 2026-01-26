@@ -27,9 +27,6 @@ TextureImporter:
       213: -4089880411274726097
     second: Grass_Top_0
   - first:
-      213: 4506152310393924994
-    second: Grass_InnterBotLeft_0
-  - first:
       213: -9051383876108517361
     second: Grass_InnerBotLeft_0
   - first:
@@ -1106,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_InnerTopRght_0
+      name: Grass_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -6278,7 +6275,6 @@ TextureImporter:
       Grass_InnerTopLeft_0: 5748968255339276969
       Grass_InnerTopRght_0: -5461255570481370923
       Grass_InnerTopRight_0: 8749990061228775164
-      Grass_InnterBotLeft_0: 4506152310393924994
       Grass_Left_0: -1589061476025826492
       Grass_Right_0: 836482681246608032
       Grass_TopLeft_0: 8431838587582803016
