@@ -49,7 +49,7 @@ TextureImporter:
     second: Dirt_InnerBotLeft_0
   - first:
       213: 3721374477171041678
-    second: Sand_InnerBotRIght_0
+    second: Sand_InnerBotRight_0
   - first:
       213: -1007600778558433835
     second: Sand_Top_0
@@ -103,13 +103,13 @@ TextureImporter:
     second: Grass_Right_0
   - first:
       213: -5461255570481370923
-    second: Grass_InnerTopRIght_0
+    second: Grass_InnerTopRight_0
   - first:
       213: -2488519790056216315
-    second: Sand_InnerTopRIght_0
+    second: Sand_InnerTopRight_0
   - first:
       213: 3241152773896606792
-    second: Dirt_InnerTopRIght_0
+    second: Dirt_InnerTopRight_0
   - first:
       213: -2122100233635735916
     second: Dirt_BotLeft_0
@@ -124,7 +124,7 @@ TextureImporter:
     second: Grass_InnerTopLeft_0
   - first:
       213: 1042606377928242228
-    second: Sand_BotRIght_0
+    second: Sand_BotRight_0
   - first:
       213: -1596620104236534885
     second: Sand_InnerTopLeft_0
@@ -6273,7 +6273,7 @@ TextureImporter:
       Grass_InnerBotRightB_0: -9068210528467117013
       Grass_InnerBotRight_0: -311430066
       Grass_InnerTopLeft_0: 5748968255339276969
-      Grass_InnerTopRght_0: -5461255570481370923
+      Grass_InnerTopRight_0: -5461255570481370923
       Grass_InnerTopRight_0: 8749990061228775164
       Grass_Left_0: -1589061476025826492
       Grass_Right_0: 836482681246608032
