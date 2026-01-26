@@ -20,6 +20,135 @@ TextureImporter:
   - first:
       213: 3023511036307761811
     second: Floors_Tiles_5
+  - first:
+      213: 7175668498611790207
+    second: Grass_InnerBotRight_0
+  - first:
+      213: -4089880411274726097
+    second: Grass_Top_0
+  - first:
+      213: 4506152310393924994
+    second: Grass_InnterBotLeft_0
+  - first:
+      213: -9051383876108517361
+    second: Grass_InnerBotLeft_0
+  - first:
+      213: -3905780547046666321
+    second: Stone_InnerBotRight_0
+  - first:
+      213: 8697596705284619842
+    second: Stone_Top_0
+  - first:
+      213: 8735241181968093353
+    second: Stone_InnerBotLeft_0
+  - first:
+      213: -1036571847717189229
+    second: Dirt_InnerBotRight_0
+  - first:
+      213: 8461954356267605417
+    second: Dirt_Top_0
+  - first:
+      213: 7671457425067894269
+    second: Dirt_InnerBotLeft_0
+  - first:
+      213: 3721374477171041678
+    second: Sand_InnerBotRIght_0
+  - first:
+      213: -1007600778558433835
+    second: Sand_Top_0
+  - first:
+      213: 5150819827214080047
+    second: Sand_InnerBotLeft_0
+  - first:
+      213: 2467314271473265160
+    second: _0
+  - first:
+      213: 7911116027138536317
+    second: Stone_FullA_0
+  - first:
+      213: -4201968453571636658
+    second: Stone_FullB_0
+  - first:
+      213: 940605969735775130
+    second: Stone_MissingMidLeft_0
+  - first:
+      213: 107818676288454183
+    second: Stone_MissingMidBot_0
+  - first:
+      213: 8431838587582803016
+    second: Grass_TopLeft_0
+  - first:
+      213: -9068210528467117013
+    second: Grass_InnerBotRIghtB_0
+  - first:
+      213: 7461619687677343059
+    second: Sand_TopLeft_0
+  - first:
+      213: -8004412468190891715
+    second: Dirt_TopLeft_0
+  - first:
+      213: 4924210320473889850
+    second: Dirt_Left_0
+  - first:
+      213: -1589061476025826492
+    second: Grass_Left_0
+  - first:
+      213: -1114717566477040335
+    second: Sand_Right_0
+  - first:
+      213: -1979536276803627458
+    second: Sand_Left_0
+  - first:
+      213: -2909006944961634848
+    second: Dirt_Right_0
+  - first:
+      213: 836482681246608032
+    second: Grass_Right_0
+  - first:
+      213: -5461255570481370923
+    second: Grass_InnerTopRIght_0
+  - first:
+      213: -2488519790056216315
+    second: Sand_InnerTopRIght_0
+  - first:
+      213: 3241152773896606792
+    second: Dirt_InnerTopRIght_0
+  - first:
+      213: -2122100233635735916
+    second: Dirt_BotLeft_0
+  - first:
+      213: -2603719683849170504
+    second: Sand_BotLeft_0
+  - first:
+      213: -4648339082771648381
+    second: Grass_BotRight_0
+  - first:
+      213: 5748968255339276969
+    second: Grass_InnerTopLeft_0
+  - first:
+      213: 1042606377928242228
+    second: Sand_BotRIght_0
+  - first:
+      213: -1596620104236534885
+    second: Sand_InnerTopLeft_0
+  - first:
+      213: 3365523044860772167
+    second: Dirt_BotRight_0
+  - first:
+      213: 547355948073018694
+    second: Dirt_InnerTopLeft_0
+  - first:
+      213: 8749990061228775164
+    second: Grass_InnerTopRight_0
+  - first:
+      213: 5606394613571809015
+    second: Grass_Bot_0
+  - first:
+      213: -4058709292715925348
+    second: Sand_Bot_0
+  - first:
+      213: -2479894854811824298
+    second: Dirt_Bot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,7 +270,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floors_Tiles_0
+      name: Grass_InnerBotRight_0
       rect:
         serializedVersion: 2
         x: 16
@@ -156,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a8065607d9476910800000000000000
-      internalID: 1830512961422493859
+      spriteID: e44ff6deffffffff0800000000000000
+      internalID: -311430066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_1
+      name: Grass_Top_0
       rect:
         serializedVersion: 2
         x: 32
@@ -178,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03b8733708abc38b0800000000000000
-      internalID: -5171053211276571856
+      spriteID: f2534206f63dd37c0800000000000000
+      internalID: -4089880411274726097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_2
+      name: Grass_InnerBotLeft_0
       rect:
         serializedVersion: 2
         x: 48
@@ -200,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 521792a00722559e0800000000000000
-      internalID: -1633361425249767131
+      spriteID: b402ffa0000000000800000000000000
+      internalID: 184492107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_3
+      name: Sand_InnerBotRIght_0
       rect:
         serializedVersion: 2
         x: 96
@@ -222,14 +351,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d28dc39857490c1f0800000000000000
-      internalID: -1026657482505922515
+      spriteID: e852cfbce5af4a330800000000000000
+      internalID: 3721374477171041678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_4
+      name: Sand_Top_0
       rect:
         serializedVersion: 2
         x: 112
@@ -244,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3feb65af748f0e40800000000000000
-      internalID: 5624860143380066107
+      spriteID: 5d51e9e2e684402f0800000000000000
+      internalID: -1007600778558433835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_5
+      name: Sand_InnerBotLeft_0
       rect:
         serializedVersion: 2
         x: 128
@@ -266,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39ae89da44ba5f920800000000000000
-      internalID: 3023511036307761811
+      spriteID: f285227b7536b7740800000000000000
+      internalID: 5150819827214080047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_6
+      name: Dirt_InnerBotRight_0
       rect:
         serializedVersion: 2
         x: 176
@@ -286,16 +415,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d732f0701f98b44ba13252ab3517fb0
-      internalID: -285305941
+      spriteID: 39985a0856b5d91f0800000000000000
+      internalID: -1036571847717189229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_7
+      name: Dirt_Top_0
       rect:
         serializedVersion: 2
         x: 192
@@ -308,16 +437,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8282876216ab81d4bbcc016d63f29df5
-      internalID: 1289604000
+      spriteID: 9ad56e657a6ee6570800000000000000
+      internalID: 8461954356267605417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_8
+      name: Dirt_InnerBotLeft_0
       rect:
         serializedVersion: 2
         x: 208
@@ -330,16 +459,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1f5d3a1fd10f8ab4cb661b50faaaeebe
-      internalID: 1629498179
+      spriteID: df564ba02ed767a60800000000000000
+      internalID: 7671457425067894269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_9
+      name: Stone_FullA_0
       rect:
         serializedVersion: 2
         x: 256
@@ -352,16 +481,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b5ee260f2920064c8b2b8b9219caa29
-      internalID: 584787216
+      spriteID: d73fd7e9c1ee9cd60800000000000000
+      internalID: 7911116027138536317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_10
+      name: Stone_MissingMidLeft_0
       rect:
         serializedVersion: 2
         x: 272
@@ -374,16 +503,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 65b513d87e7891c418722f93a3d5c780
-      internalID: -1913739218
+      spriteID: a9376bb5524bd0d00800000000000000
+      internalID: 940605969735775130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_11
+      name: Stone_MissingMidBot_0
       rect:
         serializedVersion: 2
         x: 288
@@ -396,38 +525,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 443ca30cbb812864a8ae64251493277d
-      internalID: -966475212
+      spriteID: 72e735cc38c0f7100800000000000000
+      internalID: 107818676288454183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00165db76a3aba34a9345234ea030864
-      internalID: -868798774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_Tiles_13
+      name: Grass_TopLeft_0
       rect:
         serializedVersion: 2
         x: 16
@@ -440,10 +547,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9bb38505e07cecd439b4b7d7f32e8e21
-      internalID: 638834163
+      spriteID: 84ced488588e30570800000000000000
+      internalID: 8431838587582803016
       vertices: []
       indices: 
       edges: []
@@ -462,32 +569,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d24004d7b98ca5c45ae78f5e2ef2c2db
+      spriteID: 12854b88ffffffff0800000000000000
       internalID: -2001446879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_Tiles_15
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c020e1b224d0b742907351ba62671f7
-      internalID: 280461242
       vertices: []
       indices: 
       edges: []
@@ -506,16 +591,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b7120d65453bbd646bc20f4416cd2c89
+      spriteID: 4e4a6f0effffffff0800000000000000
       internalID: -520706844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_17
+      name: Sand_TopLeft_0
       rect:
         serializedVersion: 2
         x: 96
@@ -528,10 +613,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0190833d63ab0364fa760c60f5f4f63a
-      internalID: -142481710
+      spriteID: 355b115929ffc8760800000000000000
+      internalID: 7461619687677343059
       vertices: []
       indices: 
       edges: []
@@ -550,9 +635,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8ea2e5c6617de37488085639f91e82db
+      spriteID: 9e4a2be1000000000800000000000000
       internalID: 515024105
       vertices: []
       indices: 
@@ -572,9 +657,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e5eb892289b938041ac5589da0dd9158
+      spriteID: 1b12db46000000000800000000000000
       internalID: 1690116529
       vertices: []
       indices: 
@@ -594,16 +679,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8fc039d9eddf44c459d8bd26a219f08c
+      spriteID: 5fc78c60000000000800000000000000
       internalID: 113802485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_21
+      name: Dirt_TopLeft_0
       rect:
         serializedVersion: 2
         x: 176
@@ -616,10 +701,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b0550c8aede33bc419c33591cf3fb061
-      internalID: -1295235360
+      spriteID: d3136c5f44d9ae090800000000000000
+      internalID: -8004412468190891715
       vertices: []
       indices: 
       edges: []
@@ -638,9 +723,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 158decc19e61c534ba24db94dfeb3050
+      spriteID: e7c27b81000000000800000000000000
       internalID: 414657662
       vertices: []
       indices: 
@@ -660,9 +745,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: de6bfab2ee331a5479ed03d1b4c58ebf
+      spriteID: 77f5fb52000000000800000000000000
       internalID: 633298807
       vertices: []
       indices: 
@@ -682,9 +767,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 76fd58ce71b2a3549b3a8e653268f30f
+      spriteID: 2e545a18ffffffff0800000000000000
       internalID: -2119875102
       vertices: []
       indices: 
@@ -704,9 +789,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 683f9178be1fd8d4884bf542811809e8
+      spriteID: d483d336000000000800000000000000
       internalID: 1664956493
       vertices: []
       indices: 
@@ -726,9 +811,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 086e4eddc9a01724cb4efe1395938475
+      spriteID: 9ca8268effffffff0800000000000000
       internalID: -396195127
       vertices: []
       indices: 
@@ -748,9 +833,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3e70cd69ab955104bb87e7d520617be7
+      spriteID: 830abb2dffffffff0800000000000000
       internalID: -759455688
       vertices: []
       indices: 
@@ -770,16 +855,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c630143424dd85a4281288cb4c9828c1
+      spriteID: 0957fc26000000000800000000000000
       internalID: 1657763216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_29
+      name: Grass_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -792,16 +877,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9eb5228235eb5b74db4a44d29958df6d
-      internalID: 1168079438
+      spriteID: 443093bb10582f9e0800000000000000
+      internalID: -1589061476025826492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_30
+      name: Grass_Right_0
       rect:
         serializedVersion: 2
         x: 64
@@ -814,16 +899,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 094cfb5fcbc982a41a5301ff3131b0ea
-      internalID: -1135672790
+      spriteID: 0aa68741198cb9b00800000000000000
+      internalID: 836482681246608032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_31
+      name: Sand_Left_0
       rect:
         serializedVersion: 2
         x: 80
@@ -836,16 +921,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f35c977036fb2894f8568a36e4b668a1
-      internalID: -343810723
+      spriteID: e36de198e364784e0800000000000000
+      internalID: -1979536276803627458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_32
+      name: Sand_Right_0
       rect:
         serializedVersion: 2
         x: 144
@@ -858,16 +943,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bf94ce7acda1f7944845c0dcf9c6f278
-      internalID: 234152888
+      spriteID: 1358f31874ab780f0800000000000000
+      internalID: -1114717566477040335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_33
+      name: Dirt_Left_0
       rect:
         serializedVersion: 2
         x: 160
@@ -880,16 +965,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f9410db15b9a1014e985f02c123fff4d
-      internalID: 334770577
+      spriteID: a3c9827623f465440800000000000000
+      internalID: 4924210320473889850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_34
+      name: Dirt_Right_0
       rect:
         serializedVersion: 2
         x: 224
@@ -902,10 +987,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0412f886e8c12724b984ccbc55f0b9db
-      internalID: -253498916
+      spriteID: 0edda6c989121a7d0800000000000000
+      internalID: -2909006944961634848
       vertices: []
       indices: 
       edges: []
@@ -924,9 +1009,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8c9ec461bc3db8341b42d56207a897fa
+      spriteID: e4c63139ffffffff0800000000000000
       internalID: -1827443634
       vertices: []
       indices: 
@@ -946,9 +1031,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 05c3a365abb4f57499adc632613ffc67
+      spriteID: 96c81ce3000000000800000000000000
       internalID: 1052871785
       vertices: []
       indices: 
@@ -968,9 +1053,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a68f6f872b40ad4085b751836ff26b6
+      spriteID: 1ef175d9ffffffff0800000000000000
       internalID: -1655234591
       vertices: []
       indices: 
@@ -990,9 +1075,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bed24587262909b41be0304c35dcfb34
+      spriteID: be5b050cffffffff0800000000000000
       internalID: -1068452373
       vertices: []
       indices: 
@@ -1012,16 +1097,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0e36f79f1884a6e4da04f96335685ab5
+      spriteID: 31f86f4affffffff0800000000000000
       internalID: -1527345389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_40
+      name: Grass_InnerTopRIght_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1034,16 +1119,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5fb2b6e4538e7de48b6dbfa934e5df19
-      internalID: 1715607199
+      spriteID: 5d8a5dd5ef8b534b0800000000000000
+      internalID: -5461255570481370923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_41
+      name: Dirt_BotLeft_0
       rect:
         serializedVersion: 2
         x: 16
@@ -1056,16 +1141,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 40b606e239245234eb6b2922e8223443
-      internalID: -506066801
+      spriteID: 60464beaffffffff0800000000000000
+      internalID: -1363909626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_42
+      name: Grass_BotRight_0
       rect:
         serializedVersion: 2
         x: 48
@@ -1078,16 +1163,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aa1d186bb8c8e454787d8e92dccae360
-      internalID: 1223575335
+      spriteID: 380b4df6b38cd7fb0800000000000000
+      internalID: -4648339082771648381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_43
+      name: Grass_InnerTopLeft_0
       rect:
         serializedVersion: 2
         x: 64
@@ -1100,16 +1185,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1e8c119bb07a0f74784f32ec7025970f
-      internalID: 1235402898
+      spriteID: 9aaae7c3b2078cf40800000000000000
+      internalID: 5748968255339276969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_44
+      name: Sand_InnerTopRIght_0
       rect:
         serializedVersion: 2
         x: 80
@@ -1122,16 +1207,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 77eb0a77e5fdbe34bb360df2dc547284
-      internalID: -1325118673
+      spriteID: 5096b298f60077dd0800000000000000
+      internalID: -2488519790056216315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_45
+      name: Sand_BotLeft_0
       rect:
         serializedVersion: 2
         x: 96
@@ -1144,16 +1229,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9c212436190b3c248b255fe802e3db8d
-      internalID: -1121973412
+      spriteID: 8b15a7d1ebabddbd0800000000000000
+      internalID: -2603719683849170504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_46
+      name: Sand_BotRIght_0
       rect:
         serializedVersion: 2
         x: 128
@@ -1166,16 +1251,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 59c25d2e39c5103458bcd9e3c5f9a5eb
-      internalID: -694475697
+      spriteID: 43438fc0af4187e00800000000000000
+      internalID: 1042606377928242228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_47
+      name: Sand_InnerTopLeft_0
       rect:
         serializedVersion: 2
         x: 144
@@ -1188,16 +1273,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 76a103705ce455a45b61e8e27ec58278
-      internalID: 1422392272
+      spriteID: b93fbb5797aa7d9e0800000000000000
+      internalID: -1596620104236534885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_48
+      name: Dirt_InnerTopRIght_0
       rect:
         serializedVersion: 2
         x: 160
@@ -1210,38 +1295,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9dadcb1ab702eef4094dffb57ab21bba
-      internalID: 1308895833
+      spriteID: 84411e68643eafc20800000000000000
+      internalID: 3241152773896606792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_49
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 352
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a901e2831a320ef48b6cc36c4c404a8a
-      internalID: 1213988711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_Tiles_50
+      name: Dirt_BotRight_0
       rect:
         serializedVersion: 2
         x: 208
@@ -1254,16 +1317,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f726e95b2e521c345ac659f1b512c502
-      internalID: -832819005
+      spriteID: 74f3154c06db4be20800000000000000
+      internalID: 3365523044860772167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_51
+      name: Dirt_InnerTopLeft_0
       rect:
         serializedVersion: 2
         x: 224
@@ -1276,10 +1339,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 49350177d56a25b4791246dace540fef
-      internalID: -1590171898
+      spriteID: 645e692b559989700800000000000000
+      internalID: 547355948073018694
       vertices: []
       indices: 
       edges: []
@@ -1298,9 +1361,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 806113a0a29b81344b971417aca2836a
+      spriteID: cdf672daffffffff0800000000000000
       internalID: -1389924388
       vertices: []
       indices: 
@@ -1320,9 +1383,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d4fecb8acd31bc54483df7f251e51812
+      spriteID: 426c53e1000000000800000000000000
       internalID: 506840612
       vertices: []
       indices: 
@@ -1342,9 +1405,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 39722621d043fd244ad2075e4678ec41
+      spriteID: a7dc1e30000000000800000000000000
       internalID: 65129850
       vertices: []
       indices: 
@@ -1364,9 +1427,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 21e05cf964d7ce94a87de759a4feed5c
+      spriteID: 4ff5fd77000000000800000000000000
       internalID: 2011127796
       vertices: []
       indices: 
@@ -1386,16 +1449,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7c94d6c2af0c6c045a48fd545aa85ece
+      spriteID: d839fe86000000000800000000000000
       internalID: 1760531341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_57
+      name: Grass_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 16
@@ -1408,16 +1471,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9b9ecf8e25f50854b9647cac74983122
-      internalID: -191016873
+      spriteID: cf65dbbe9953e6970800000000000000
+      internalID: 8749990061228775164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_58
+      name: Grass_Bot_0
       rect:
         serializedVersion: 2
         x: 32
@@ -1430,10 +1493,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a4431a06f2daa1a48a73d082511bb3c2
-      internalID: 1908902200
+      spriteID: 7fe6c94723aedcd40800000000000000
+      internalID: 5606394613571809015
       vertices: []
       indices: 
       edges: []
@@ -1452,9 +1515,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84c87990681f5644381998fc523f5e9f
+      spriteID: 471e5db2000000000800000000000000
       internalID: 735437172
       vertices: []
       indices: 
@@ -1474,16 +1537,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a3784f1781c210245a5a779eed40b7f0
+      spriteID: 5cdc4084000000000800000000000000
       internalID: 1208274373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_61
+      name: Sand_Bot_0
       rect:
         serializedVersion: 2
         x: 112
@@ -1496,32 +1559,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c3ba72974d216b942a8d379c452ca14d
-      internalID: 1235903942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Floors_Tiles_62
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eaf8d1d4028988144ad829a41dc62ad3
-      internalID: -1748912445
+      spriteID: 66b9b557000000000800000000000000
+      internalID: 1968937830
       vertices: []
       indices: 
       edges: []
@@ -1540,16 +1581,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c45b7de8b00b24d458cbf74b035d1b9f
+      spriteID: 62981c68ffffffff0800000000000000
       internalID: -2034136794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_64
+      name: Dirt_Bot_0
       rect:
         serializedVersion: 2
         x: 192
@@ -1562,10 +1603,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b22f283d9909b564daa44c5cd5363db0
-      internalID: -2084410070
+      spriteID: 65f4f92c4c4a59dd0800000000000000
+      internalID: -2479894854811824298
       vertices: []
       indices: 
       edges: []
@@ -1584,9 +1625,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ad65e453468da07489dd6c0660f04ddd
+      spriteID: 82aefe7fffffffff0800000000000000
       internalID: -135271896
       vertices: []
       indices: 
@@ -1606,9 +1647,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cb8d7976d47eb144eaf547bda1ca6b74
+      spriteID: d144acaaffffffff0800000000000000
       internalID: -1429584867
       vertices: []
       indices: 
@@ -1628,9 +1669,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 32859159279d87d41901fd39a5232e69
+      spriteID: a73de12fffffffff0800000000000000
       internalID: -232860806
       vertices: []
       indices: 
@@ -1650,9 +1691,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8eaeb5a2036dbd34aa9e893fc84622f9
+      spriteID: 60b91f44000000000800000000000000
       internalID: 1156684550
       vertices: []
       indices: 
@@ -1672,9 +1713,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 81a194f5d59237f41a5563250172da99
+      spriteID: 01c66359ffffffff0800000000000000
       internalID: -1791595504
       vertices: []
       indices: 
@@ -1694,9 +1735,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d50815d367749ca47ad6bf5128a27650
+      spriteID: 655bcd75000000000800000000000000
       internalID: 1474082134
       vertices: []
       indices: 
@@ -1716,9 +1757,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f96f2dd1eff73b04aa463b94f7ae55f5
+      spriteID: 8b2c8eb4000000000800000000000000
       internalID: 1273545400
       vertices: []
       indices: 
@@ -1738,9 +1779,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8b0c5d02cbffb79439ca03abdce867fe
+      spriteID: 61b5f156000000000800000000000000
       internalID: 1696553750
       vertices: []
       indices: 
@@ -1760,9 +1801,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c87ad08a457e5b7419aff0bf044b535a
+      spriteID: 5201a208ffffffff0800000000000000
       internalID: -2144727003
       vertices: []
       indices: 
@@ -1782,9 +1823,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82b1c7bf8e0f9e348b8d796de731b25c
+      spriteID: 68949cacffffffff0800000000000000
       internalID: -892778106
       vertices: []
       indices: 
@@ -1804,9 +1845,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 36e13af0cd150624a842e5dd1f95c732
+      spriteID: 0ebb446affffffff0800000000000000
       internalID: -1505444896
       vertices: []
       indices: 
@@ -1826,9 +1867,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b45fbeb7555cbfa4e9e6b950879827f4
+      spriteID: 423a1859ffffffff0800000000000000
       internalID: -1786666204
       vertices: []
       indices: 
@@ -1848,9 +1889,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d6b0f9d4c1d31f848b66e7fb6439679c
+      spriteID: 3d98e856000000000800000000000000
       internalID: 1703840211
       vertices: []
       indices: 
@@ -1870,9 +1911,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6e09f6b216d173643b6c611f1b352330
+      spriteID: 1433bcc4000000000800000000000000
       internalID: 1288385345
       vertices: []
       indices: 
@@ -1892,9 +1933,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d40ffe847cd888f468b74455f7af0860
+      spriteID: f6a3fdf7000000000800000000000000
       internalID: 2145335919
       vertices: []
       indices: 
@@ -1914,9 +1955,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9c30bb2672be0794084902f6f5aa845a
+      spriteID: dbf6533affffffff0800000000000000
       internalID: -1556779075
       vertices: []
       indices: 
@@ -1936,9 +1977,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 95c12932ab1fc794d8e42a940222c7fe
+      spriteID: 68da3a1cffffffff0800000000000000
       internalID: -1046237818
       vertices: []
       indices: 
@@ -1958,9 +1999,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 52003bab949ff5f429ec12af2f2987f2
+      spriteID: 02cc381affffffff0800000000000000
       internalID: -1585198048
       vertices: []
       indices: 
@@ -1980,9 +2021,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 404256dfeb8b39b4a839443cae4a2d1f
+      spriteID: 20d1df37000000000800000000000000
       internalID: 1945967874
       vertices: []
       indices: 
@@ -2002,9 +2043,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f85a506b604e3ab4fb777399aa02c47a
+      spriteID: c84a8dc2000000000800000000000000
       internalID: 752395404
       vertices: []
       indices: 
@@ -2024,9 +2065,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d36efb3239e268c4e9da784c21d01dcd
+      spriteID: e7235e99ffffffff0800000000000000
       internalID: -1713032578
       vertices: []
       indices: 
@@ -2046,9 +2087,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 005d432d99e8ecb4bbc7f9467e08969c
+      spriteID: 1059fa2effffffff0800000000000000
       internalID: -491809535
       vertices: []
       indices: 
@@ -2068,9 +2109,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 336ede9a2204e55498f8e135a278cad1
+      spriteID: 27630302000000000800000000000000
       internalID: 540030578
       vertices: []
       indices: 
@@ -2090,9 +2131,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a3d96c0ba041b0649aeb55d6f80e8a86
+      spriteID: 27b59f37000000000800000000000000
       internalID: 1945721714
       vertices: []
       indices: 
@@ -2112,9 +2153,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fdaec96110b00664fb0a029f0e4b6fdf
+      spriteID: 175013efffffffff0800000000000000
       internalID: -30341775
       vertices: []
       indices: 
@@ -2134,9 +2175,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6f043810b0d1db94cadb2ee0e4a205ad
+      spriteID: 7f4b6bf6000000000800000000000000
       internalID: 1874244855
       vertices: []
       indices: 
@@ -2156,9 +2197,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 256b349cb143274459ff03f1ff70d86e
+      spriteID: 7b35cca5000000000800000000000000
       internalID: 1523340215
       vertices: []
       indices: 
@@ -2178,9 +2219,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9c7262039578d8740b85e3ac6f84ecec
+      spriteID: a2bc8691000000000800000000000000
       internalID: 426298154
       vertices: []
       indices: 
@@ -2200,9 +2241,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9bbe2a4254548724fa2d57411aa4c89b
+      spriteID: 26d67ea5000000000800000000000000
       internalID: 1525116258
       vertices: []
       indices: 
@@ -2222,9 +2263,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3b4add4639e59c64da08e4e4b59f3efc
+      spriteID: e13f29bdffffffff0800000000000000
       internalID: -611126498
       vertices: []
       indices: 
@@ -2244,9 +2285,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e4a59a155ed6ecb4abe7f0b971fbc710
+      spriteID: ef41790effffffff0800000000000000
       internalID: -526969602
       vertices: []
       indices: 
@@ -2266,9 +2307,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dbd0ae59462cec345a7a8d9cb6ecb6a1
+      spriteID: 72c3007effffffff0800000000000000
       internalID: -419415001
       vertices: []
       indices: 
@@ -2288,9 +2329,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 233cb3a5915789f4695a5160211a2cec
+      spriteID: f760d407000000000800000000000000
       internalID: 1884096127
       vertices: []
       indices: 
@@ -2310,9 +2351,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9686b9915b0ec1e43b5541b09013427c
+      spriteID: eb6549e0000000000800000000000000
       internalID: 244602558
       vertices: []
       indices: 
@@ -2332,9 +2373,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ed2b74eed71bb8e478fa9de4e4731aa9
+      spriteID: 6de22581000000000800000000000000
       internalID: 408039126
       vertices: []
       indices: 
@@ -2354,9 +2395,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84e5f6e44e5c774438ac49d11bb4ca6d
+      spriteID: 2edf2194000000000800000000000000
       internalID: 1225981410
       vertices: []
       indices: 
@@ -2376,9 +2417,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5e20aae8db606e64e8e907ce94d9f08c
+      spriteID: 3b0750c9ffffffff0800000000000000
       internalID: -1677365069
       vertices: []
       indices: 
@@ -2398,9 +2439,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 107bef81bec5583438ca297830b2d233
+      spriteID: a4d49d07000000000800000000000000
       internalID: 1893289290
       vertices: []
       indices: 
@@ -2420,9 +2461,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ef355f9679ab8ae41ab1563885f6333d
+      spriteID: 4bc4f7f0000000000800000000000000
       internalID: 260000948
       vertices: []
       indices: 
@@ -2442,9 +2483,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 46833b77fe3f5364bb32a9344bcd2306
+      spriteID: 00666a53000000000800000000000000
       internalID: 900097536
       vertices: []
       indices: 
@@ -2464,9 +2505,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9f76dc67327252f4cb9e9c7bbe313a22
+      spriteID: 1a29cc6affffffff0800000000000000
       internalID: -1496542559
       vertices: []
       indices: 
@@ -2486,9 +2527,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e36abc4ecbbd74f4d9f38033383751c0
+      spriteID: 009c2c26000000000800000000000000
       internalID: 1656932608
       vertices: []
       indices: 
@@ -2508,9 +2549,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6b0d5a4cd2324e64282e04ee15eda2bf
+      spriteID: 0a5f957dffffffff0800000000000000
       internalID: -681970272
       vertices: []
       indices: 
@@ -2530,9 +2571,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f96d065a695a03f428ef62f9f13811c4
+      spriteID: 8fa58a2fffffffff0800000000000000
       internalID: -223847688
       vertices: []
       indices: 
@@ -2552,9 +2593,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0403bab339eb7f74d9f7d3e0c6785cca
+      spriteID: ecd67c8dffffffff0800000000000000
       internalID: -658018866
       vertices: []
       indices: 
@@ -2574,9 +2615,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 56b19455882955948bda3ccdfbcaa9db
+      spriteID: 6760af81000000000800000000000000
       internalID: 419038838
       vertices: []
       indices: 
@@ -2596,9 +2637,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3af2c169b88279b4486cc01f0c70f6a0
+      spriteID: 8b111f57000000000800000000000000
       internalID: 1978732984
       vertices: []
       indices: 
@@ -2618,9 +2659,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 459e64f9bfb08554b8bd370070670c5a
+      spriteID: f5690e23000000000800000000000000
       internalID: 853579359
       vertices: []
       indices: 
@@ -2640,9 +2681,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fee37406110b1ca4fbe342e975248ca7
+      spriteID: 6e099412000000000800000000000000
       internalID: 558469350
       vertices: []
       indices: 
@@ -2662,9 +2703,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 49f640d39cfbdd2479c7e5a86672b760
+      spriteID: 08884263000000000800000000000000
       internalID: 908363904
       vertices: []
       indices: 
@@ -2684,9 +2725,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 413a115a1c094624ba85944ba0b17a97
+      spriteID: 827d75bdffffffff0800000000000000
       internalID: -615000280
       vertices: []
       indices: 
@@ -2706,16 +2747,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: acf29be946644c44c90a82a0f548c0e7
+      spriteID: 598ae530000000000800000000000000
       internalID: 56535189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_117
+      name: Grass_Center_0
       rect:
         serializedVersion: 2
         x: 16
@@ -2728,9 +2769,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a3089804554932c4488b65918e95ff0a
+      spriteID: b12aa0cdffffffff0800000000000000
       internalID: -603282917
       vertices: []
       indices: 
@@ -2750,9 +2791,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c9d1c36549b4c6744af947493c59140d
+      spriteID: f4e25fdcffffffff0800000000000000
       internalID: -839569841
       vertices: []
       indices: 
@@ -2772,16 +2813,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dd78a7dcd8703304c806f356b65c9ce1
+      spriteID: 3619acfeffffffff0800000000000000
       internalID: -271937181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_120
+      name: Sand_Center_0
       rect:
         serializedVersion: 2
         x: 96
@@ -2794,9 +2835,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82a74e5916453394882d4c1abe46f15d
+      spriteID: 2d08368fffffffff0800000000000000
       internalID: -127696686
       vertices: []
       indices: 
@@ -2816,9 +2857,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4c5a1938ddef05c40a7a00f9747b9a8b
+      spriteID: 67b2bd2cffffffff0800000000000000
       internalID: -1025823882
       vertices: []
       indices: 
@@ -2838,16 +2879,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4704f62e3efc25946b2915638a6f327d
+      spriteID: 1abae579ffffffff0800000000000000
       internalID: -1755403359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_123
+      name: Dirt_Center_0
       rect:
         serializedVersion: 2
         x: 176
@@ -2860,9 +2901,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c3ba861511f068f4faf35ff4caae6a0a
+      spriteID: 2fbe9ac0000000000800000000000000
       internalID: 212462578
       vertices: []
       indices: 
@@ -2882,9 +2923,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3677419ac8c3a064b8bdb52b793e0c76
+      spriteID: 325d2d29ffffffff0800000000000000
       internalID: -1831676637
       vertices: []
       indices: 
@@ -2904,16 +2945,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 31a82a1a2f32e0f44811140d9b5e7223
+      spriteID: 835e15aaffffffff0800000000000000
       internalID: -1437473480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_126
+      name: Grass_CenterDark_0
       rect:
         serializedVersion: 2
         x: 16
@@ -2926,9 +2967,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 991ef452d870bef469ed092bb06b5610
+      spriteID: da59ead7000000000800000000000000
       internalID: 2108593581
       vertices: []
       indices: 
@@ -2948,9 +2989,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a46452f42d402bd4dbf768004a0bfc62
+      spriteID: da07cd40000000000800000000000000
       internalID: 81555629
       vertices: []
       indices: 
@@ -2970,16 +3011,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 44d7ce58844d4294a9dc3650e6f6d978
+      spriteID: 0f9c44f8ffffffff0800000000000000
       internalID: -1891317264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_129
+      name: Sand_CenterDark_0
       rect:
         serializedVersion: 2
         x: 96
@@ -2992,9 +3033,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bcaf7b37de41b7f4997a9d1b4dfe3f93
+      spriteID: 39acc015000000000800000000000000
       internalID: 1359792787
       vertices: []
       indices: 
@@ -3014,9 +3055,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ad22137127f3a664c99a509c3b6cb633
+      spriteID: ffc1bc0cffffffff0800000000000000
       internalID: -1060430593
       vertices: []
       indices: 
@@ -3036,16 +3077,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d4d13e37cab6c1f4a89a394647052837
+      spriteID: b76acb07000000000800000000000000
       internalID: 1891411579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_132
+      name: Dirt_CenterDark_0
       rect:
         serializedVersion: 2
         x: 176
@@ -3058,9 +3099,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 905b7d8845bcf994f80c00d7c1f88a60
+      spriteID: 6a959692000000000800000000000000
       internalID: 694770086
       vertices: []
       indices: 
@@ -3080,9 +3121,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c04109144a1ef6c438c47e868e1ac4cc
+      spriteID: 7f7f2bc2000000000800000000000000
       internalID: 749926391
       vertices: []
       indices: 
@@ -3102,16 +3143,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e96b820f1672e994282557cef0b0855c
+      spriteID: a6e178e2000000000800000000000000
       internalID: 780607082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_135
+      name: Snow_BotRight_0
       rect:
         serializedVersion: 2
         x: 16
@@ -3124,16 +3165,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5a158ba8292061d44a13213913865ca7
+      spriteID: 6e58514effffffff0800000000000000
       internalID: -468351514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_136
+      name: Snow_Bot_0
       rect:
         serializedVersion: 2
         x: 32
@@ -3146,16 +3187,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 49d2840a472a69b4f8f67db76845ae73
+      spriteID: 5bf4fe0effffffff0800000000000000
       internalID: -521187403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_137
+      name: Snow_BotLeft_0
       rect:
         serializedVersion: 2
         x: 48
@@ -3168,16 +3209,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9bdd26ba3837d5a4f899ab3afecfc209
+      spriteID: 2441a687000000000800000000000000
       internalID: 2020217922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_138
+      name: Desert_BotRight_0
       rect:
         serializedVersion: 2
         x: 96
@@ -3190,16 +3231,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 573e719b706ad0440a9f111775f0257e
+      spriteID: 19146f23000000000800000000000000
       internalID: 854999441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_139
+      name: Desert_Bot_0
       rect:
         serializedVersion: 2
         x: 112
@@ -3212,16 +3253,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cd1fee67052cdb540ae574f439778725
+      spriteID: f645303cffffffff0800000000000000
       internalID: -1023191953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_140
+      name: Desert_BotLeft_0
       rect:
         serializedVersion: 2
         x: 128
@@ -3234,9 +3275,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 92f31b1f9ed79f54e923e02493f17dc1
+      spriteID: 39dd92c7000000000800000000000000
       internalID: 2083118483
       vertices: []
       indices: 
@@ -3256,16 +3297,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ce14ee5e5ea801a4a84b332da22d4df5
+      spriteID: 9a6657eaffffffff0800000000000000
       internalID: -1368037719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_142
+      name: Snow_InnerTopLeft_0
       rect:
         serializedVersion: 2
         x: 16
@@ -3278,16 +3319,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b7ff59d532a68b44b39a82edf05b055
+      spriteID: cc3c68ecffffffff0800000000000000
       internalID: -830028852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_143
+      name: Snow_Center_0
       rect:
         serializedVersion: 2
         x: 32
@@ -3300,16 +3341,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a28fc4d3cd956249adf9954eec6c4a3
+      spriteID: 56111cf6000000000800000000000000
       internalID: 1874923877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_144
+      name: Snow_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 48
@@ -3322,9 +3363,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 252331ce92ede8a4e96c714f6b5e88b2
+      spriteID: 3d88d1bfffffffff0800000000000000
       internalID: -81950509
       vertices: []
       indices: 
@@ -3344,9 +3385,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 191808a8db51668418b28837dfa927ec
+      spriteID: 09bec2f4000000000800000000000000
       internalID: 1328343952
       vertices: []
       indices: 
@@ -3366,16 +3407,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ed112ccea6788f34e8e1384f2ecf40d2
+      spriteID: 8e85035affffffff0800000000000000
       internalID: -1523558168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_147
+      name: Desert_InnerTopLeft_0
       rect:
         serializedVersion: 2
         x: 96
@@ -3388,16 +3429,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d8bb1aec232955049bef71f9095f1fc5
+      spriteID: e344dc16000000000800000000000000
       internalID: 1640842302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_148
+      name: Desert_Center_0
       rect:
         serializedVersion: 2
         x: 112
@@ -3410,16 +3451,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: db798a96e5dd4144495c7004711f77dd
+      spriteID: 4d6745d4000000000800000000000000
       internalID: 1297381076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_149
+      name: Desert_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 128
@@ -3432,9 +3473,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bad9b34a4f3db843a62b9bbefd9bcda
+      spriteID: cad2b14cffffffff0800000000000000
       internalID: -1004851796
       vertices: []
       indices: 
@@ -3454,16 +3495,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e1ca576d6adc5ca4a9a2f72f1f41e511
+      spriteID: 303371beffffffff0800000000000000
       internalID: -350801149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_151
+      name: Snow_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3476,9 +3517,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: be755081f07600446932ff14bde6d6eb
+      spriteID: 52f5d57effffffff0800000000000000
       internalID: -413311195
       vertices: []
       indices: 
@@ -3498,9 +3539,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 579e9fefd68a92e4280f62c9660e4ba3
+      spriteID: 0726fd25000000000800000000000000
       internalID: 1390371440
       vertices: []
       indices: 
@@ -3520,9 +3561,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ecbe037c64b60be488c0fed925e9b93f
+      spriteID: ac58c1d5000000000800000000000000
       internalID: 1562150346
       vertices: []
       indices: 
@@ -3542,16 +3583,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f0699f9805188f14599f428d28a9b40d
+      spriteID: 8fca2b15000000000800000000000000
       internalID: 1370664184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_155
+      name: Snow_Left_0
       rect:
         serializedVersion: 2
         x: 64
@@ -3564,16 +3605,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 08bcbcf1e4474d04f9582af18ca4947a
+      spriteID: d943c169ffffffff0800000000000000
       internalID: -1776536419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_156
+      name: Desert_Right_0
       rect:
         serializedVersion: 2
         x: 80
@@ -3586,9 +3627,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d86861af7db4d2b47b29403e6b7fd9ad
+      spriteID: bab4d618ffffffff0800000000000000
       internalID: -2123543637
       vertices: []
       indices: 
@@ -3608,9 +3649,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3991c8e086cc0c8409df15340e897e68
+      spriteID: 7479e02cffffffff0800000000000000
       internalID: -1039231161
       vertices: []
       indices: 
@@ -3630,9 +3671,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d13b053ddd66404d9ae5d5c636e33f0
+      spriteID: 5c3bf06cffffffff0800000000000000
       internalID: -972049467
       vertices: []
       indices: 
@@ -3652,16 +3693,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1129c0ef38aedc64b9a2141547c77b9d
+      spriteID: dc63f64effffffff0800000000000000
       internalID: -462473523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_160
+      name: Desert_Left_0
       rect:
         serializedVersion: 2
         x: 144
@@ -3674,16 +3715,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d3436dc936900947be9dad5e2b346c0
+      spriteID: 41dc30c4000000000800000000000000
       internalID: 1275317524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_161
+      name: Snow_TopRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -3696,16 +3737,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bad821706dae37447983716dcc3ee05d
+      spriteID: 6cd03bb2000000000800000000000000
       internalID: 733154758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_162
+      name: Snow_InnerBotLeft_0
       rect:
         serializedVersion: 2
         x: 16
@@ -3718,9 +3759,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 74388dfeb2d200f45b122440cf270840
+      spriteID: d7a2a5b0000000000800000000000000
       internalID: 190458493
       vertices: []
       indices: 
@@ -3740,16 +3781,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 46c6a5ae417302147b4eefe15d6e5d73
+      spriteID: e1966946000000000800000000000000
       internalID: 1687578910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_164
+      name: Snow_InnerBotRight_0
       rect:
         serializedVersion: 2
         x: 48
@@ -3762,16 +3803,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b2f5dfeca75403447ba1f2df5d4305d3
+      spriteID: b701b38affffffff0800000000000000
       internalID: -1472524165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_165
+      name: Snow_TopLeft_0
       rect:
         serializedVersion: 2
         x: 64
@@ -3784,16 +3825,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ad3d02b71ef19a5448c56b897e97e7af
+      spriteID: 05b3e75affffffff0800000000000000
       internalID: -1518453936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_166
+      name: Desert_TopRight_0
       rect:
         serializedVersion: 2
         x: 80
@@ -3806,16 +3847,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7e09ef24a4f37804eaead5f580ae26e0
+      spriteID: fff0b243000000000800000000000000
       internalID: 875237375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_167
+      name: Desert_InnerBotLeft_0
       rect:
         serializedVersion: 2
         x: 96
@@ -3828,9 +3869,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f61ec8ecb19605a4f93aa1ccd36d1f15
+      spriteID: 62911412000000000800000000000000
       internalID: 557914406
       vertices: []
       indices: 
@@ -3850,16 +3891,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7d502e24a392e0046af977725b507722
+      spriteID: ac31d769ffffffff0800000000000000
       internalID: -1770187830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_169
+      name: Desert_InnerBotRight_0
       rect:
         serializedVersion: 2
         x: 128
@@ -3872,16 +3913,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0e7cf538ff7052344a910963bfc28914
+      spriteID: 0bbd2710000000000800000000000000
       internalID: 24304560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_170
+      name: Desert_TopLeft_0
       rect:
         serializedVersion: 2
         x: 144
@@ -3894,9 +3935,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: beb6050e40f46924e91b69353ba11426
+      spriteID: e8df676dffffffff0800000000000000
       internalID: -696844914
       vertices: []
       indices: 
@@ -3916,16 +3957,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 77f5de821e316a947a6a67c82e663434
+      spriteID: 3650ba53000000000800000000000000
       internalID: 900400483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_172
+      name: Snow_Top_0
       rect:
         serializedVersion: 2
         x: 32
@@ -3938,9 +3979,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6133e419494a3f04187cd43bb2992c6f
+      spriteID: c0a24013000000000800000000000000
       internalID: 822356492
       vertices: []
       indices: 
@@ -3960,9 +4001,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5cb229490e2bc964a9f90097d4347c05
+      spriteID: 64197218ffffffff0800000000000000
       internalID: -2128113338
       vertices: []
       indices: 
@@ -3982,16 +4023,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3fb687652d7f295468c641b886e4da5f
+      spriteID: 373aa427000000000800000000000000
       internalID: 1917494131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_175
+      name: Desert_Top_0
       rect:
         serializedVersion: 2
         x: 112
@@ -4004,9 +4045,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 09be9b4d4ff9fd541b8787ddc02c085b
+      spriteID: d2828bf0000000000800000000000000
       internalID: 263727149
       vertices: []
       indices: 
@@ -4026,9 +4067,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d6be8627243047a4fbe862a55c3585ee
+      spriteID: 5fe7dab8ffffffff0800000000000000
       internalID: -1951564043
       vertices: []
       indices: 
@@ -4048,9 +4089,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ace4d143845bcb147aade42ca0a0d34a
+      spriteID: b62b3bb7000000000800000000000000
       internalID: 2075374187
       vertices: []
       indices: 
@@ -4070,9 +4111,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3a2a3273d848dfb4587516a78b37e786
+      spriteID: 3ae6c99affffffff0800000000000000
       internalID: -1449365853
       vertices: []
       indices: 
@@ -4092,9 +4133,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7db8a49fa3d23e643810ea851e2d6c0c
+      spriteID: 76f7ac8fffffffff0800000000000000
       internalID: -120946841
       vertices: []
       indices: 
@@ -4114,9 +4155,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c58ef54701b55184e91603e73396beea
+      spriteID: 9dd8f045000000000800000000000000
       internalID: 1410305497
       vertices: []
       indices: 
@@ -4136,9 +4177,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 40a98c2d8fb2f37439f9e4a8d4186481
+      spriteID: e4cd1eedffffffff0800000000000000
       internalID: -555623346
       vertices: []
       indices: 
@@ -4158,9 +4199,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 22b13a228970d614e8a8c40588537612
+      spriteID: c2f68499ffffffff0800000000000000
       internalID: -1723306196
       vertices: []
       indices: 
@@ -4180,9 +4221,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a5bfd78810faaa640a4b45a8693a97ce
+      spriteID: d7552665000000000800000000000000
       internalID: 1449284989
       vertices: []
       indices: 
@@ -4202,9 +4243,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 795c1768a137e6e43b06ed6725a044b2
+      spriteID: 4a57898affffffff0800000000000000
       internalID: -1466403420
       vertices: []
       indices: 
@@ -4224,9 +4265,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: da95d2d991c12ad4fae032360ffab1c0
+      spriteID: 3c8fc9b6000000000800000000000000
       internalID: 1805449411
       vertices: []
       indices: 
@@ -4246,9 +4287,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9f33bd35eff0e054da304ec620edb46f
+      spriteID: 8894a4d9ffffffff0800000000000000
       internalID: -1656075896
       vertices: []
       indices: 
@@ -4268,9 +4309,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1589d50870700df40958548496eadc33
+      spriteID: 33117737000000000800000000000000
       internalID: 1937183027
       vertices: []
       indices: 
@@ -4290,9 +4331,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f3e6d5b2e7df895458e1c26e80aa8653
+      spriteID: 47ef96a4000000000800000000000000
       internalID: 1248460404
       vertices: []
       indices: 
@@ -4312,9 +4353,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d6ad91a1150980e45b10fa732ff64685
+      spriteID: b149d11dffffffff0800000000000000
       internalID: -786590693
       vertices: []
       indices: 
@@ -4334,9 +4375,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 19d29d9ad63c26d419c6b49889fce785
+      spriteID: 5f3d2988ffffffff0800000000000000
       internalID: -2003643403
       vertices: []
       indices: 
@@ -4356,9 +4397,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0d698b513521d4a48b5b1f6c46529bc2
+      spriteID: 7b769d71000000000800000000000000
       internalID: 400123831
       vertices: []
       indices: 
@@ -4378,9 +4419,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e44c0706d2803bf45b6b0f9ea836e31a
+      spriteID: 8ad3538dffffffff0800000000000000
       internalID: -667599448
       vertices: []
       indices: 
@@ -4400,9 +4441,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ebe87b6dba11d3046a4b7d3da1f3fbf6
+      spriteID: 9dda439fffffffff0800000000000000
       internalID: -113988135
       vertices: []
       indices: 
@@ -4422,9 +4463,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d1970002ec172e248afc19d3c64c3fb9
+      spriteID: b661e669ffffffff0800000000000000
       internalID: -1771170197
       vertices: []
       indices: 
@@ -4444,9 +4485,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6612c16447422bb4cb4baa01c1bdddb0
+      spriteID: a42c05dfffffffff0800000000000000
       internalID: -45039030
       vertices: []
       indices: 
@@ -4466,9 +4507,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c46357650d32aec4cb55b9a206b5e53e
+      spriteID: 0c7a5a1fffffffff0800000000000000
       internalID: -240801856
       vertices: []
       indices: 
@@ -4488,9 +4529,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 407f678674b42494b9fc75fb24b3154f
+      spriteID: e10f17e5000000000800000000000000
       internalID: 1584525342
       vertices: []
       indices: 
@@ -4510,9 +4551,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5bf1580b2eb22884097e377de9fa8b4e
+      spriteID: 5e85e3d2000000000800000000000000
       internalID: 759060709
       vertices: []
       indices: 
@@ -4532,9 +4573,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7e5f409436612294db8e8ff6a820efc9
+      spriteID: b08448d6000000000800000000000000
       internalID: 1837385739
       vertices: []
       indices: 
@@ -4554,9 +4595,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 17d46a75f93c41e42bf084f39770c694
+      spriteID: 194e9acbffffffff0800000000000000
       internalID: -1129716591
       vertices: []
       indices: 
@@ -4576,9 +4617,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd0c709d2b769254fa91533d3b6ef4c1
+      spriteID: 96ba4173000000000800000000000000
       internalID: 924101481
       vertices: []
       indices: 
@@ -4598,9 +4639,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7970abb9acc08534d90333ba4b34fd02
+      spriteID: 409979faffffffff0800000000000000
       internalID: -1349019388
       vertices: []
       indices: 
@@ -4620,9 +4661,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: df46e61fa589a2d429bbf511959536c4
+      spriteID: 8602b5e8ffffffff0800000000000000
       internalID: -1906630552
       vertices: []
       indices: 
@@ -4642,9 +4683,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 720910851fd0df44e83d09fc5d852129
+      spriteID: 9c11e68effffffff0800000000000000
       internalID: -395439671
       vertices: []
       indices: 
@@ -4664,9 +4705,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2fdd12ff683a39540bc808e24a15774c
+      spriteID: 851f727affffffff0800000000000000
       internalID: -1490554536
       vertices: []
       indices: 
@@ -4686,9 +4727,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e5059384b8364a64193b52ee5791fc0c
+      spriteID: de3e1a6dffffffff0800000000000000
       internalID: -694033427
       vertices: []
       indices: 
@@ -4708,9 +4749,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: dbae681d8b842014c846cba08ba32fcc
+      spriteID: 5915a3eaffffffff0800000000000000
       internalID: -1371909739
       vertices: []
       indices: 
@@ -4730,9 +4771,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3a066e926804a9f46aa4ebbca2a381fd
+      spriteID: 5cdc5c33000000000800000000000000
       internalID: 868601285
       vertices: []
       indices: 
@@ -4752,9 +4793,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ca2e528a197681540998d914af92bb17
+      spriteID: ff228056000000000800000000000000
       internalID: 1695032063
       vertices: []
       indices: 
@@ -4774,9 +4815,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2dd7c9f4de75a8744a13365fd2adec73
+      spriteID: e184ea6effffffff0800000000000000
       internalID: -424785890
       vertices: []
       indices: 
@@ -4796,9 +4837,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4de7a4b61ac5a0046a6876dc4d03dcdc
+      spriteID: f0ad532bffffffff0800000000000000
       internalID: -1305093617
       vertices: []
       indices: 
@@ -4818,9 +4859,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6893548ba1c4eeb47901c6b7dac0557d
+      spriteID: a1c301d1000000000800000000000000
       internalID: 487603226
       vertices: []
       indices: 
@@ -4840,9 +4881,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cfc863c0b801c724b84d15b69923e0c5
+      spriteID: 9c9ae320000000000800000000000000
       internalID: 37661129
       vertices: []
       indices: 
@@ -4862,9 +4903,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ca2e9840889a17e45be4ce08cdd331eb
+      spriteID: 18835442000000000800000000000000
       internalID: 608516225
       vertices: []
       indices: 
@@ -4884,9 +4925,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e3e26b9cd7a3e964299a1a69dc452908
+      spriteID: 46e875b9ffffffff0800000000000000
       internalID: -1688760732
       vertices: []
       indices: 
@@ -4906,9 +4947,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a23d7778fe995249b10adfef447fd3a
+      spriteID: f3a6cebfffffffff0800000000000000
       internalID: -68392385
       vertices: []
       indices: 
@@ -4928,9 +4969,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2ff77efc3ca8acc4daa73f553e6bdf10
+      spriteID: b12ff834000000000800000000000000
       internalID: 1133507099
       vertices: []
       indices: 
@@ -4950,9 +4991,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0ac53504b21300942a15572d25c4d30d
+      spriteID: b1f2e8b8ffffffff0800000000000000
       internalID: -1953616101
       vertices: []
       indices: 
@@ -4972,9 +5013,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7b1dbf733d0d7e6448de56dbda09c870
+      spriteID: 123bc18effffffff0800000000000000
       internalID: -400772319
       vertices: []
       indices: 
@@ -4994,9 +5035,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 04ff6f2a869c8fc4db172c9f92299801
+      spriteID: 89a2c9ccffffffff0800000000000000
       internalID: -862180712
       vertices: []
       indices: 
@@ -5016,9 +5057,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2384c211d41dc514b812d9031499d4b3
+      spriteID: 1943988cffffffff0800000000000000
       internalID: -930532207
       vertices: []
       indices: 
@@ -5038,9 +5079,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6e4203edd17e9f642b78b2eff64cee00
+      spriteID: e0897964000000000800000000000000
       internalID: 1184339982
       vertices: []
       indices: 
@@ -5060,9 +5101,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 52710e2105f1dca4fad5f2560db0ec55
+      spriteID: af1ef5e2000000000800000000000000
       internalID: 778035706
       vertices: []
       indices: 
@@ -5082,9 +5123,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 102bfa1811accb24e8e21b8ad562cafb
+      spriteID: 7a1477fdffffffff0800000000000000
       internalID: -545832537
       vertices: []
       indices: 
@@ -5104,9 +5145,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fea67e28b117af04d9368c314ac633ce
+      spriteID: 526c5fdcffffffff0800000000000000
       internalID: -839530971
       vertices: []
       indices: 
@@ -5126,9 +5167,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 020ae9d2af94b454ba3781aecd8be91c
+      spriteID: 9b0f9189ffffffff0800000000000000
       internalID: -1743130439
       vertices: []
       indices: 
@@ -5148,9 +5189,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ce6252b3d8a5052489b04f29b3835193
+      spriteID: ad27c703000000000800000000000000
       internalID: 813462234
       vertices: []
       indices: 
@@ -5170,9 +5211,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 63b8f0284c35c0447bcbc63ddf40fc26
+      spriteID: cb896c93000000000800000000000000
       internalID: 969316540
       vertices: []
       indices: 
@@ -5192,9 +5233,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84500c06e2db24841b1b9bf30b178bf0
+      spriteID: 34804f78ffffffff0800000000000000
       internalID: -2014050237
       vertices: []
       indices: 
@@ -5214,9 +5255,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 61d399b7cfce8b84bae8f65940652415
+      spriteID: 9198fddeffffffff0800000000000000
       internalID: -304117479
       vertices: []
       indices: 
@@ -5236,9 +5277,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f376b369a60ca4847abcee5c86531c8d
+      spriteID: 2dac1122000000000800000000000000
       internalID: 571591378
       vertices: []
       indices: 
@@ -5258,9 +5299,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1bcd2f9b900aa8a458d17194a16c1e14
+      spriteID: 77c2f151000000000800000000000000
       internalID: 354364535
       vertices: []
       indices: 
@@ -5280,9 +5321,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b364f4b55071ea746a2429e0417dc4c4
+      spriteID: 09502902000000000800000000000000
       internalID: 546440592
       vertices: []
       indices: 
@@ -5302,9 +5343,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 535c5c9c28ea78741a310d2327dba5f4
+      spriteID: cc115983000000000800000000000000
       internalID: 949293516
       vertices: []
       indices: 
@@ -5324,9 +5365,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c7daf85dbf29ec4459af8ea25a3de9bf
+      spriteID: 362c4c06000000000800000000000000
       internalID: 1623507555
       vertices: []
       indices: 
@@ -5346,9 +5387,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 833a090d13bfc4f4795383d8a3e77f8f
+      spriteID: 0e893fbeffffffff0800000000000000
       internalID: -336357152
       vertices: []
       indices: 
@@ -5368,9 +5409,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fddde8f1adec3e74193c3d35bac35c43
+      spriteID: fb178eefffffffff0800000000000000
       internalID: -18320961
       vertices: []
       indices: 
@@ -5390,9 +5431,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 02d9ff422d2ff9c4aa8afae5a55d7c04
+      spriteID: ab1c3922000000000800000000000000
       internalID: 580108730
       vertices: []
       indices: 
@@ -5412,16 +5453,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4264c5c8ed0a6374dbfdfafc61564b01
+      spriteID: 5a1e15cbffffffff0800000000000000
       internalID: -1135484507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_240
+      name: Snow_CenterDark_0
       rect:
         serializedVersion: 2
         x: 16
@@ -5434,9 +5475,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f5aff611f0446d946b7e35d810abaa85
+      spriteID: 35e48a0dffffffff0800000000000000
       internalID: -794276269
       vertices: []
       indices: 
@@ -5456,9 +5497,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd04afeaf0ee697459eea9c5098b877a
+      spriteID: 57c65af4000000000800000000000000
       internalID: 1336241269
       vertices: []
       indices: 
@@ -5478,9 +5519,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0416bb5c788d19b4bb9fa397f745f8c3
+      spriteID: fd684d6bffffffff0800000000000000
       internalID: -1227585825
       vertices: []
       indices: 
@@ -5500,16 +5541,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1d9a07f8ac7aa434586d2659374e7967
+      spriteID: 56675a9effffffff0800000000000000
       internalID: -375032219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_244
+      name: Desert_CenterDark_0
       rect:
         serializedVersion: 2
         x: 80
@@ -5522,9 +5563,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2efb7b44aefae50419e6b4554cae51f6
+      spriteID: 980fa563000000000800000000000000
       internalID: 911929481
       vertices: []
       indices: 
@@ -5544,9 +5585,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eaa8bafa1d69dd24886397a065c39529
+      spriteID: 1e914f78ffffffff0800000000000000
       internalID: -2014045727
       vertices: []
       indices: 
@@ -5566,9 +5607,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e785910a76e10fb41a75a6e916a6cc5c
+      spriteID: d5f1fc00000000000800000000000000
       internalID: 13573981
       vertices: []
       indices: 
@@ -5588,9 +5629,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: defbd70ce6ff0b04bbdef41109ddc5b5
+      spriteID: 01d4920fffffffff0800000000000000
       internalID: -265728752
       vertices: []
       indices: 
@@ -5610,9 +5651,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2de98086333e79a40ab0c682c856b7ce
+      spriteID: daca9df3000000000800000000000000
       internalID: 1071230125
       vertices: []
       indices: 
@@ -5632,9 +5673,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a31a1bdbc0545b4d8550c737392a5c5
+      spriteID: 8f73e078ffffffff0800000000000000
       internalID: -2029111304
       vertices: []
       indices: 
@@ -5654,9 +5695,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 08031873f29289542991171f2fb7ab2e
+      spriteID: f4f86662000000000800000000000000
       internalID: 644255567
       vertices: []
       indices: 
@@ -5676,9 +5717,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6fa53a031c736c645ab1df8948712bcb
+      spriteID: a10df6aeffffffff0800000000000000
       internalID: -361770982
       vertices: []
       indices: 
@@ -5698,9 +5739,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0acae97b177d9b6418403ae7c3b74fbe
+      spriteID: 05059f5affffffff0800000000000000
       internalID: -1510387632
       vertices: []
       indices: 
@@ -5720,9 +5761,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4eef852822d750a489a4750e692d821c
+      spriteID: 8fd5b7cbffffffff0800000000000000
       internalID: -1132765704
       vertices: []
       indices: 
@@ -5742,9 +5783,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7da91bd914bb75a4ab21580fe7597afb
+      spriteID: 6c3d4e1dffffffff0800000000000000
       internalID: -773532730
       vertices: []
       indices: 
@@ -5764,9 +5805,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e77c32f0cdb485949811b8c227c48881
+      spriteID: d49e7d6affffffff0800000000000000
       internalID: -1495799475
       vertices: []
       indices: 
@@ -5786,9 +5827,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9ee2b2ada538bae4a9c9a8668ef534f7
+      spriteID: d6cd3185000000000800000000000000
       internalID: 1477696621
       vertices: []
       indices: 
@@ -5808,9 +5849,9 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 965602dceccdd804494d3958801a1fd4
+      spriteID: 74d13ea2000000000800000000000000
       internalID: 719527239
       vertices: []
       indices: 
@@ -5830,10 +5871,98 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd0791bffffffff0800000000000000
+      internalID: -1315500545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_InnerBotRIghtB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c924ed19e372280800000000000000
+      internalID: -9068210528467117013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Bot_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86d85f5d3a494a345ada4df0db145319
-      internalID: -1315500545
+      spriteID: 26b3dca9ab73e4148b56199a9cafd857
+      internalID: 1446611793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt_BotLeft_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acd659d090c3534698f58140fab4884
+      internalID: 1974078943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_InnerBotLeft_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244fc2b37594ad34597d8604dca7ddd5
+      internalID: 1821336897
       vertices: []
       indices: 
       edges: []
@@ -5854,6 +5983,33 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      Desert_BotLeft_0: 2083118483
+      Desert_BotRight_0: 854999441
+      Desert_Bot_0: -1023191953
+      Desert_CenterDark_0: 911929481
+      Desert_Center_0: 1297381076
+      Desert_InnerBotLeft_0: 557914406
+      Desert_InnerBotRight_0: 24304560
+      Desert_InnerTopLeft_0: 1640842302
+      Desert_InnerTopRight_0: -1004851796
+      Desert_Left_0: 1275317524
+      Desert_Right_0: -2123543637
+      Desert_TopLeft_0: -696844914
+      Desert_TopRight_0: 875237375
+      Desert_Top_0: 263727149
+      Dirt_BotLeft_0: 1974078943
+      Dirt_BotRight_0: 3365523044860772167
+      Dirt_Bot_0: -2479894854811824298
+      Dirt_CenterDark_0: 694770086
+      Dirt_Center_0: 212462578
+      Dirt_InnerBotLeft_0: 7671457425067894269
+      Dirt_InnerBotRight_0: -1036571847717189229
+      Dirt_InnerTopLeft_0: 547355948073018694
+      Dirt_InnerTopRIght_0: 3241152773896606792
+      Dirt_Left_0: 4924210320473889850
+      Dirt_Right_0: -2909006944961634848
+      Dirt_TopLeft_0: -8004412468190891715
+      Dirt_Top_0: 8461954356267605417
       Floors_Tiles_0: 1830512961422493859
       Floors_Tiles_1: -5171053211276571856
       Floors_Tiles_10: -1913739218
@@ -6113,6 +6269,56 @@ TextureImporter:
       Floors_Tiles_97: 1884096127
       Floors_Tiles_98: 244602558
       Floors_Tiles_99: 408039126
+      Grass_BotRight_0: -4648339082771648381
+      Grass_Bot_0: 5606394613571809015
+      Grass_CenterDark_0: 2108593581
+      Grass_Center_0: -603282917
+      Grass_InnerBotLeft_0: 1821336897
+      Grass_InnerBotRIghtB_0: -9068210528467117013
+      Grass_InnerBotRight_0: -311430066
+      Grass_InnerTopLeft_0: 5748968255339276969
+      Grass_InnerTopRIght_0: -5461255570481370923
+      Grass_InnerTopRight_0: 8749990061228775164
+      Grass_InnterBotLeft_0: 4506152310393924994
+      Grass_Left_0: -1589061476025826492
+      Grass_Right_0: 836482681246608032
+      Grass_TopLeft_0: 8431838587582803016
+      Grass_Top_0: -4089880411274726097
+      Sand_BotLeft_0: -2603719683849170504
+      Sand_BotRIght_0: 1042606377928242228
+      Sand_Bot_0: 1446611793
+      Sand_CenterDark_0: 1359792787
+      Sand_Center_0: -127696686
+      Sand_InnerBotLeft_0: 5150819827214080047
+      Sand_InnerBotRIght_0: 3721374477171041678
+      Sand_InnerTopLeft_0: -1596620104236534885
+      Sand_InnerTopRIght_0: -2488519790056216315
+      Sand_Left_0: -1979536276803627458
+      Sand_Right_0: -1114717566477040335
+      Sand_TopLeft_0: 7461619687677343059
+      Sand_Top_0: -1007600778558433835
+      Snow_BotLeft_0: 2020217922
+      Snow_BotRight_0: -468351514
+      Snow_Bot_0: -521187403
+      Snow_CenterDark_0: -794276269
+      Snow_Center_0: 1874923877
+      Snow_InnerBotLeft_0: 190458493
+      Snow_InnerBotRight_0: -1472524165
+      Snow_InnerTopLeft_0: -830028852
+      Snow_InnerTopRight_0: -81950509
+      Snow_Left_0: -1776536419
+      Snow_Right_0: -413311195
+      Snow_TopLeft_0: -1518453936
+      Snow_TopRight_0: 733154758
+      Snow_Top_0: 822356492
+      Stone_FullA_0: 7911116027138536317
+      Stone_FullB_0: -4201968453571636658
+      Stone_InnerBotLeft_0: 8735241181968093353
+      Stone_InnerBotRight_0: -3905780547046666321
+      Stone_MissingMidBot_0: 107818676288454183
+      Stone_MissingMidLeft_0: 940605969735775130
+      Stone_Top_0: 8697596705284619842
+      _0: 2467314271473265160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
