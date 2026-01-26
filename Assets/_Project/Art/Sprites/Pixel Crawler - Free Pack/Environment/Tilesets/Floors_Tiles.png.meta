@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sand_InnerBotRIght_0
+      name: Sand_InnerBotRight_0
       rect:
         serializedVersion: 2
         x: 96
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floors_Tiles_18
+      name: Sand_TopRight_0
       rect:
         serializedVersion: 2
         x: 128
@@ -1106,7 +1106,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_InnerTopRIght_0
+      name: Grass_InnerTopRght_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1194,7 +1194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sand_InnerTopRIght_0
+      name: Sand_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 80
@@ -1238,7 +1238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sand_BotRIght_0
+      name: Sand_BotRight_0
       rect:
         serializedVersion: 2
         x: 128
@@ -1282,7 +1282,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dirt_InnerTopRIght_0
+      name: Dirt_InnerTopRight_0
       rect:
         serializedVersion: 2
         x: 160
@@ -5880,7 +5880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass_InnerBotRIghtB_0
+      name: Grass_InnerBotRightB_0
       rect:
         serializedVersion: 2
         x: 0
@@ -6005,7 +6005,7 @@ TextureImporter:
       Dirt_InnerBotLeft_0: 7671457425067894269
       Dirt_InnerBotRight_0: -1036571847717189229
       Dirt_InnerTopLeft_0: 547355948073018694
-      Dirt_InnerTopRIght_0: 3241152773896606792
+      Dirt_InnerTopRight_0: 3241152773896606792
       Dirt_Left_0: 4924210320473889850
       Dirt_Right_0: -2909006944961634848
       Dirt_TopLeft_0: -8004412468190891715
@@ -6100,7 +6100,6 @@ TextureImporter:
       Floors_Tiles_177: 2075374187
       Floors_Tiles_178: -1449365853
       Floors_Tiles_179: -120946841
-      Floors_Tiles_18: 515024105
       Floors_Tiles_180: 1410305497
       Floors_Tiles_181: -555623346
       Floors_Tiles_182: -1723306196
@@ -6274,10 +6273,10 @@ TextureImporter:
       Grass_CenterDark_0: 2108593581
       Grass_Center_0: -603282917
       Grass_InnerBotLeft_0: 1821336897
-      Grass_InnerBotRIghtB_0: -9068210528467117013
+      Grass_InnerBotRightB_0: -9068210528467117013
       Grass_InnerBotRight_0: -311430066
       Grass_InnerTopLeft_0: 5748968255339276969
-      Grass_InnerTopRIght_0: -5461255570481370923
+      Grass_InnerTopRght_0: -5461255570481370923
       Grass_InnerTopRight_0: 8749990061228775164
       Grass_InnterBotLeft_0: 4506152310393924994
       Grass_Left_0: -1589061476025826492
@@ -6285,17 +6284,18 @@ TextureImporter:
       Grass_TopLeft_0: 8431838587582803016
       Grass_Top_0: -4089880411274726097
       Sand_BotLeft_0: -2603719683849170504
-      Sand_BotRIght_0: 1042606377928242228
+      Sand_BotRight_0: 1042606377928242228
       Sand_Bot_0: 1446611793
       Sand_CenterDark_0: 1359792787
       Sand_Center_0: -127696686
       Sand_InnerBotLeft_0: 5150819827214080047
-      Sand_InnerBotRIght_0: 3721374477171041678
+      Sand_InnerBotRight_0: 3721374477171041678
       Sand_InnerTopLeft_0: -1596620104236534885
-      Sand_InnerTopRIght_0: -2488519790056216315
+      Sand_InnerTopRight_0: -2488519790056216315
       Sand_Left_0: -1979536276803627458
       Sand_Right_0: -1114717566477040335
       Sand_TopLeft_0: 7461619687677343059
+      Sand_TopRight_0: 515024105
       Sand_Top_0: -1007600778558433835
       Snow_BotLeft_0: 2020217922
       Snow_BotRight_0: -468351514
