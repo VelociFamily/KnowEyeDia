@@ -5,6 +5,705 @@ TextureImporter:
   - first:
       213: -3570886940855412533
     second: Water_tiles_0
+  - first:
+      213: 1086783995016003556
+    second: Water_Bubbles_0
+  - first:
+      213: 6156072402870630099
+    second: Water_Bubbles_1
+  - first:
+      213: -5609861362789591755
+    second: Water_Bubbles_2
+  - first:
+      213: 3041794808426285437
+    second: Water_Bubbles_3
+  - first:
+      213: -1957440817625996132
+    second: Island_Top_Left_0
+  - first:
+      213: -7534259164891582445
+    second: Island_Top_Left_1
+  - first:
+      213: -8772798536890788825
+    second: Island_Top_Left_2
+  - first:
+      213: -9184717900243850462
+    second: Island_Top_Left_3
+  - first:
+      213: 2498120370936749152
+    second: Island_Top_0
+  - first:
+      213: -544500155750140406
+    second: Island_Top_1
+  - first:
+      213: -4084422609437566794
+    second: Island_Top_2
+  - first:
+      213: -1780941477622356723
+    second: Island_Top_3
+  - first:
+      213: 4852574768324811235
+    second: Island_TopRight_0
+  - first:
+      213: 3724110033711755158
+    second: Island_TopRight_1
+  - first:
+      213: -5281967417365443945
+    second: Island_TopRight_2
+  - first:
+      213: 4326159642769943939
+    second: Island_TopRight_3
+  - first:
+      213: 4650866982355134910
+    second: Water_White_lines_0
+  - first:
+      213: -30071202188486246
+    second: Water_White_lines_1
+  - first:
+      213: -1350738636563163855
+    second: Water_White_lines_2
+  - first:
+      213: -4910990869863246097
+    second: Water_White_lines_3
+  - first:
+      213: -8440676266831708508
+    second: Water_BlobMaybeFish_0
+  - first:
+      213: 3793984728130615192
+    second: Water_BlobMaybeFish_1
+  - first:
+      213: -1662157268935856961
+    second: Water_BlobMaybeFish_2
+  - first:
+      213: -3261594533094603029
+    second: Water_BlobMaybeFish_3
+  - first:
+      213: -2381465987607725197
+    second: Water_Black_Dots_0
+  - first:
+      213: -40310201423144026
+    second: Water_Black_Dots_1
+  - first:
+      213: 358157551137306376
+    second: Water_Black_Dots_2
+  - first:
+      213: 7127324162672172281
+    second: Island_Top_Left_B_0
+  - first:
+      213: -285861259371129609
+    second: Island_Top_Left_B_1
+  - first:
+      213: -972526758841676767
+    second: Island_Top_Left_B_2
+  - first:
+      213: -7389185556773606660
+    second: Island_Top_Left_B_3
+  - first:
+      213: 2597027420201396848
+    second: Island_Top_Left_Inverse_0
+  - first:
+      213: 6216641271953604479
+    second: Island_Top_Left_Inverse_1
+  - first:
+      213: -1051397012080906664
+    second: Island_Top_Left_Inverse_2
+  - first:
+      213: -3084346801880079880
+    second: Island_Top_Left_Inverse_3
+  - first:
+      213: -4304638690320432771
+    second: Island_Center_A_0
+  - first:
+      213: -8251843931004853315
+    second: Island_Center_A_1
+  - first:
+      213: 6036272949781456331
+    second: Island_Center_A_2
+  - first:
+      213: -1281800685372431313
+    second: Island_Center_A_3
+  - first:
+      213: -1083087293429657296
+    second: Island_Top_Right_Inverse_0
+  - first:
+      213: -358859818975011831
+    second: Island_Top_Right_Inverse_1
+  - first:
+      213: 928361171167279128
+    second: Island_Top_Right_Inverse_2
+  - first:
+      213: 4615045101327498473
+    second: Island_Top_Right_Inverse_3
+  - first:
+      213: 8049693043348804324
+    second: Island_Top_Right_B_0
+  - first:
+      213: 6069990610587081197
+    second: Island_Top_Right_B_1
+  - first:
+      213: -4826148325082268494
+    second: Island_Top_Right_B_2
+  - first:
+      213: 7979421106011730636
+    second: Island_Top_Right_B_3
+  - first:
+      213: -1693485935312475804
+    second: Ripple_0
+  - first:
+      213: -5803582526417398679
+    second: Ripple_1
+  - first:
+      213: 4618654510647656522
+    second: Ripple_2
+  - first:
+      213: 8356584242839674160
+    second: Ripple_3
+  - first:
+      213: 5377124864672460724
+    second: Island Left_0
+  - first:
+      213: -2776206666810348999
+    second: Island Left_1
+  - first:
+      213: -8303810527380876806
+    second: Island Left_2
+  - first:
+      213: -4862592859966725152
+    second: Island Left_3
+  - first:
+      213: 7891036925507369708
+    second: Island_Center_0
+  - first:
+      213: -655859234449390248
+    second: Island_Center_1
+  - first:
+      213: 8285691858552664782
+    second: Island_Center_2
+  - first:
+      213: 3207206577724213358
+    second: Island_Center_3
+  - first:
+      213: 6239712217282420629
+    second: Island_Right_0
+  - first:
+      213: -2018425303717481727
+    second: Island_Right_1
+  - first:
+      213: -685836977838287491
+    second: Island_Right_2
+  - first:
+      213: -5871338281707912155
+    second: Island_Right_3
+  - first:
+      213: 2904514955294488020
+    second: Water_BlankA_0
+  - first:
+      213: -6491385088674386153
+    second: Water_BlankA_1
+  - first:
+      213: 1325601749427332195
+    second: Water_BlankA_2
+  - first:
+      213: -8209063798226028811
+    second: Water_BlankA_3
+  - first:
+      213: 5850300102041947673
+    second: Island_Top_Right_0
+  - first:
+      213: -7147840507704460183
+    second: Island_Top_Right_1
+  - first:
+      213: 7239028155024391033
+    second: Island_Top_Right_2
+  - first:
+      213: -8025287705792622910
+    second: Island_Top_Right_3
+  - first:
+      213: -295849805730447849
+    second: Island_Bottom_Left_Inverse_0
+  - first:
+      213: 8199403277600964237
+    second: Island_Bottom_Left_Inverse_1
+  - first:
+      213: -6008859403766723066
+    second: Island_Bottom_Left_Inverse_2
+  - first:
+      213: -2685582078935562671
+    second: Island_Bottom_Left_Inverse_3
+  - first:
+      213: 2321420600978053804
+    second: Island_Bottom_Right_Inverse_0
+  - first:
+      213: 4411483694131954802
+    second: Island_Bottom_Right_Inverse_1
+  - first:
+      213: 8954941599750269982
+    second: Island_Bottom_Right_Inverse_2
+  - first:
+      213: -3894849324798773385
+    second: Island_Bottom_Right_Inverse_3
+  - first:
+      213: 978649276696601797
+    second: Water_BlankB_0
+  - first:
+      213: 2743292418477584735
+    second: Water_BlankB_1
+  - first:
+      213: 7899744970023173085
+    second: Water_BlankB_2
+  - first:
+      213: -3332069428586085069
+    second: Water_BlankB_3
+  - first:
+      213: -1380443986986031566
+    second: Island_Bottom_0
+  - first:
+      213: -2352082646404155590
+    second: Island_Bottom_1
+  - first:
+      213: -7211375966078680748
+    second: Island_Bottom_2
+  - first:
+      213: -4568773811699798190
+    second: Island_Bottom_3
+  - first:
+      213: 3802388861222169488
+    second: Water_DarkLines_0
+  - first:
+      213: -2794510988899089312
+    second: Water_DarkLines_1
+  - first:
+      213: -1366445587121847467
+    second: Water_DarkLines_2
+  - first:
+      213: -4499155550660579062
+    second: Water_DarkLines_3
+  - first:
+      213: 878082027078647202
+    second: Water_BlankC_0
+  - first:
+      213: 4815105658140860396
+    second: Water_BlankC_1
+  - first:
+      213: 2520775917288097074
+    second: Water_BlankC_2
+  - first:
+      213: 1977919285603982918
+    second: Water_BlankC_3
+  - first:
+      213: 5696005426418329615
+    second: Water_Wake_Top_Left_0
+  - first:
+      213: 6032681227558136809
+    second: Water_Wake_Top_Left_1
+  - first:
+      213: 1889894471479003293
+    second: Water_Wake_Top_0
+  - first:
+      213: -8584622173209490267
+    second: Water_Wake_Top_1
+  - first:
+      213: 5890923511242058738
+    second: Water_Wake_Top_Right_0
+  - first:
+      213: -5024385343780399036
+    second: Water_Wake_Top_Right_1
+  - first:
+      213: 9096673531889418235
+    second: Water_Wake_Top_LeftB_0
+  - first:
+      213: 3120153591983643253
+    second: Water_Wake_Top_LeftB_1
+  - first:
+      213: -6628364243970959296
+    second: Water_Wake_Top_Left_Inverse_0
+  - first:
+      213: 3248596262946421791
+    second: Water_Wake_Top_Left_Inverse_1
+  - first:
+      213: -6414579873813437498
+    second: Water_wake_centerA_0
+  - first:
+      213: 9126211493310336245
+    second: Water_wake_centerA_1
+  - first:
+      213: -4246932958504875793
+    second: Water_Wake_Top_RIght_Inverse_0
+  - first:
+      213: 1462834008516430324
+    second: Water_Wake_Top_RIght_Inverse_1
+  - first:
+      213: 3724684705658016439
+    second: Water_Wake_Top_RightB_0
+  - first:
+      213: 7557716821002662725
+    second: Water_Wake_Top_RightB_1
+  - first:
+      213: -95333650567210821
+    second: Water_Wake_Left_0
+  - first:
+      213: -6368644760408365676
+    second: Water_Wake_Left_1
+  - first:
+      213: 1947047809463352355
+    second: Water_Wake_CenterB_0
+  - first:
+      213: 4949281567060789381
+    second: Water_Wake_CenterB_1
+  - first:
+      213: 7663965126108263238
+    second: Water_Wake_CenterC_0
+  - first:
+      213: 3365441382162026307
+    second: Water_Wake_CenterC_1
+  - first:
+      213: 6231911635442949939
+    second: Water_Wake_CenterD_0
+  - first:
+      213: -5320149352005063416
+    second: Water_Wake_CenterD_1
+  - first:
+      213: -52235776554195294
+    second: Water_Wake_Right_0
+  - first:
+      213: 5484131200829685534
+    second: Water_Wake_Right_1
+  - first:
+      213: -214507832369424375
+    second: Water_Wake_Top_Right_Inverse_0
+  - first:
+      213: 1332652472540811626
+    second: Water_Wake_Top_Right_Inverse_1
+  - first:
+      213: 7649462779584867030
+    second: Water_Wake_Bottom_Left_Inverse_0
+  - first:
+      213: -3982452651081891544
+    second: Water_Wake_Bottom_Left_Inverse_1
+  - first:
+      213: -2101759293435668806
+    second: Water_Wake_CenterE_0
+  - first:
+      213: -5364180510450766778
+    second: Water_Wake_CenterE_1
+  - first:
+      213: -531907958796459990
+    second: Water_Wake_Bottom_RIght_Inverse_0
+  - first:
+      213: 8698775417050084931
+    second: Water_Wake_Bottom_RIght_Inverse_1
+  - first:
+      213: 8662065282308022427
+    second: Water_Wake_Bottom_RightA_0
+  - first:
+      213: 5938625891396366694
+    second: Water_Wake_Bottom_RightA_1
+  - first:
+      213: 6220783781233535717
+    second: Water_Wake_Bottom_Left_0
+  - first:
+      213: 7221068052093834797
+    second: Water_Wake_Bottom_Left_1
+  - first:
+      213: -7812311731680721488
+    second: Water_Wake_Bottom_0
+  - first:
+      213: -4343900074775821349
+    second: Water_Wake_Bottom_1
+  - first:
+      213: -521060475895029658
+    second: Water_Wake_Bottom_Right_0
+  - first:
+      213: -7549041231234649457
+    second: Water_Wake_Bottom_Right_1
+  - first:
+      213: -5050651810158503241
+    second: Water_Shallows_Top_Left_A_0
+  - first:
+      213: -5146908388655235228
+    second: Water_Shallows_Top_Left_A_1
+  - first:
+      213: -3545243248452105812
+    second: Water_Shallows_Top_0
+  - first:
+      213: -5184022654592792066
+    second: Water_Shallows_Top_1
+  - first:
+      213: -2807041697020625406
+    second: Water_Shallows_Top_Right_A_0
+  - first:
+      213: 5439332486965945250
+    second: Water_Shallows_Top_Right_A_1
+  - first:
+      213: -1440652803700609738
+    second: Water_Shallows_Top_Left_B_0
+  - first:
+      213: -6008919646214114342
+    second: Water_Shallows_Top_Left_B_1
+  - first:
+      213: -7479184849387596421
+    second: Water_Shallows_Top_Left_Inverse_A_0
+  - first:
+      213: 4176703441569269342
+    second: Water_Shallows_Top_Left_Inverse_A_1
+  - first:
+      213: -3842267108309034213
+    second: Water_Shallows_Center_A_0
+  - first:
+      213: -8321092575676635815
+    second: Water_Shallows_Center_A_1
+  - first:
+      213: -1925884087850562798
+    second: Water_Shallows_Top_Right_inverse_0
+  - first:
+      213: 340812124647110628
+    second: Water_Shallows_Top_Right_inverse_1
+  - first:
+      213: 535194411414571667
+    second: Water_Shallows_Top_Right_B_0
+  - first:
+      213: 945365434465537504
+    second: Water_Shallows_Top_Right_B_1
+  - first:
+      213: 7859568975266813980
+    second: Water_Shallows_Left_0
+  - first:
+      213: 8097331740481361862
+    second: Water_Shallows_Left_1
+  - first:
+      213: -848057989940099935
+    second: Water_Shallows_Center_B_0
+  - first:
+      213: -2720143542772505098
+    second: Water_Shallows_Center_B_1
+  - first:
+      213: -6496057514969029256
+    second: Water_Shallows_Center_C_0
+  - first:
+      213: -5099638450410379969
+    second: Water_Shallows_Center_C_1
+  - first:
+      213: 921025968254739059
+    second: Water_Shallows_Center_D_0
+  - first:
+      213: -3128260711579581946
+    second: Water_Shallows_Center_D_1
+  - first:
+      213: 3381801821574417310
+    second: Water_Shallows_Center__0
+  - first:
+      213: -7380113988400039159
+    second: Water_Shallows_Center__1
+  - first:
+      213: -2123509575313292848
+    second: Water_Shallows_Right_0
+  - first:
+      213: -7576063629140055752
+    second: Water_Shallows_Right_1
+  - first:
+      213: -7316988507242441392
+    second: Water_Shallows_Bottom_Left_A_0
+  - first:
+      213: 3532969094988891747
+    second: Water_Shallows_Bottom_Left_A_1
+  - first:
+      213: 2993907291852575984
+    second: Water_Shallows_Bottom_Left_Inverse_0
+  - first:
+      213: 3127570954233055250
+    second: Water_Shallows_Bottom_Left_Inverse_1
+  - first:
+      213: -2808858306258207810
+    second: Water_Shallows_Bottom_Center_D_0
+  - first:
+      213: -6028927288106081496
+    second: Water_Shallows_Bottom_Center_D_1
+  - first:
+      213: -7449098171112889193
+    second: Water_Shallows_Bottom_Center_E_0
+  - first:
+      213: 8512387268295705793
+    second: Water_Shallows_Bottom_Center_E_1
+  - first:
+      213: -3229820275245103928
+    second: Water_Shallows_Bottom_Right_A_0
+  - first:
+      213: -205538111326753532
+    second: Water_Shallows_Bottom_Right_A_1
+  - first:
+      213: 8487404054244524800
+    second: Water_Shallows_Bottom_Left_B_0
+  - first:
+      213: -2646015630711164669
+    second: Water_Shallows_Bottom_Left_B_1
+  - first:
+      213: 7064800732659132105
+    second: Water_Shallows_Bottom_0
+  - first:
+      213: -4800593205291930617
+    second: Water_Shallows_Bottom_1
+  - first:
+      213: -6732492446601706328
+    second: Water_Shallows_Bottom_Right_B_0
+  - first:
+      213: 9009024157733313841
+    second: Water_Shallows_Bottom_Right_B_1
+  - first:
+      213: 5868157934549694591
+    second: Island_Center_1_0
+  - first:
+      213: 2448396729374242934
+    second: Island_Center_1_1
+  - first:
+      213: 2455747458996955022
+    second: Island_Center_1_2
+  - first:
+      213: 7805767904137464808
+    second: Island_Center_1_3
+  - first:
+      213: -7350855009891320224
+    second: Island_CenterA_0
+  - first:
+      213: 2171514515796031166
+    second: Island_CenterA_1
+  - first:
+      213: 1619717209038980100
+    second: Island_CenterA_2
+  - first:
+      213: -2981735762789209506
+    second: Island_CenterA_3
+  - first:
+      213: -3837972006036358983
+    second: Island_CenterB_0
+  - first:
+      213: -792665682170120247
+    second: Island_CenterB_1
+  - first:
+      213: -2523599413180298072
+    second: Island_CenterB_2
+  - first:
+      213: -3747110559727044332
+    second: Island_CenterB_3
+  - first:
+      213: 3202485808346038549
+    second: Island_Top_Left_C_0
+  - first:
+      213: -2968726147519291922
+    second: Island_Top_Left_C_1
+  - first:
+      213: -4281440586400284082
+    second: Island_Top_Left_C_2
+  - first:
+      213: -6517355121310606584
+    second: Island_Top_Left_C_3
+  - first:
+      213: -1511311162536859549
+    second: Island_Top_Left_D_0
+  - first:
+      213: -5173137130830378497
+    second: Island_Top_Left_D_1
+  - first:
+      213: -5097878812837052641
+    second: Island_Top_Left_D_2
+  - first:
+      213: 7055432602287840244
+    second: Island_Top_Left_D_3
+  - first:
+      213: 6069384103444952420
+    second: Island_Dark_LinesA_0
+  - first:
+      213: -6890113797961940269
+    second: Island_Dark_LinesA_1
+  - first:
+      213: -4929894296873677702
+    second: Island_Dark_LinesA_2
+  - first:
+      213: 1667385844831962053
+    second: Island_Dark_LinesA_3
+  - first:
+      213: -7498711298599978121
+    second: Island_Top_LeftE_0
+  - first:
+      213: -4746131519378269558
+    second: Island_Top_LeftE_1
+  - first:
+      213: -6003151470429251822
+    second: Island_Top_LeftE_2
+  - first:
+      213: 1764600982895981797
+    second: Island_Top_LeftE_3
+  - first:
+      213: -6885962175150367178
+    second: Island_Top_RightE_0
+  - first:
+      213: 828910721965288065
+    second: Island_Top_RightE_1
+  - first:
+      213: 4210933526434548493
+    second: Island_Top_RightE_2
+  - first:
+      213: -5999549037398489631
+    second: Island_Top_RightE_3
+  - first:
+      213: -8476395434261466942
+    second: Island_Top_Left_E_0
+  - first:
+      213: -8474185824378505365
+    second: Island_Top_Left_E_1
+  - first:
+      213: -3819642152597839333
+    second: Island_Top_Left_E_2
+  - first:
+      213: 1257412878489204223
+    second: Island_Top_Left_E_3
+  - first:
+      213: -2124069754344606462
+    second: Island_Left_0
+  - first:
+      213: -3254924880444670010
+    second: Island_Left_1
+  - first:
+      213: -3535064025463962730
+    second: Island_Left_2
+  - first:
+      213: -2271593572370719480
+    second: Island_Left_3
+  - first:
+      213: 7448042025364797246
+    second: Water_Dark_Lines_0
+  - first:
+      213: 2264313502763727353
+    second: Water_Dark_Lines_1
+  - first:
+      213: 3055410263494033365
+    second: Water_Dark_Lines_2
+  - first:
+      213: -6749531597622080368
+    second: Water_Dark_Lines_3
+  - first:
+      213: -463465571432192276
+    second: Island_Top_Right_1_0
+  - first:
+      213: -8466756376287740615
+    second: Island_Top_Right_1_1
+  - first:
+      213: 628814285305054406
+    second: Island_Top_Right_1_2
+  - first:
+      213: 8747743138452368785
+    second: Island_Top_Right_1_3
+  - first:
+      213: 7397294085914850286
+    second: Water_BlankD_0
+  - first:
+      213: 2555228337733859655
+    second: Water_BlankD_1
+  - first:
+      213: -2632878632621961721
+    second: Water_BlankD_2
+  - first:
+      213: -1712543517089686790
+    second: Water_BlankD_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +736,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +750,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -75,7 +774,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +825,4489 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water_tiles_0
+      name: Water_Bubbles_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 159
-        width: 385
-        height: 241
+        y: 384
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc85b352f39a17ec0800000000000000
-      internalID: -3570886940855412533
+      spriteID: 4ef32821948051f00800000000000000
+      internalID: 1086783995016003556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c946d8482f5c5d4e0800000000000000
+      internalID: -1957440817625996132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c1ad3ed3b1ba220800000000000000
+      internalID: 2498120370936749152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_1_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce62921b4807199f0800000000000000
+      internalID: -463465571432192276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_White_lines_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9eedc01e23b8040800000000000000
+      internalID: 4650866982355134910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlobMaybeFish_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aefc6be7a1bcda80800000000000000
+      internalID: -8440676266831708508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Black_Dots_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b77f34d4553fed0800000000000000
+      internalID: -2381465987607725197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310f7ee253fe07790800000000000000
+      internalID: -7534259164891582445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a063e544efb8178f0800000000000000
+      internalID: -544500155750140406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_1_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d789f3fe9008a80800000000000000
+      internalID: -8466756376287740615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_White_lines_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a991693a66a259ff0800000000000000
+      internalID: -30071202188486246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlobMaybeFish_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8977b734201f6a430800000000000000
+      internalID: 3793984728130615192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Black_Dots_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab595bd51ac07ff0800000000000000
+      internalID: -40310201423144026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724de820632c04680800000000000000
+      internalID: -8772798536890788825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b856e3e6473157c0800000000000000
+      internalID: -4084422609437566794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_1_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c48c49c24ff9b800800000000000000
+      internalID: 628814285305054406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_White_lines_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135d147dd56314de0800000000000000
+      internalID: -1350738636563163855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlobMaybeFish_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcae3835c4dee8e0800000000000000
+      internalID: -1662157268935856961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Black_Dots_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807b929256e68f400800000000000000
+      internalID: 358157551137306376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b2bc18bb3598080800000000000000
+      internalID: -9184717900243850462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d056f847923d847e0800000000000000
+      internalID: -1780941477622356723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_1_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d60d1790a366970800000000000000
+      internalID: 8747743138452368785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_White_lines_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe65d9ac2d7a8dbb0800000000000000
+      internalID: -4910990869863246097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlobMaybeFish_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be64a858d0d7cb2d0800000000000000
+      internalID: -3261594533094603029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc1223509759e260800000000000000
+      internalID: 7127324162672172281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aad05ddae7a0420800000000000000
+      internalID: 2597027420201396848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_A_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d714c090be9d244c0800000000000000
+      internalID: -4304638690320432771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031d26658d918f0f0800000000000000
+      internalID: -1083087293429657296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_B_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21dbf7c2146bf60800000000000000
+      internalID: 8049693043348804324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ripple_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4696499a3878f78e0800000000000000
+      internalID: -1693485935312475804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_B_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4532cf2ba680cf0800000000000000
+      internalID: -285861259371129609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fb3d6bc42f54650800000000000000
+      internalID: 6216641271953604479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_A_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db32e763aaf8b7d80800000000000000
+      internalID: -8251843931004853315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c55dd55e2150bf0800000000000000
+      internalID: -358859818975011831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_B_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9dff5dc40fc3450800000000000000
+      internalID: 6069990610587081197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ripple_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9641a30e078857fa0800000000000000
+      internalID: -5803582526417398679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_B_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c0ea4c014e082f0800000000000000
+      internalID: -972526758841676767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_Inverse_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ea201fcffa861f0800000000000000
+      internalID: -1051397012080906664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_A_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5e50b244625c350800000000000000
+      internalID: 6036272949781456331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_Inverse_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818f0b6019332ec00800000000000000
+      internalID: 928361171167279128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_B_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcff1a1ba3160db0800000000000000
+      internalID: -4826148325082268494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ripple_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40c8678ec1c81040800000000000000
+      internalID: 4618654510647656522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_B_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaef0db2e6547990800000000000000
+      internalID: -7389185556773606660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_Inverse_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f163dddce23235d0800000000000000
+      internalID: -3084346801880079880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_A_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2426836111263ee0800000000000000
+      internalID: -1281800685372431313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_Inverse_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec380f611feb0040800000000000000
+      internalID: 4615045101327498473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_B_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2751918399cbe60800000000000000
+      internalID: 7979421106011730636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ripple_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dd512081d88f370800000000000000
+      internalID: 8356584242839674160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205732eefc9c582e0800000000000000
+      internalID: -2124069754344606462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7879b6fc82ef6150800000000000000
+      internalID: 5868157934549694591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterA_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ef604a0548cf990800000000000000
+      internalID: -7350855009891320224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterB_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83f428bc8ccbac0800000000000000
+      internalID: -3837972006036358983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Right_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f98c3c339e79650800000000000000
+      internalID: 6239712217282420629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankA_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5332b86f8ee4820800000000000000
+      internalID: 2904514955294488020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Left_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfb38a011f24d2d0800000000000000
+      internalID: -3254924880444670010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_1_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678749b6ad37af120800000000000000
+      internalID: 2448396729374242934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterA_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb670aa62f4c22e10800000000000000
+      internalID: 2171514515796031166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterB_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c77b9403c2eff4f0800000000000000
+      internalID: -792665682170120247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Right_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103724e51ec1df3e0800000000000000
+      internalID: -2018425303717481727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankA_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fab4997a7f9e5a0800000000000000
+      internalID: -6491385088674386153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Left_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69345f79ffde0fec0800000000000000
+      internalID: -3535064025463962730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_1_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87e4978d41941220800000000000000
+      internalID: 2455747458996955022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterA_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4040b5158346a7610800000000000000
+      internalID: 1619717209038980100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterB_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac010e44bf5afcd0800000000000000
+      internalID: -2523599413180298072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Right_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d751f1207ea6b76f0800000000000000
+      internalID: -685836977838287491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankA_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364a04c84cb756210800000000000000
+      internalID: 1325601749427332195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Left_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d58cc6eada970e0800000000000000
+      internalID: -2271593572370719480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_1_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb42455d88a35c60800000000000000
+      internalID: 7805767904137464808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterA_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aeed42f1fbe96d0800000000000000
+      internalID: -2981735762789209506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_CenterB_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419ba598cc69ffbc0800000000000000
+      internalID: -3747110559727044332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Right_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524c5a2c0f0d48ea0800000000000000
+      internalID: -5871338281707912155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankA_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6f73018fb831e80800000000000000
+      internalID: -8209063798226028811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_RightE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed26592e52070a0800000000000000
+      internalID: -6885962175150367178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Left_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e719e4b2ee4ebf0800000000000000
+      internalID: -295849805730447849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea7b567648928d60800000000000000
+      internalID: 7891036925507369708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Right_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa1297bcb7573020800000000000000
+      internalID: 2321420600978053804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_LeftE_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b7db5cdc93fe790800000000000000
+      internalID: -7498711298599978121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankC_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad7dab83f29f2c00800000000000000
+      internalID: 878082027078647202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_RightE_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ae04de8e1e08b00800000000000000
+      internalID: 828910721965288065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Left_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e3493b6d12ac170800000000000000
+      internalID: 8199403277600964237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8550cfb408be5e6f0800000000000000
+      internalID: -655859234449390248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Right_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274c929fb0db83d30800000000000000
+      internalID: 4411483694131954802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_LeftE_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a5c2a778a522eb0800000000000000
+      internalID: -4746131519378269558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankC_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef9575a511b2d240800000000000000
+      internalID: 4815105658140860396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_RightE_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b0ae75bbd307a30800000000000000
+      internalID: 4210933526434548493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Left_Inverse_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e0835653e3c9ca0800000000000000
+      internalID: -6008859403766723066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2b06b88d0bcf270800000000000000
+      internalID: 8285691858552664782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Right_Inverse_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cab7d80f7564c70800000000000000
+      internalID: 8954941599750269982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_LeftE_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21753303b8580bca0800000000000000
+      internalID: -6003151470429251822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankC_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235015457589bf220800000000000000
+      internalID: 2520775917288097074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_RightE_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5835dffe15dbca0800000000000000
+      internalID: -5999549037398489631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Left_Inverse_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15604e9f355eabad0800000000000000
+      internalID: -2685582078935562671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Center_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e684c82d369428c20800000000000000
+      internalID: 3207206577724213358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_Right_Inverse_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777f2b5cc27b2f9c0800000000000000
+      internalID: -3894849324798773385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_LeftE_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f1d3ae3f1d7810800000000000000
+      internalID: 1764600982895981797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankC_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ed1dc5c1bf27b10800000000000000
+      internalID: 1977919285603982918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4a131055cd49d00800000000000000
+      internalID: 978649276696601797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e44a352f0703150800000000000000
+      internalID: 5850300102041947673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236af5bf18da7dce0800000000000000
+      internalID: -1380443986986031566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_E_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c03a1d234bcd5a80800000000000000
+      internalID: -8476395434261466942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dark_Lines_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37bc0ab2c2cc5760800000000000000
+      internalID: 7448042025364797246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankD_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee37d0257c778a660800000000000000
+      internalID: 7397294085914850286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankB_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51f0668be1221620800000000000000
+      internalID: 2743292418477584735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cb02bdde4cdcc90800000000000000
+      internalID: -7147840507704460183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3738b28b49bb5fd0800000000000000
+      internalID: -2352082646404155590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_E_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b44114e4a56a80800000000000000
+      internalID: -8474185824378505365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dark_Lines_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f93a5842257c6f10800000000000000
+      internalID: 2264313502763727353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankD_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74973ae82aef57320800000000000000
+      internalID: 2555228337733859655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankB_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbf862123881ad60800000000000000
+      internalID: 7899744970023173085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bb743c0c1367460800000000000000
+      internalID: 7239028155024391033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451471034cb0ceb90800000000000000
+      internalID: -7211375966078680748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_E_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b122c4513b7edfac0800000000000000
+      internalID: -3819642152597839333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dark_Lines_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dff4a6427ff66a20800000000000000
+      internalID: 3055410263494033365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankD_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e0add45d2267bd0800000000000000
+      internalID: -2632878632621961721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankB_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335003e328c12c1d0800000000000000
+      internalID: -3332069428586085069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Right_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cecbe3f95370a090800000000000000
+      internalID: -8025287705792622910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Bottom_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fa686bc647890c0800000000000000
+      internalID: -4568773811699798190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island_Top_Left_E_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b956d95a337110800000000000000
+      internalID: 1257412878489204223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dark_Lines_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c0673c5c8d452a0800000000000000
+      internalID: -6749531597622080368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BlankD_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa9871aeb2db38e0800000000000000
+      internalID: -1712543517089686790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Left_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ac50b1c64c0f40800000000000000
+      internalID: 5696005426418329615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d980b7b32014a3a10800000000000000
+      internalID: 1889894471479003293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Right_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb6496d8b3c0c150800000000000000
+      internalID: 5890923511242058738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Left_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb25cb2d9368b350800000000000000
+      internalID: 6032681227558136809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac08e2ed9b4dd880800000000000000
+      internalID: -8584622173209490267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Right_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4485a41762cc54ab0800000000000000
+      internalID: -5024385343780399036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_LeftB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff77f98160ed3e70800000000000000
+      internalID: 9096673531889418235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Left_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048d534b6d15304a0800000000000000
+      internalID: -6628364243970959296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_wake_centerA_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3eaf53795daf6a0800000000000000
+      internalID: -6414579873813437498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_RIght_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe80b67b9fcdf05c0800000000000000
+      internalID: -4246932958504875793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_RightB_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2931d610db0b330800000000000000
+      internalID: 3724684705658016439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_LeftB_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a18de19230d4b20800000000000000
+      internalID: 3120153591983643253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Left_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c359fd615551d20800000000000000
+      internalID: 3248596262946421791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_wake_centerA_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc89db1001d6ae70800000000000000
+      internalID: 9126211493310336245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_RIght_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f98bf2c7c70d4410800000000000000
+      internalID: 1462834008516430324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_RightB_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543bbdcf76762e860800000000000000
+      internalID: 7557716821002662725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8dcc6cc8e4daef0800000000000000
+      internalID: -95333650567210821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterB_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cf3c3baad450b10800000000000000
+      internalID: 1947047809463352355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterC_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6433aa04dafdb5a60800000000000000
+      internalID: 7663965126108263238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterD_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f53364d923c7650800000000000000
+      internalID: 6231911635442949939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Right_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6abe586db664ff0800000000000000
+      internalID: -52235776554195294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Left_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495e43b35570e97a0800000000000000
+      internalID: -6368644760408365676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterB_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5880c02ec516fa440800000000000000
+      internalID: 4949281567060789381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterC_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fca203b1374be20800000000000000
+      internalID: 3365441382162026307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterD_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80da6b90a580b26b0800000000000000
+      internalID: -5320149352005063416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Right_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ff61f554c8b1c40800000000000000
+      internalID: 5484131200829685534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Right_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908d412534ae50df0800000000000000
+      internalID: -214507832369424375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Left_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da6ab39ed9582a60800000000000000
+      internalID: 7649462779584867030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterE_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab61467ee0d05d2e0800000000000000
+      internalID: -2101759293435668806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_RIght_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20ebb697884e98f0800000000000000
+      internalID: -531907958796459990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_RightA_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90a63d0b76d53870800000000000000
+      internalID: 8662065282308022427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Top_Right_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6157d2fc588e7210800000000000000
+      internalID: 1332652472540811626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Left_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821837de96c7bb8c0800000000000000
+      internalID: -3982452651081891544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_CenterE_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c22831f3a9e85b0800000000000000
+      internalID: -5364180510450766778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_RIght_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346bb2a572248b870800000000000000
+      internalID: 8698775417050084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_RightA_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6613e96b8cc3a6250800000000000000
+      internalID: 5938625891396366694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Left_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaafe0d3e9a45650800000000000000
+      internalID: 6220783781233535717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5cd861fd7159390800000000000000
+      internalID: -7812311731680721488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Right_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660e7c30242d4c8f0800000000000000
+      internalID: -521060475895029658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Left_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2699ff6223663460800000000000000
+      internalID: 7221068052093834797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3c13f95ed57b3c0800000000000000
+      internalID: -4343900074775821349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Wake_Bottom_Right_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f823b792ffa6c3790800000000000000
+      internalID: -7549041231234649457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_A_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba915b20fa78e9b0800000000000000
+      internalID: -5050651810158503241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca909ad8c04cccec0800000000000000
+      internalID: -3545243248452105812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_A_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e306be2726b09d0800000000000000
+      internalID: -2807041697020625406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_A_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ff9ba07128298b0800000000000000
+      internalID: -5146908388655235228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef94b6d9cd6ae08b0800000000000000
+      internalID: -5184022654592792066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_A_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3e8dcf3146c7b40800000000000000
+      internalID: 5439332486965945250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d21ce68e5c10ce0800000000000000
+      internalID: -1440652803700609738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_Inverse_A_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d4c28109943890800000000000000
+      internalID: -7479184849387596421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_A_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b92151c668daac0800000000000000
+      internalID: -3842267108309034213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_inverse_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b071930a2e545e0800000000000000
+      internalID: -1925884087850562798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_B_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ac32a4b746d6700800000000000000
+      internalID: 535194411414571667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_B_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3ba8b1b670c9ca0800000000000000
+      internalID: -6008919646214114342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Left_Inverse_A_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5643e6a6a1a6f930800000000000000
+      internalID: 4176703441569269342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_A_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95567a3b36a858c80800000000000000
+      internalID: -8321092575676635815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_inverse_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7bcb852decab400800000000000000
+      internalID: 340812124647110628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Top_Right_B_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed40489adc9e1d00800000000000000
+      internalID: 945365434465537504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18957a575cc21d60800000000000000
+      internalID: 7859568975266813980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_B_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a440b850c71b34f0800000000000000
+      internalID: -848057989940099935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_C_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875a3c39b1e59d5a0800000000000000
+      internalID: -6496057514969029256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_D_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372ebb20d3428cc00800000000000000
+      internalID: 921025968254739059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Right_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d18f46ca47c782e0800000000000000
+      internalID: -2123509575313292848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Left_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c713e301508f5070800000000000000
+      internalID: 8097331740481361862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_B_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5e8fa1cdb104ad0800000000000000
+      internalID: -2720143542772505098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_C_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35ad5039d17a39b0800000000000000
+      internalID: -5099638450410379969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Center_D_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020d71057f2694d0800000000000000
+      internalID: -3128260711579581946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Right_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839a95dd44a6cd690800000000000000
+      internalID: -7576063629140055752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055d23048b5d47a90800000000000000
+      internalID: -7316988507242441392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_Inverse_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4135dc1de7c8920800000000000000
+      internalID: 2993907291852575984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Center_D_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbf21f904ee409d0800000000000000
+      internalID: -2808858306258207810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Center_E_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794edcd2eac7f9890800000000000000
+      internalID: -7449098171112889193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Right_A_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c449ad629f5d23d0800000000000000
+      internalID: -3229820275245103928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_A_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3660f356ca0a70130800000000000000
+      internalID: 3532969094988891747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_Inverse_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21804e8563d576b20800000000000000
+      internalID: 3127570954233055250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Center_D_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82327c7f292f45ca0800000000000000
+      internalID: -6028927288106081496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Center_E_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4c255be13122670800000000000000
+      internalID: 8512387268295705793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Right_A_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d609e3d28c52df0800000000000000
+      internalID: -205538111326753532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_B_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0038476e40159c570800000000000000
+      internalID: 8487404054244524800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6211fd5d63b0260800000000000000
+      internalID: 7064800732659132105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Right_B_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a40e434ac16192a0800000000000000
+      internalID: -6732492446601706328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Left_B_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30174559dc6774bd0800000000000000
+      internalID: -2646015630711164669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cab671aedd06db0800000000000000
+      internalID: -4800593205291930617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Shallows_Bottom_Right_B_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d5b965dbb760d70800000000000000
+      internalID: 9009024157733313841
       vertices: []
       indices: 
       edges: []
@@ -151,7 +5316,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 55acc5b7cbf400b4192bd89b48f8a55d
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +5324,447 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      Island Left_0: 5377124864672460724
+      Island Left_1: -2776206666810348999
+      Island Left_2: -8303810527380876806
+      Island Left_3: -4862592859966725152
+      Island_Bottom_0: -1380443986986031566
+      Island_Bottom_1: -2352082646404155590
+      Island_Bottom_2: -7211375966078680748
+      Island_Bottom_3: -4568773811699798190
+      Island_Bottom_Left_Inverse_0: -295849805730447849
+      Island_Bottom_Left_Inverse_1: 8199403277600964237
+      Island_Bottom_Left_Inverse_2: -6008859403766723066
+      Island_Bottom_Left_Inverse_3: -2685582078935562671
+      Island_Bottom_Right_Inverse_0: 2321420600978053804
+      Island_Bottom_Right_Inverse_1: 4411483694131954802
+      Island_Bottom_Right_Inverse_2: 8954941599750269982
+      Island_Bottom_Right_Inverse_3: -3894849324798773385
+      Island_CenterA_0: -7350855009891320224
+      Island_CenterA_1: 2171514515796031166
+      Island_CenterA_2: 1619717209038980100
+      Island_CenterA_3: -2981735762789209506
+      Island_CenterB_0: -3837972006036358983
+      Island_CenterB_1: -792665682170120247
+      Island_CenterB_2: -2523599413180298072
+      Island_CenterB_3: -3747110559727044332
+      Island_Center_0: 7891036925507369708
+      Island_Center_1: -655859234449390248
+      Island_Center_1_0: 5868157934549694591
+      Island_Center_1_1: 2448396729374242934
+      Island_Center_1_2: 2455747458996955022
+      Island_Center_1_3: 7805767904137464808
+      Island_Center_2: 8285691858552664782
+      Island_Center_3: 3207206577724213358
+      Island_Center_A_0: -4304638690320432771
+      Island_Center_A_1: -8251843931004853315
+      Island_Center_A_2: 6036272949781456331
+      Island_Center_A_3: -1281800685372431313
+      Island_Dark_LinesA_0: 6069384103444952420
+      Island_Dark_LinesA_1: -6890113797961940269
+      Island_Dark_LinesA_2: -4929894296873677702
+      Island_Dark_LinesA_3: 1667385844831962053
+      Island_Left_0: -2124069754344606462
+      Island_Left_1: -3254924880444670010
+      Island_Left_2: -3535064025463962730
+      Island_Left_3: -2271593572370719480
+      Island_Right_0: 6239712217282420629
+      Island_Right_1: -2018425303717481727
+      Island_Right_2: -685836977838287491
+      Island_Right_3: -5871338281707912155
+      Island_TopRight_0: 4852574768324811235
+      Island_TopRight_1: 3724110033711755158
+      Island_TopRight_2: -5281967417365443945
+      Island_TopRight_3: 4326159642769943939
+      Island_Top_0: 2498120370936749152
+      Island_Top_1: -544500155750140406
+      Island_Top_2: -4084422609437566794
+      Island_Top_3: -1780941477622356723
+      Island_Top_LeftE_0: -7498711298599978121
+      Island_Top_LeftE_1: -4746131519378269558
+      Island_Top_LeftE_2: -6003151470429251822
+      Island_Top_LeftE_3: 1764600982895981797
+      Island_Top_Left_0: -1957440817625996132
+      Island_Top_Left_1: -7534259164891582445
+      Island_Top_Left_2: -8772798536890788825
+      Island_Top_Left_3: -9184717900243850462
+      Island_Top_Left_B_0: 7127324162672172281
+      Island_Top_Left_B_1: -285861259371129609
+      Island_Top_Left_B_2: -972526758841676767
+      Island_Top_Left_B_3: -7389185556773606660
+      Island_Top_Left_C_0: 3202485808346038549
+      Island_Top_Left_C_1: -2968726147519291922
+      Island_Top_Left_C_2: -4281440586400284082
+      Island_Top_Left_C_3: -6517355121310606584
+      Island_Top_Left_D_0: -1511311162536859549
+      Island_Top_Left_D_1: -5173137130830378497
+      Island_Top_Left_D_2: -5097878812837052641
+      Island_Top_Left_D_3: 7055432602287840244
+      Island_Top_Left_E_0: -8476395434261466942
+      Island_Top_Left_E_1: -8474185824378505365
+      Island_Top_Left_E_2: -3819642152597839333
+      Island_Top_Left_E_3: 1257412878489204223
+      Island_Top_Left_Inverse_0: 2597027420201396848
+      Island_Top_Left_Inverse_1: 6216641271953604479
+      Island_Top_Left_Inverse_2: -1051397012080906664
+      Island_Top_Left_Inverse_3: -3084346801880079880
+      Island_Top_RightE_0: -6885962175150367178
+      Island_Top_RightE_1: 828910721965288065
+      Island_Top_RightE_2: 4210933526434548493
+      Island_Top_RightE_3: -5999549037398489631
+      Island_Top_Right_0: 5850300102041947673
+      Island_Top_Right_1: -7147840507704460183
+      Island_Top_Right_1_0: -463465571432192276
+      Island_Top_Right_1_1: -8466756376287740615
+      Island_Top_Right_1_2: 628814285305054406
+      Island_Top_Right_1_3: 8747743138452368785
+      Island_Top_Right_2: 7239028155024391033
+      Island_Top_Right_3: -8025287705792622910
+      Island_Top_Right_B_0: 8049693043348804324
+      Island_Top_Right_B_1: 6069990610587081197
+      Island_Top_Right_B_2: -4826148325082268494
+      Island_Top_Right_B_3: 7979421106011730636
+      Island_Top_Right_Inverse_0: -1083087293429657296
+      Island_Top_Right_Inverse_1: -358859818975011831
+      Island_Top_Right_Inverse_2: 928361171167279128
+      Island_Top_Right_Inverse_3: 4615045101327498473
+      Ripple_0: -1693485935312475804
+      Ripple_1: -5803582526417398679
+      Ripple_2: 4618654510647656522
+      Ripple_3: 8356584242839674160
+      Water_Black_Dots_0: -2381465987607725197
+      Water_Black_Dots_1: -40310201423144026
+      Water_Black_Dots_2: 358157551137306376
+      Water_BlankA_0: 2904514955294488020
+      Water_BlankA_1: -6491385088674386153
+      Water_BlankA_2: 1325601749427332195
+      Water_BlankA_3: -8209063798226028811
+      Water_BlankB_0: 978649276696601797
+      Water_BlankB_1: 2743292418477584735
+      Water_BlankB_2: 7899744970023173085
+      Water_BlankB_3: -3332069428586085069
+      Water_BlankC_0: 878082027078647202
+      Water_BlankC_1: 4815105658140860396
+      Water_BlankC_2: 2520775917288097074
+      Water_BlankC_3: 1977919285603982918
+      Water_BlankD_0: 7397294085914850286
+      Water_BlankD_1: 2555228337733859655
+      Water_BlankD_2: -2632878632621961721
+      Water_BlankD_3: -1712543517089686790
+      Water_BlobMaybeFish_0: -8440676266831708508
+      Water_BlobMaybeFish_1: 3793984728130615192
+      Water_BlobMaybeFish_2: -1662157268935856961
+      Water_BlobMaybeFish_3: -3261594533094603029
+      Water_Bubbles_0: 1086783995016003556
+      Water_Bubbles_1: 6156072402870630099
+      Water_Bubbles_2: -5609861362789591755
+      Water_Bubbles_3: 3041794808426285437
+      Water_DarkLines_0: 3802388861222169488
+      Water_DarkLines_1: -2794510988899089312
+      Water_DarkLines_2: -1366445587121847467
+      Water_DarkLines_3: -4499155550660579062
+      Water_Dark_Lines_0: 7448042025364797246
+      Water_Dark_Lines_1: 2264313502763727353
+      Water_Dark_Lines_2: 3055410263494033365
+      Water_Dark_Lines_3: -6749531597622080368
+      Water_Shallows_Bottom_0: 7064800732659132105
+      Water_Shallows_Bottom_1: -4800593205291930617
+      Water_Shallows_Bottom_Center_D_0: -2808858306258207810
+      Water_Shallows_Bottom_Center_D_1: -6028927288106081496
+      Water_Shallows_Bottom_Center_E_0: -7449098171112889193
+      Water_Shallows_Bottom_Center_E_1: 8512387268295705793
+      Water_Shallows_Bottom_Left_A_0: -7316988507242441392
+      Water_Shallows_Bottom_Left_A_1: 3532969094988891747
+      Water_Shallows_Bottom_Left_B_0: 8487404054244524800
+      Water_Shallows_Bottom_Left_B_1: -2646015630711164669
+      Water_Shallows_Bottom_Left_Inverse_0: 2993907291852575984
+      Water_Shallows_Bottom_Left_Inverse_1: 3127570954233055250
+      Water_Shallows_Bottom_Right_A_0: -3229820275245103928
+      Water_Shallows_Bottom_Right_A_1: -205538111326753532
+      Water_Shallows_Bottom_Right_B_0: -6732492446601706328
+      Water_Shallows_Bottom_Right_B_1: 9009024157733313841
+      Water_Shallows_Center_A_0: -3842267108309034213
+      Water_Shallows_Center_A_1: -8321092575676635815
+      Water_Shallows_Center_B_0: -848057989940099935
+      Water_Shallows_Center_B_1: -2720143542772505098
+      Water_Shallows_Center_C_0: -6496057514969029256
+      Water_Shallows_Center_C_1: -5099638450410379969
+      Water_Shallows_Center_D_0: 921025968254739059
+      Water_Shallows_Center_D_1: -3128260711579581946
+      Water_Shallows_Center__0: 3381801821574417310
+      Water_Shallows_Center__1: -7380113988400039159
+      Water_Shallows_Left_0: 7859568975266813980
+      Water_Shallows_Left_1: 8097331740481361862
+      Water_Shallows_Right_0: -2123509575313292848
+      Water_Shallows_Right_1: -7576063629140055752
+      Water_Shallows_Top_0: -3545243248452105812
+      Water_Shallows_Top_1: -5184022654592792066
+      Water_Shallows_Top_Left_A_0: -5050651810158503241
+      Water_Shallows_Top_Left_A_1: -5146908388655235228
+      Water_Shallows_Top_Left_B_0: -1440652803700609738
+      Water_Shallows_Top_Left_B_1: -6008919646214114342
+      Water_Shallows_Top_Left_Inverse_A_0: -7479184849387596421
+      Water_Shallows_Top_Left_Inverse_A_1: 4176703441569269342
+      Water_Shallows_Top_Right_A_0: -2807041697020625406
+      Water_Shallows_Top_Right_A_1: 5439332486965945250
+      Water_Shallows_Top_Right_B_0: 535194411414571667
+      Water_Shallows_Top_Right_B_1: 945365434465537504
+      Water_Shallows_Top_Right_inverse_0: -1925884087850562798
+      Water_Shallows_Top_Right_inverse_1: 340812124647110628
+      Water_Wake_Bottom_0: -7812311731680721488
+      Water_Wake_Bottom_1: -4343900074775821349
+      Water_Wake_Bottom_Left_0: 6220783781233535717
+      Water_Wake_Bottom_Left_1: 7221068052093834797
+      Water_Wake_Bottom_Left_Inverse_0: 7649462779584867030
+      Water_Wake_Bottom_Left_Inverse_1: -3982452651081891544
+      Water_Wake_Bottom_RIght_Inverse_0: -531907958796459990
+      Water_Wake_Bottom_RIght_Inverse_1: 8698775417050084931
+      Water_Wake_Bottom_RightA_0: 8662065282308022427
+      Water_Wake_Bottom_RightA_1: 5938625891396366694
+      Water_Wake_Bottom_Right_0: -521060475895029658
+      Water_Wake_Bottom_Right_1: -7549041231234649457
+      Water_Wake_CenterB_0: 1947047809463352355
+      Water_Wake_CenterB_1: 4949281567060789381
+      Water_Wake_CenterC_0: 7663965126108263238
+      Water_Wake_CenterC_1: 3365441382162026307
+      Water_Wake_CenterD_0: 6231911635442949939
+      Water_Wake_CenterD_1: -5320149352005063416
+      Water_Wake_CenterE_0: -2101759293435668806
+      Water_Wake_CenterE_1: -5364180510450766778
+      Water_Wake_Left_0: -95333650567210821
+      Water_Wake_Left_1: -6368644760408365676
+      Water_Wake_Right_0: -52235776554195294
+      Water_Wake_Right_1: 5484131200829685534
+      Water_Wake_Top_0: 1889894471479003293
+      Water_Wake_Top_1: -8584622173209490267
+      Water_Wake_Top_LeftB_0: 9096673531889418235
+      Water_Wake_Top_LeftB_1: 3120153591983643253
+      Water_Wake_Top_Left_0: 5696005426418329615
+      Water_Wake_Top_Left_1: 6032681227558136809
+      Water_Wake_Top_Left_Inverse_0: -6628364243970959296
+      Water_Wake_Top_Left_Inverse_1: 3248596262946421791
+      Water_Wake_Top_RIght_Inverse_0: -4246932958504875793
+      Water_Wake_Top_RIght_Inverse_1: 1462834008516430324
+      Water_Wake_Top_RightB_0: 3724684705658016439
+      Water_Wake_Top_RightB_1: 7557716821002662725
+      Water_Wake_Top_Right_0: 5890923511242058738
+      Water_Wake_Top_Right_1: -5024385343780399036
+      Water_Wake_Top_Right_Inverse_0: -214507832369424375
+      Water_Wake_Top_Right_Inverse_1: 1332652472540811626
+      Water_White_lines_0: 4650866982355134910
+      Water_White_lines_1: -30071202188486246
+      Water_White_lines_2: -1350738636563163855
+      Water_White_lines_3: -4910990869863246097
       Water_tiles_0: -3570886940855412533
+      Water_tiles_1: -1326667786
+      Water_tiles_10: 451284175
+      Water_tiles_100: 1161474943
+      Water_tiles_101: 969576614
+      Water_tiles_102: -1887211767
+      Water_tiles_103: -1697020240
+      Water_tiles_104: -903602777
+      Water_tiles_105: -1284130598
+      Water_tiles_106: 370591463
+      Water_tiles_107: -1712934923
+      Water_tiles_108: -1384678466
+      Water_tiles_109: -2057813749
+      Water_tiles_11: -552068054
+      Water_tiles_110: 635137183
+      Water_tiles_111: 1065196978
+      Water_tiles_112: -203226942
+      Water_tiles_113: 58950337
+      Water_tiles_114: -233255525
+      Water_tiles_115: 325611492
+      Water_tiles_116: -437550269
+      Water_tiles_117: -163383477
+      Water_tiles_118: 1328782536
+      Water_tiles_119: 1354322054
+      Water_tiles_12: 275097059
+      Water_tiles_120: -1084235738
+      Water_tiles_121: -1491545403
+      Water_tiles_122: 760424365
+      Water_tiles_123: -175937291
+      Water_tiles_124: 1736318229
+      Water_tiles_125: -1156597752
+      Water_tiles_126: 898885264
+      Water_tiles_127: 1961450781
+      Water_tiles_128: -1537798367
+      Water_tiles_129: 1919982788
+      Water_tiles_13: 50918034
+      Water_tiles_130: 1903304782
+      Water_tiles_131: -513283260
+      Water_tiles_132: -1920531983
+      Water_tiles_133: -1453985750
+      Water_tiles_134: 497696676
+      Water_tiles_135: 970515871
+      Water_tiles_136: 1260033851
+      Water_tiles_137: 147875356
+      Water_tiles_138: 2013421958
+      Water_tiles_139: 204974530
+      Water_tiles_14: -1406916685
+      Water_tiles_140: -2136209441
+      Water_tiles_141: 639028228
+      Water_tiles_142: 1824837255
+      Water_tiles_143: -1898542529
+      Water_tiles_144: 1693373879
+      Water_tiles_145: 650436487
+      Water_tiles_146: -409359517
+      Water_tiles_147: -1807539469
+      Water_tiles_148: -777505312
+      Water_tiles_149: 718467427
+      Water_tiles_15: -1185273224
+      Water_tiles_150: -1657679752
+      Water_tiles_151: -1538350039
+      Water_tiles_152: 2051836069
+      Water_tiles_153: 182738654
+      Water_tiles_154: 1437693172
+      Water_tiles_155: 256969653
+      Water_tiles_156: 1366387527
+      Water_tiles_157: -1076621306
+      Water_tiles_158: -369251892
+      Water_tiles_159: -1299275359
+      Water_tiles_16: -1997883409
+      Water_tiles_160: -139179816
+      Water_tiles_161: -2054826754
+      Water_tiles_162: 432304057
+      Water_tiles_163: -1494944146
+      Water_tiles_164: -35132775
+      Water_tiles_165: 2084859842
+      Water_tiles_166: 505642932
+      Water_tiles_167: -1918433201
+      Water_tiles_168: -921490699
+      Water_tiles_169: -1454086437
+      Water_tiles_17: -1452996440
+      Water_tiles_170: 1474084577
+      Water_tiles_171: 557664682
+      Water_tiles_172: 223005039
+      Water_tiles_173: -1149062528
+      Water_tiles_174: -1761550133
+      Water_tiles_175: -1438620385
+      Water_tiles_176: 505034840
+      Water_tiles_177: -558048136
+      Water_tiles_178: 875867789
+      Water_tiles_179: 1493329851
+      Water_tiles_18: 1963499063
+      Water_tiles_180: 1094579025
+      Water_tiles_181: 1432869128
+      Water_tiles_182: -639367825
+      Water_tiles_183: 176376310
+      Water_tiles_184: 188126381
+      Water_tiles_185: -47457550
+      Water_tiles_186: -1161226181
+      Water_tiles_187: 1641474894
+      Water_tiles_188: -1081244882
+      Water_tiles_189: -1144510443
+      Water_tiles_19: -1120659443
+      Water_tiles_190: -1597949958
+      Water_tiles_191: 2345443
+      Water_tiles_192: -148459242
+      Water_tiles_193: -1308544456
+      Water_tiles_194: -1363948051
+      Water_tiles_195: -581368603
+      Water_tiles_196: -103107039
+      Water_tiles_197: -483997249
+      Water_tiles_198: -1165336204
+      Water_tiles_199: 1720405385
+      Water_tiles_2: -1472626784
+      Water_tiles_20: -1211971928
+      Water_tiles_200: -663147463
+      Water_tiles_201: 2089865254
+      Water_tiles_202: 406948246
+      Water_tiles_203: -782592593
+      Water_tiles_21: 949670324
+      Water_tiles_22: -440301104
+      Water_tiles_23: 526830017
+      Water_tiles_24: -8014679
+      Water_tiles_25: -2123352138
+      Water_tiles_26: -922372669
+      Water_tiles_27: -1980212110
+      Water_tiles_28: 1007597946
+      Water_tiles_29: 763909125
+      Water_tiles_3: -1452568578
+      Water_tiles_30: -574203101
+      Water_tiles_31: 1711852015
+      Water_tiles_32: -1898165123
+      Water_tiles_33: 2069694454
+      Water_tiles_34: 1130431563
+      Water_tiles_35: 558327080
+      Water_tiles_36: 718654387
+      Water_tiles_37: -1075383355
+      Water_tiles_38: -1954870304
+      Water_tiles_39: 231021977
+      Water_tiles_4: -246499676
+      Water_tiles_40: -582862605
+      Water_tiles_41: -45622435
+      Water_tiles_42: -1258806440
+      Water_tiles_43: -273525087
+      Water_tiles_44: -984405101
+      Water_tiles_45: -154590491
+      Water_tiles_46: -254073248
+      Water_tiles_47: 1179122033
+      Water_tiles_48: -421382190
+      Water_tiles_49: 849007188
+      Water_tiles_5: 242576160
+      Water_tiles_50: -455272443
+      Water_tiles_51: -1451837760
+      Water_tiles_52: -2041206310
+      Water_tiles_53: 1389924295
+      Water_tiles_54: 399513431
+      Water_tiles_55: 422288631
+      Water_tiles_56: 610134213
+      Water_tiles_57: 456874954
+      Water_tiles_58: -1458110080
+      Water_tiles_59: -831932676
+      Water_tiles_6: 313175315
+      Water_tiles_60: -245659662
+      Water_tiles_61: 672480312
+      Water_tiles_62: 679356686
+      Water_tiles_63: 2116493629
+      Water_tiles_64: -425662211
+      Water_tiles_65: 875782355
+      Water_tiles_66: -946127706
+      Water_tiles_67: -739579704
+      Water_tiles_68: -2128296705
+      Water_tiles_69: 1667290039
+      Water_tiles_7: 912877833
+      Water_tiles_70: 462339623
+      Water_tiles_71: -1160862117
+      Water_tiles_72: 731369942
+      Water_tiles_73: 1850861544
+      Water_tiles_74: -484977951
+      Water_tiles_75: -1568381911
+      Water_tiles_76: -1205328640
+      Water_tiles_77: -1690801462
+      Water_tiles_78: -514912358
+      Water_tiles_79: 605853037
+      Water_tiles_8: -1371813091
+      Water_tiles_80: -899090020
+      Water_tiles_81: 500248333
+      Water_tiles_82: 163609635
+      Water_tiles_83: -850453133
+      Water_tiles_84: 1457567743
+      Water_tiles_85: -238493379
+      Water_tiles_86: -1999785793
+      Water_tiles_87: -1079829203
+      Water_tiles_88: 428747082
+      Water_tiles_89: -2018065924
+      Water_tiles_9: -578605175
+      Water_tiles_90: 1861259552
+      Water_tiles_91: 1715602614
+      Water_tiles_92: -498974638
+      Water_tiles_93: 1915320913
+      Water_tiles_94: 183590305
+      Water_tiles_95: -1776958921
+      Water_tiles_96: -1283311090
+      Water_tiles_97: -984384985
+      Water_tiles_98: -1646031447
+      Water_tiles_99: -1305582342
+      Water_wake_centerA_0: -6414579873813437498
+      Water_wake_centerA_1: 9126211493310336245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
