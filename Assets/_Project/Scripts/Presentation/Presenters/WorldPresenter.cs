@@ -20,17 +20,17 @@ namespace KnowEyeDia.Presentation.Presenters
 
         public void Start()
         {
-            // Debug.Log("Generating World...");
-            // // Settings can be moved to a configuration file/ScriptableObject later
-            // var data = _worldGenUseCase.GenerateWorld(
-            //     width: 30,
-            //     depth: 30,
-            //     seed: Random.Range(0, 1000),
-            //     scale: 5f,
-            //     maxElevation: 3
-            // );
+            Debug.Log("Generating World...");
+            // Settings can be moved to a configuration file/ScriptableObject later
+            var data = _worldGenUseCase.GenerateWorld(
+                width: 128,
+                depth: 128,
+                seed: Random.Range(0, 10000),
+                scale: 4f,
+                maxElevation: 1 // elevation not strictly used for visuals anymore, but kept for logic
+            );
             
-            // _view.Render(data);
+            _view.Render(data);
         }
     }
 }

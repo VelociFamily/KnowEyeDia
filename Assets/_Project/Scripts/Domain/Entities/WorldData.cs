@@ -39,6 +39,8 @@ namespace KnowEyeDia.Domain.Entities
         Grass = 1,
         Dirt = 2,
         Stone = 3,
-        Water = 4
+        Water = 4,
+        Desert = 5,
+        Snow = 6
     }
 }

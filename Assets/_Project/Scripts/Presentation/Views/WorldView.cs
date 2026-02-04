@@ -7,54 +7,75 @@ namespace KnowEyeDia.Presentation.Views
 {
     public class WorldView : MonoBehaviour
     {
-        [Header("Configuration")]
-        [Tooltip("Assign Tilemaps for each height level (0, 1, 2...). Ensure they are placed at correct Y height in scene.")]
-        [SerializeField] private Tilemap[] _heightLayers;
+        [Header("Tilemaps")]
+        [SerializeField] private Tilemap _snowMap;
+        [SerializeField] private Tilemap _grassMap;
+        [SerializeField] private Tilemap _stoneMap;
+        [SerializeField] private Tilemap _desertMap;
+        [SerializeField] private Tilemap _dirtMap;
+        [SerializeField] private Tilemap _waterMap;
 
         [Header("Rule Tiles")]
+        [SerializeField] private TileBase _snowTile;
         [SerializeField] private TileBase _grassTile;
-        [SerializeField] private TileBase _dirtTile;
         [SerializeField] private TileBase _stoneTile;
+        [SerializeField] private TileBase _desertTile;
+        [SerializeField] private TileBase _dirtTile;
         [SerializeField] private TileBase _waterTile;
 
         public void Render(WorldData worldData)
         {
             // Clear all layers
-            foreach (var tm in _heightLayers)
-            {
-                if(tm != null) tm.ClearAllTiles();
-            }
+            ClearMap(_snowMap);
+            ClearMap(_grassMap);
+            ClearMap(_stoneMap);
+            ClearMap(_desertMap);
+            ClearMap(_dirtMap);
+            ClearMap(_waterMap);
 
-            if (worldData == null || _heightLayers == null || _heightLayers.Length == 0) return;
+            if (worldData == null) return;
 
             for (int x = 0; x < worldData.Width; x++)
             {
                 for (int z = 0; z < worldData.Depth; z++)
                 {
                     TileType type = worldData.TileMap[x, z];
-                    int height = worldData.GetHeight(x, z);
-                    
                     if (type == TileType.Empty) continue;
 
                     TileBase tileToPlace = GetTileBaseForType(type);
-                    if (tileToPlace != null)
-                    {
-                        // Ensure we don't go out of bounds of our assigned layers
-                        int layerIndex = Mathf.Clamp(height, 0, _heightLayers.Length - 1);
-                        Tilemap targetMap = _heightLayers[layerIndex];
-                        
-                        if (targetMap != null)
-                        {
-                            // Map Z -> Y for the tilemap grid
-                            Vector3Int pos = new Vector3Int(x, z, 0); 
-                            targetMap.SetTile(pos, tileToPlace);
+                    Tilemap targetMap = GetMapForType(type);
 
-                            // OPTIONAL: Fill layers below this one to avoid floating tiles?
-                            // For solid terrain, we usually just render the top surface or have a "wall" tile.
-                            // For this MVP, we just render the top surface.
-                        }
+                    if (targetMap != null && tileToPlace != null)
+                    {
+                        Vector3Int pos = new Vector3Int(x, z, 0); 
+                        targetMap.SetTile(pos, tileToPlace);
+                        
+                        // "Water is on bottom layer"
+                        // If we want water explicitly underneath everything, we could do:
+                        // if (type != TileType.Water) _waterMap.SetTile(pos, _waterTile);
+                        // But user said "If there is a lake make sure nothing covers it up".
+                        // This implies we rely on the UseCase to define where Water is.
                     }
                 }
+            }
+        }
+
+        private void ClearMap(Tilemap map)
+        {
+            if (map != null) map.ClearAllTiles();
+        }
+
+        private Tilemap GetMapForType(TileType type)
+        {
+            switch (type)
+            {
+                case TileType.Snow: return _snowMap;
+                case TileType.Grass: return _grassMap;
+                case TileType.Stone: return _stoneMap;
+                case TileType.Desert: return _desertMap;
+                case TileType.Dirt: return _dirtMap;
+                case TileType.Water: return _waterMap;
+                default: return null;
             }
         }
 
@@ -62,9 +83,11 @@ namespace KnowEyeDia.Presentation.Views
         {
             switch (type)
             {
+                case TileType.Snow: return _snowTile;
                 case TileType.Grass: return _grassTile;
-                case TileType.Dirt: return _dirtTile;
                 case TileType.Stone: return _stoneTile;
+                case TileType.Desert: return _desertTile;
+                case TileType.Dirt: return _dirtTile;
                 case TileType.Water: return _waterTile;
                 default: return null;
             }

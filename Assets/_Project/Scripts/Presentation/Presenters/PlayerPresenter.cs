@@ -56,17 +56,12 @@ namespace KnowEyeDia.Presentation.Presenters
             {
                 // Move logic
                 Vector3 currentPos = _view.transform.position;
-                Vector3 move = new Vector3(input.x, 0, input.y) * 5f * dt; // Speed 5
+                Vector3 move = new Vector3(input.x, input.y, 0) * 5f * dt; // Speed 5 (XY Movement)
                 
                 Vector3 targetPos = currentPos + move;
                 
-                // Adjust Y based on terrain
-                float targetHeight = _worldService.GetHeightAt(targetPos.x, targetPos.z);
+                // Note: Removed terrain height adjustment as requested (W/S now controls Y position directly)
                 
-                // Simple snap to height (walk up/down stairs instantly)
-                // or we could Lerp for smoothness. Snapping is safer for 2D/2.5D grids.
-                targetPos.y = targetHeight;
-
                 _view.SetPosition(targetPos);
             }
         }
