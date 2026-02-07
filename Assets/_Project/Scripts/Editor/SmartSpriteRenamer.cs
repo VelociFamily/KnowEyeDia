@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.U2D.Sprites;
 using System.Collections.Generic;
+using System.Linq;
 
 public class SmartSpriteRenamer : EditorWindow
 {
@@ -15,67 +16,72 @@ public class SmartSpriteRenamer : EditorWindow
     private bool _horizontalFrames = true;
 
     // Navigation
-    private int _cursorX = 0;
-    private int _cursorY = 0;
-    private string _currentName = "";
+    private int _cursorX = 0; 
+    private int _cursorY = 0; 
+    
+    // Naming
+    private string _currentName = "Block_Name";
 
     [MenuItem("Tools/Smart Sprite Renamer")]
     public static void ShowWindow()
     {
-        GetWindow<SmartSpriteRenamer>("Smart Sprite Renamer");
+        GetWindow<SmartSpriteRenamer>("Smart Renamer");
     }
 
     private void OnGUI()
     {
-        GUILayout.Label("Smart Sprite Renamer", EditorStyles.boldLabel);
-        
-        _texture = EditorGUILayout.ObjectField("Sprite Sheet", _texture, typeof(Texture2D), false) as Texture2D;
-        
-        if (_texture == null)
-        {
-            EditorGUILayout.HelpBox("Please select a sprite sheet texture", MessageType.Info);
-            return;
-        }
+        GUILayout.Label("Smart Animated Renamer", EditorStyles.boldLabel);
 
-        EditorGUILayout.Space();
+        // 1. Setup
+        GUILayout.BeginVertical("box");
+        ConfirmTexture(); // Helper to ensure we have texture data
+        _texture = (Texture2D)EditorGUILayout.ObjectField("Texture", _texture, typeof(Texture2D), false);
         
-        _tileWidth = EditorGUILayout.IntField("Tile Width", _tileWidth);
-        _tileHeight = EditorGUILayout.IntField("Tile Height", _tileHeight);
-        
-        EditorGUILayout.Space();
-        GUILayout.Label("Animation Settings", EditorStyles.boldLabel);
-        
-        _framesPerGroup = EditorGUILayout.IntField("Frames Per Group", _framesPerGroup);
-        _totalRowWidth = EditorGUILayout.IntField("Total Row Width", _totalRowWidth);
-        _horizontalFrames = EditorGUILayout.Toggle("Horizontal Frames", _horizontalFrames);
-        
+        GUILayout.BeginHorizontal();
+        _tileWidth = EditorGUILayout.IntField("Tile W", _tileWidth);
+        _tileHeight = EditorGUILayout.IntField("Tile H", _tileHeight);
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        _framesPerGroup = Mathf.Max(1, EditorGUILayout.IntField("Frames", _framesPerGroup));
+        _totalRowWidth = Mathf.Max(_framesPerGroup, EditorGUILayout.IntField("Total Row Width (Tiles)", _totalRowWidth));
+        GUILayout.EndHorizontal();
+        _horizontalFrames = EditorGUILayout.Toggle("Horizontal?", _horizontalFrames);
+        GUILayout.EndVertical();
+
+        if (_texture == null) return;
+
         int frameStride = _totalRowWidth / _framesPerGroup;
+        GUILayout.Label($"Calculated Stride: Every {frameStride} tiles", EditorStyles.miniLabel);
+
+        // 2. Navigation Control
+        GUILayout.Space(10);
+        GUILayout.Label($"Current Cursor: ({_cursorX}, {_cursorY})", EditorStyles.boldLabel);
         
-        EditorGUILayout.Space();
-        GUILayout.Label("Navigation", EditorStyles.boldLabel);
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("<< Prev Tile")) MoveCursor(-1);
+        if (GUILayout.Button("Next Tile >>")) MoveCursor(1);
+        GUILayout.EndHorizontal();
         
-        EditorGUILayout.BeginHorizontal();
-        _cursorX = EditorGUILayout.IntField("Cursor X", _cursorX);
-        _cursorY = EditorGUILayout.IntField("Cursor Y", _cursorY);
-        EditorGUILayout.EndHorizontal();
-        
-        EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button("←")) MoveCursor(-1);
-        if (GUILayout.Button("→")) MoveCursor(1);
-        EditorGUILayout.EndHorizontal();
-        
-        EditorGUILayout.Space();
-        GUILayout.Label($"Current Sprite: {GetCurrentSpriteName(frameStride)}", EditorStyles.helpBox);
-        
-        EditorGUILayout.Space();
+        GUILayout.BeginHorizontal();
+        // FLIPPED LOGIC: Y=0 is TOP. So "Row Down" means INCREASING Y.
+        if (GUILayout.Button("Row Up")) { _cursorY--; _cursorX = 0; SanitizeCursor(); }
+        if (GUILayout.Button("Row Down")) { _cursorY++; _cursorX = 0; SanitizeCursor(); }
+        GUILayout.EndHorizontal();
+
+        // 3. Visualization
         DrawPreview(frameStride);
+
+        // 4. Action
+        GUILayout.Space(10);
         
-        EditorGUILayout.Space();
-        GUILayout.Label("Rename Settings", EditorStyles.boldLabel);
-        
+        // Find current name for display
+        string currentSpriteName = GetCurrentSpriteName(frameStride);
+        GUILayout.Label($"Current Tile Name: {currentSpriteName}", EditorStyles.helpBox);
+
         GUI.SetNextControlName("NameField");
-        _currentName = EditorGUILayout.TextField("Animation Name", _currentName);
-        
+        _currentName = EditorGUILayout.TextField("Name for this Sequence", _currentName);
+
         // Handle ENTER key
         Event e = Event.current;
         bool pressedEnter = e.type == EventType.KeyDown && (e.keyCode == KeyCode.Return || e.keyCode == KeyCode.KeypadEnter);
@@ -116,29 +122,25 @@ public class SmartSpriteRenamer : EditorWindow
         string path = AssetDatabase.GetAssetPath(_texture);
         TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
         if (importer == null) return "-";
-        
-        try
+
+        // Try using DataProvider first for accuracy, fallback to importer.spritesheet
+        var factory = new SpriteDataProviderFactories();
+        factory.Init();
+        var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
+        if (dataProvider != null)
         {
-            var factory = new SpriteDataProviderFactories();
-            var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
-            if (dataProvider != null)
+            dataProvider.InitSpriteEditorDataProvider();
+            var rects = dataProvider.GetSpriteRects();
+            
+            int totalRows = _texture.height / _tileHeight;
+            int actualY = (totalRows - 1) - _cursorY;
+            Rect targetRect = new Rect(_cursorX * _tileWidth, actualY * _tileHeight, _tileWidth, _tileHeight);
+            
+            foreach (var r in rects)
             {
-                dataProvider.InitSpriteEditorDataProvider();
-                var rects = dataProvider.GetSpriteRects();
-                
-                int totalRows = _texture.height / _tileHeight;
-                int actualY = (totalRows - 1) - _cursorY;
-                
-                Rect targetRect = new Rect(_cursorX * _tileWidth, actualY * _tileHeight, _tileWidth, _tileHeight);
-                Vector2 center = targetRect.center;
-                
-                foreach (var rect in rects)
-                {
-                    if (rect.rect.Contains(center)) return rect.name;
-                }
+                if (r.rect.Contains(targetRect.center)) return r.name;
             }
         }
-        catch { }
         
         return "(No Slice)";
     }
@@ -194,69 +196,65 @@ public class SmartSpriteRenamer : EditorWindow
             return;
         }
 
-        // Prefer Sprite Editor Data Provider API to preserve sprite IDs
-        bool usedDataProvider = false;
-        try
+        // Use ISpriteEditorDataProvider for robust saving that mimics the Sprite Editor Window
+        var factory = new SpriteDataProviderFactories();
+        factory.Init();
+        var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
+        
+        if (dataProvider != null)
         {
-            var factory = new SpriteDataProviderFactories();
-            var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
-            if (dataProvider != null)
+            dataProvider.InitSpriteEditorDataProvider();
+            var spriteRects = dataProvider.GetSpriteRects().ToList();
+            bool changed = false;
+            int totalRows = _texture.height / _tileHeight;
+
+
+            for (int i = 0; i < _framesPerGroup; i++)
             {
-                dataProvider.InitSpriteEditorDataProvider();
-                var rects = new List<SpriteRect>(dataProvider.GetSpriteRects());
+                int tX = _cursorX;
+                int tY = _cursorY;
 
-                int totalRows = _texture.height / _tileHeight;
-                bool changed = false;
+                if (_horizontalFrames) tX += (i * stride);
+                else tY += (i * stride);
 
-                for (int i = 0; i < _framesPerGroup; i++)
+                int actualY = (totalRows - 1) - tY;
+                Rect targetRect = new Rect(tX * _tileWidth, actualY * _tileHeight, _tileWidth, _tileHeight);
+                Vector2 targetCenter = targetRect.center;
+
+                // Find match in existing rects
+                for (int k = 0; k < spriteRects.Count; k++)
                 {
-                    int tX = _cursorX;
-                    int tY = _cursorY;
-                    if (_horizontalFrames) tX += (i * stride); else tY += (i * stride);
-                    int actualY = (totalRows - 1) - tY;
-
-                    Rect targetRect = new Rect(tX * _tileWidth, actualY * _tileHeight, _tileWidth, _tileHeight);
-                    Vector2 targetCenter = targetRect.center;
-
-                    for (int k = 0; k < rects.Count; k++)
+                    if (spriteRects[k].rect.Contains(targetCenter))
                     {
-                        if (rects[k].rect.Contains(targetCenter))
-                        {
-                            string oldName = rects[k].name;
-                            var rect = rects[k];
-                            rect.name = $"{_currentName}_{i}";
-                            rects[k] = rect;
-                            changed = true;
-                            Debug.Log($"[SmartRenamer] Renaming slice at ({tX},{tY}): '{oldName}' -> '{rect.name}'");
-                            break;
-                        }
+                        var rect = spriteRects[k];
+                        string oldName = rect.name;
+                        rect.name = $"{_currentName}_{i}"; // e.g., Water_0, Water_1
+                        spriteRects[k] = rect; // Update struct in list
+                        
+                        changed = true;
+
+                        Debug.Log($"[SmartRenamer] Renaming slice at ({tX},{tY}): '{oldName}' -> '{rect.name}'");
+                        break;
                     }
                 }
+            }
 
-                if (changed)
-                {
-                    AssetDatabase.StartAssetEditing();
-                    dataProvider.SetSpriteRects(rects.ToArray());
-                    dataProvider.Apply();
-                    EditorUtility.SetDirty(importer);
-                    importer.SaveAndReimport();
-                    Debug.Log($"[SmartRenamer] Successfully saved {path}");
-                }
-                else
-                {
-                    Debug.LogWarning("[SmartRenamer] No matching slices were found to rename. Ensure the texture is sliced first!");
-                }
+            if (changed)
+            {
+                // Apply changes via DataProvider
+                dataProvider.SetSpriteRects(spriteRects.ToArray());
+                dataProvider.Apply(); // Commits to ITextureDataProvider
 
-                usedDataProvider = true;
+                // Save to AssetDatabase
+                var assetImporter = dataProvider.targetObject as AssetImporter;
+                if (assetImporter != null)
+                {
+                    assetImporter.SaveAndReimport();
+                    Debug.Log($"[SmartRenamer] Successfully SAVED {path} via SpriteDataProvider.");
+                }
             }
         }
-        catch { /* fallback below */ }
-        finally
-        {
-            try { AssetDatabase.StopAssetEditing(); } catch { }
-        }
-
-        if (!usedDataProvider)
+        else
         {
             Debug.LogError("[SmartRenamer] Could not access sprite data provider. Make sure the texture is properly imported as a sprite.");
         }

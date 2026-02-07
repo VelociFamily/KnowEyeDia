@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 using UnityEngine.Tilemaps;
+using UnityEditor.U2D.Sprites;
+using System.Linq;
 
 public class TileAutomator
 {
@@ -13,7 +15,13 @@ public class TileAutomator
         TextureImporter importer = AssetImporter.GetAtPath(path) as TextureImporter;
         if (importer == null) { Debug.LogError("Texture not found at " + path); return; }
 
-        var sheet = importer.spritesheet;
+        // Use ISpriteEditorDataProvider
+        var factory = new UnityEditor.U2D.Sprites.SpriteDataProviderFactories();
+        factory.Init();
+        var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
+        dataProvider.InitSpriteEditorDataProvider();
+        
+        var spriteRects = dataProvider.GetSpriteRects().ToList();
         bool changed = false;
 
         // Map X,Y indices to Names (Assuming 0,0 is Bottom-Left)
@@ -30,9 +38,10 @@ public class TileAutomator
         // Helper to find sprite by name later
         Dictionary<string, Sprite> spriteLookup = new Dictionary<string, Sprite>();
 
-        for (int i = 0; i < sheet.Length; i++)
+        for (int i = 0; i < spriteRects.Count; i++)
         {
-             string oldName = sheet[i].name;
+             var rect = spriteRects[i];
+             string oldName = rect.name;
              // Expected format: Floors_Tiles_0_0
              string[] parts = oldName.Split('_');
              if (parts.Length >= 4) 
@@ -42,7 +51,8 @@ public class TileAutomator
                      Vector2Int key = new Vector2Int(x, y);
                      if (names.ContainsKey(key))
                      {
-                         sheet[i].name = names[key];
+                         rect.name = names[key];
+                         spriteRects[i] = rect;
                          changed = true;
                      }
                  }
@@ -51,8 +61,9 @@ public class TileAutomator
 
         if (changed)
         {
-            importer.spritesheet = sheet;
-            AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+            dataProvider.SetSpriteRects(spriteRects.ToArray());
+            dataProvider.Apply();
+            importer.SaveAndReimport();
             Debug.Log("Renamed Sprites successfully.");
         }
 

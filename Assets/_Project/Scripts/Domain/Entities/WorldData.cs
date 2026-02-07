@@ -41,6 +41,7 @@ namespace KnowEyeDia.Domain.Entities
         Stone = 3,
         Water = 4,
         Desert = 5,
-        Snow = 6
+        Snow = 6,
+        Island = 7
     }
 }

@@ -6,8 +6,9 @@ This document defines the process for generating, cleaning, and integrating art 
 *   **Art Style:** Retro Pixel Art.
 *   **Perspective:** Top-down or Pseudo-Isometric (2.5D) for world nodes.
 *   **Dimensions:**
-    *   **Items (Inventory):** 32x32 pixels (upscaled from 16x16 or native).
+    *   **Items (Inventory/Hotbar):** 32x32 pixels (upscaled from 16x16 or native).
     *   **World Nodes:** 32x32 or 48x48 pixels.
+    *   **Wiki/Marketing:** Upscale 400% or 800% (128px or 256px) using Nearest Neighbor.
 *   **Background:** Transparent (preferred) or Solid White (#FFFFFF) for post-processing.
 
 ## 2. Tools

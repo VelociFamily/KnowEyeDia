@@ -31,6 +31,6 @@ I have implemented a procedural map generation system using Perlin Noise with bi
 ## Configuration
 
 You can tweak the generation parameters in `WorldPresenter.cs`:
-*   `scale`: Controls the zoom of the noise (smaller number = larger biomes, but I tuned it to `4f` for the 128 size to give ~32 tile features).
+*   `scale`: Controls the zoom of the noise (smaller number = larger biomes, I tuned it to `0.02f` for the 128 size to give large ~32+ tile features).
 *   `width/depth`: Map size.
 *   `seed`: Currently random, but can be fixed.

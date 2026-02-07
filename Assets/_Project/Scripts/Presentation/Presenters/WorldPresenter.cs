@@ -26,7 +26,7 @@ namespace KnowEyeDia.Presentation.Presenters
                 width: 128,
                 depth: 128,
                 seed: Random.Range(0, 10000),
-                scale: 4f,
+                scale: 0.02f,
                 maxElevation: 1 // elevation not strictly used for visuals anymore, but kept for logic
             );
             

@@ -46,6 +46,7 @@ namespace KnowEyeDia.Editor
             changed |= LinkMap(so, "_desertMap", grid, "Desert");
             changed |= LinkMap(so, "_dirtMap", grid, "Dirt");
             changed |= LinkMap(so, "_waterMap", grid, "Water");
+            changed |= LinkMap(so, "_islandMap", grid, "Island");
 
             // Link Assets
             changed |= LinkAsset(so, "_snowTile", "Snow Tile Rule");
@@ -54,6 +55,7 @@ namespace KnowEyeDia.Editor
             changed |= LinkAsset(so, "_desertTile", "Desert Rule Tile");
             changed |= LinkAsset(so, "_dirtTile", "Dirt Rule Tile");
             changed |= LinkAsset(so, "_waterTile", "Water Tile");
+            changed |= LinkAsset(so, "_islandTile", "Island Rule Tile");
 
             if (changed)
             {
