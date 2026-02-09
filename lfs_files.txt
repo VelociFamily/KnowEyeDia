@@ -1,0 +1,519 @@
+f1c389d4f9 * Assets/Art/Palettes/Dirt Tile.prefab
+a57702539d * Assets/Art/Sprites/Characters/Astronaut_Placeholder.png
+5d15513a6d * Assets/Art/Sprites/Environment/Node_Coal_Finite.png
+16a7d6b744 * Assets/Art/Sprites/Environment/Node_Coal_Infinite.png
+04290275eb * Assets/Art/Sprites/Environment/Node_Copper_Finite.png
+3b8749f590 * Assets/Art/Sprites/Environment/Node_Copper_Infinite.png
+c4a3fe207f * Assets/Art/Sprites/Environment/Node_Iron_Finite.png
+fc438e9aea * Assets/Art/Sprites/Environment/Node_Iron_Infinite.png
+7da67104f4 * Assets/Art/Sprites/Environment/Node_Stone_Finite.png
+b6f02e1d64 * Assets/Art/Sprites/Environment/Node_Stone_Infinite.png
+7b9cdc682b * Assets/Art/Sprites/Environment/Node_Tree_Finite.png
+04a29a0fd7 * Assets/Art/Sprites/Environment/Node_Tree_Infinite.png
+347a6b6e5a * Assets/Art/Sprites/Items/Item_Coal.png
+be01f27fe2 * Assets/Art/Sprites/Items/Item_CopperIngot.png
+ed688f363c * Assets/Art/Sprites/Items/Item_CopperOre.png
+eeae4525ec * Assets/Art/Sprites/Items/Item_IronIngot.png
+81d97250bf * Assets/Art/Sprites/Items/Item_IronOre.png
+0c013cace2 * Assets/Art/Sprites/Items/Item_Stone.png
+8ea607a3d2 * Assets/Art/Sprites/Items/Item_Wood.png
+4789b43834 * Assets/DefaultVolumeProfile.asset
+9c6f6fae9c * Assets/Scenes/ProceduralScene.unity
+e7845269f5 * Assets/Scenes/SampleScene.unity
+e4dc8315a4 * Assets/Settings/Foward Renderer.asset
+f6fb3e91aa * Assets/Settings/Scenes/URP2DSceneTemplate.unity
+b190b10739 * Assets/Settings/UniversalRP.asset
+2a7160bab5 * Assets/UniversalRenderPipelineGlobalSettings.asset
+fb9693f24a * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/Artisan.png
+c0dea4b6cb * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/crops .png
+977b4d8e00 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/Outdoor Decoration.png
+5e05cf8cb7 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building.png
+19b7b4b00a * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building_industrial.png
+0ef6dbd112 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/fungus.png
+7dbd23d1ab * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/mineral.png
+9ad60df668 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/furniture&tech/furniture.png
+5c8aadfc92 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/player/character.png
+1950e2776d * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/farm_Land.png
+357702d514 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/land.png
+faa3aa5b65 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/path.png
+5ce54ba5a0 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/room builder/Room_Builder.png
+3d1176b909 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/water.png
+25611da9d0 * Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/world barrier.png
+212f6d998d * Assets/_Project/Art/Sprites/Gemini_Generated_Image_qub6cuqub6cuqub6.png
+3756805476 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Down-Sheet.png
+7304bf5968 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Side-Sheet.png
+15f2b4ddd5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Up-Sheet.png
+87cc7ff2d6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Down-Sheet.png
+4c5b85d760 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Side-Sheet.png
+c57c568165 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Up-Sheet.png
+8dc99fb0a4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Down-Sheet.png
+168a93f9ac * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Side-Sheet.png
+f5cd37f008 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Up-Sheet.png
+53059de919 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Down-Sheet.png
+609c9bb2ae * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Side-Sheet.png
+4300740862 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Collect_Base/Collect_Up-Sheet.png
+b00d51da91 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Down-Sheet.png
+900f7f84ba * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Side-Sheet.png
+0396400d64 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Crush_Base/Crush_Up-Sheet.png
+4f67348d43 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Death_Base/Death_Down-Sheet.png
+5f3712aea8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Death_Base/Death_Side-Sheet.png
+2065ee6f5d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Death_Base/Death_Up-Sheet.png
+201ad2e204 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Down-Sheet.png
+1349a37397 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Side-Sheet.png
+e95e26a709 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Up-Sheet.png
+f205fcc336 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Down-Sheet.png
+48f126dd9f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Side-Sheet.png
+faa2767001 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Hit_Base/Hit_Up-Sheet.png
+bf4d3b6ab3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down-Sheet.png
+4cbfcbb3dd * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png
+c3f35fc823 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png
+f29d8550f2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Down-Sheet.png
+5280b390af * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Side-Sheet.png
+b0f5cc527f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Top-Sheet.png
+b007d2184c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Run_Base/Run_Down-Sheet.png
+c6b081c575 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Run_Base/Run_Side-Sheet.png
+5738b852a5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Run_Base/Run_Up-Sheet.png
+2c09d7338c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Down-Sheet.png
+e2446a4fe5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Side-Sheet.png
+bc7540c68a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Slice_Base/Slice_Up-Sheet.png
+f15e09d43d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down-Sheet.png
+ad88d53f12 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png
+2ae2495755 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up-Sheet.png
+49dfb395b3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Down-Sheet.png
+3f10c31204 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Side-Sheet.png
+9b5e65b6b0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Watering_Base/Watering_Up-Sheet.png
+7fdac9ecb5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Rogue/Death/Death-Sheet.png
+fed341ee7a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Rogue/Idle/Idle-Sheet.png
+4d0c94c52c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Rogue/Run/Run-Sheet.png
+de22b0c829 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Shaman/Death/Death-Sheet.png
+0a4adf1fad * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Shaman/Idle/Idle-Sheet.png
+d5fbce6671 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Shaman/Run/Run-Sheet.png
+765bc50015 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Warrior/Death/Death-Sheet.png
+ddb52a59d5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Warrior/Idle/Idle-Sheet.png
+4cf4366321 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc - Warrior/Run/Run-Sheet.png
+f84b800994 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc/Death/Death-Sheet.png
+9585cdedf5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc/Idle/Idle-Sheet.png
+3e7ceba4ec * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Orc Crew/Orc/Run/Run-Sheet.png
+9d2064967a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Base/Death/Death-Sheet.png
+d81861bd80 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Base/Idle/Idle-Sheet.png
+6be9ced530 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Base/Run/Run-Sheet.png
+501a33ff05 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Death/Death-Sheet.png
+50f64dd4c6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Idle/Idle-Sheet.png
+f656931af1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Mage/Run/Run-Sheet.png
+31ef4b1da4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Death/Death-Sheet.png
+3189e401a2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Idle/Idle-Sheet.png
+f8535f3be3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Run/Run-Sheet.png
+2ef39a9cc1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Death/Death-Sheet.png
+a47028c03f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Idle/Idle-Sheet.png
+c36297d021 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Run/Run-Sheet.png
+17d7018341 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Knight/Death/Death-Sheet.png
+f9a41df5ad * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Knight/Idle/Idle-Sheet.png
+1df87c85fe * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Knight/Run/Run-Sheet.png
+6b927d1999 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Rogue/Death/Death-Sheet.png
+33aa30ab07 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Rogue/Idle/Idle-Sheet.png
+d307595821 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Rogue/Run/Run-Sheet.png
+67f1380e73 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Wizzard/Death/Death-Sheet.png
+36364a2012 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Wizzard/Idle/Idle-Sheet.png
+c4bd31327e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Entities/Npc's/Wizzard/Run/Run-Sheet.png
+2f050c402d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Animated water/Ripple.asset
+050cf00074 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Animated/Pan_01-Sheet.png
+9e502c3ad5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Animated/Pan_02-Sheet.png
+ca83d30c1d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Animated/Pan_03-Sheet.png
+ed25cbe229 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Animated/Pan_04-Sheet.png
+c2fe5f0249 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Animated/Pan_05-Sheet.png
+19f43283d2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Dungeon_Props.png
+a45dfec687 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Esoteric.png
+02540c850b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Farm.png
+a9455be5f7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Furniture.png
+10f9fbfee1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Meat.png
+4ae4324e05 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Pan.png
+46cb1578de * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Resources.png
+37b0e1bd02 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Rocks.png
+a4ef23544f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Shadows.png
+d41612f861 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Tools.png
+81267c215f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_01/Size_02.png
+d03005dd4e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_01/Size_03.png
+7a2439152d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_01/Size_04.png
+dfe0cb0f29 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_01/Size_05.png
+0000ffc514 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_02/Size_02.png
+28cae60c57 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_02/Size_03.png
+851ef18c37 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_02/Size_04.png
+75f49cd205 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_02/Size_05.png
+8703808050 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_02.png
+4f5d4f63ae * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_03-export.png
+4f5d4f63ae * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_03.png
+36f5f4dea7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_04-export-export.png
+36f5f4dea7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_04-export.png
+6ae5e3236a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_04.png
+99ee966591 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Trees/Model_03/Size_05.png
+1a3bdf11e5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Props/Static/Vegetation.png
+4403a6896a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Floors.png
+d8dacb0e07 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Props.png
+2e1ab98c50 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Roofs.png
+38fc6615b6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Shadows.png
+e4af432e12 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Walls.png
+8607f4d7ae * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Alchemy/Alchemy_Table_01-Sheet.png
+ccf68b5088 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Alchemy/Alchemy_Table_02-Sheet.png
+075768af84 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Alchemy/Alchemy_Table_03-Sheet.png
+61b218c54d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Anvil/Anvil.png
+eab117283c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Anvil/Anvil_01-Sheet.png
+58c44f5900 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Anvil/Anvil_02-Sheet.png
+56e3438c70 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Anvil/Anvil_03-Sheet.png
+ff0ef3d972 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire.png
+5971b48387 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_01-Sheet.png
+64ad646141 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_02-Sheet.png
+21bc1d9102 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_03-Sheet.png
+37b580fe07 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_04-Sheet.png
+1b211569da * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_05-Sheet.png
+5ba1c7847c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_06-Sheet.png
+b461266ea1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_07-Sheet.png
+3dd8e86b19 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_08-Sheet.png
+5a4f49c77b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_09-Sheet.png
+03df8db75f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Bonfire_10-Sheet.png
+1712667a4d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Fire_01-Sheet.png
+cf7ab0f820 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Fire_02-Sheet.png
+0fc2cd5182 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire/Smoke-Sheet.png
+e4b80f2d0c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_01-Sheet.png
+2422f864e1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_02.png
+b067ca2212 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_03.png
+aa7185e94c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Butchery/Butchery_04.png
+12c996bd28 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_01.png
+4334718dec * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_02.png
+32e82b3145 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_03-Sheet.png
+3d3266ac5d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Cooker/Cooker_04-Sheet.png
+3c05775156 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Cooking Station.png
+1b3d8b8e9f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Estructure.png
+4586a08d4e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Grill/Grill_01-Sheet.png
+5f6d204c44 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Grill/Grill_02-Sheet.png
+e74a7c8000 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Grill/Grill_03-Sheet.png
+722aa5041d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Cooking Station/Grill/Grill_04-Sheet.png
+ed483caaef * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Bricks_01-Sheet.png
+3850c1a079 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Bricks_02-Sheet.png
+c8ffed30ad * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Bricks_03-Sheet.png
+a5814ce312 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Furnace.png
+b0ab13632c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Iron_01-Sheet.png
+c6aad128fa * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Iron_02-Sheet.png
+ffcef8d5e9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Iron_03-Sheet.png
+c9be1bf73f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Stone_01-Sheet.png
+bc565e9e65 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Stone_02-Sheet.png
+4f6327a1a2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Furnace/Stone_03-Sheet.png
+b49c43161a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Sawmill/Base.png
+1cb3c3b18d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Sawmill/Level_1.png
+23f6db8567 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Sawmill/Level_2-Sheet.png
+b4e20337f9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Sawmill/Level_3-Sheet.png
+06f07c65de * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Structures/Stations/Workbench/Workbench.png
+11ae371cc3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Dungeon_Tiles.png
+9c30bb02ff * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Floors_Tiles.png
+e5bc501e81 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Island.asset
+21ddee9775 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Wall_Tiles.png
+1ce831798c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Wall_Variations.png
+d7d193f4ab * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/Water_tiles.png
+0c3581c12e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_BotLeft_0.asset
+432ffdf309 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_BotRight_0.asset
+5d928be7e9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_Bot_0.asset
+a8bcf3fd7f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_CenterDark_0.asset
+1d395b6725 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_Center_0.asset
+bc8815ef5f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_InnerBotLeft_0.asset
+cc475a5650 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_InnerBotRight_0.asset
+808f2566f9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_InnerTopLeft_0.asset
+9090d1d6ef * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_InnerTopRight_0.asset
+573b81b0ca * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_Left_0.asset
+b4b6563d90 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_Right_0.asset
+09fe7cf63b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_TopLeft_0.asset
+d0f78a48df * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_TopRight_0.asset
+e34c2d463a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Desert_Top_0.asset
+fb91f6c78e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_BotLeft_0.asset
+a221b81057 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_BotRight_0.asset
+51aa8f0c76 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_Bot_0.asset
+75bf5591b7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_CenterDark_0.asset
+1fcc5ee00e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_Center_0.asset
+f52334c6e3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_InnerBotLeft_0.asset
+76fb9bb2b7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_InnerBotRight_0.asset
+ef78164c39 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_InnerTopLeft_0.asset
+fec192f35c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_InnerTopRight_0.asset
+8fb46c341c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_Left_0.asset
+4943b031c1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_Right_0.asset
+b998686353 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_TopLeft_0.asset
+52b737f918 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Dirt_Top_0.asset
+0e7ec74c13 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_100.asset
+4c45d9cd34 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_101.asset
+487fde8821 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_102.asset
+5260c08977 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_103.asset
+f7141a6724 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_104.asset
+8e8c64edac * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_105.asset
+bad89b1588 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_106.asset
+4f9b7ef3f4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_107.asset
+a9af19a74b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_108.asset
+7b43d92c3f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_109.asset
+59354d01cc * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_110.asset
+4f1fe34544 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_111.asset
+958b65f980 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_112.asset
+4002eaeacf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_113.asset
+468a0d86aa * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_114.asset
+a8caef20e8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_115.asset
+f413280235 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_116.asset
+7009fa19b2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_118.asset
+21a8f5ab4e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_119.asset
+99b2598f6d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_121.asset
+5a8ec5d1ad * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_122.asset
+b9605ccdc9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_124.asset
+a791540c30 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_125.asset
+b7c78c0f13 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_127.asset
+71047666d5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_128.asset
+c4616096de * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_130.asset
+dfc46e867a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_131.asset
+09e982a7a1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_133.asset
+c5ea1c964e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_134.asset
+f716ea8177 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_14.asset
+6318948700 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_141.asset
+1d4e294e3a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_145.asset
+c152eff3de * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_146.asset
+3d263b66f2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_150.asset
+b8ae099c8c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_152.asset
+2db440d7cf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_153.asset
+3ea02e0ec0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_154.asset
+3a98ee79cf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_157.asset
+ef2bc8cf93 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_158.asset
+61c42d446d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_159.asset
+0baaf27f3e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_16.asset
+290ac23641 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_163.asset
+495384b4d3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_168.asset
+57e013a40a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_171.asset
+ac789c1ce0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_173.asset
+0897fe7c37 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_174.asset
+9b93aac2b1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_176.asset
+8f50ba46b3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_177.asset
+ffb102fd96 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_178.asset
+f357cbd2e1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_179.asset
+dc03925d28 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_180.asset
+2d938bf1f6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_181.asset
+c5df240de3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_182.asset
+2645ac6cd9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_183.asset
+9001f79235 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_184.asset
+185b7e96d4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_185.asset
+700e0eb541 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_186.asset
+e1755b16a7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_187.asset
+a81672fbbe * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_188.asset
+1ebbdcecf1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_189.asset
+06b18ebf4b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_19.asset
+daf37accdd * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_190.asset
+b741cd4102 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_191.asset
+a0fb634620 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_192.asset
+33027de0b8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_193.asset
+be7993f644 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_194.asset
+c77cf322ec * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_195.asset
+6741713ab8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_196.asset
+c5dd236e68 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_197.asset
+dd4174e04e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_198.asset
+08d5c777c7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_199.asset
+d7478c638c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_20.asset
+0c0991b3f2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_200.asset
+3f035dee7a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_201.asset
+daf67efaa1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_202.asset
+a8e0d194e1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_203.asset
+3ee48df209 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_204.asset
+db615fe645 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_205.asset
+9eacfb7f4d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_206.asset
+02c83a8384 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_207.asset
+d0d46d5f86 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_208.asset
+f85bb471fc * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_209.asset
+08c60bad0d * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_210.asset
+b765146653 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_211.asset
+5753e4cd20 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_212.asset
+7679b37920 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_213.asset
+c72b93d473 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_214.asset
+1bf430fa16 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_215.asset
+39a73f0712 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_216.asset
+52e3801899 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_217.asset
+926775288f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_218.asset
+eed07d8552 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_219.asset
+2b9a5f2fb6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_22.asset
+21305e0456 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_220.asset
+ae65b6f705 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_221.asset
+780c50d178 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_222.asset
+363ea25652 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_223.asset
+a73c1c33cc * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_224.asset
+f1bca8ec10 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_225.asset
+a8900b63ad * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_226.asset
+29c6094b06 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_227.asset
+ba7772127b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_228.asset
+65af330b9a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_229.asset
+79ef97bc91 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_23.asset
+87b56ae434 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_230.asset
+2e3b77bbb0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_231.asset
+7dca35cdc8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_232.asset
+11e342a591 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_233.asset
+ecb0d89ead * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_234.asset
+3264fed595 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_235.asset
+9358bef490 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_236.asset
+ddfaca7001 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_237.asset
+3dff4d8099 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_238.asset
+1c14584a8f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_239.asset
+530a8df7fb * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_24.asset
+dc6078319c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_241.asset
+b772e5157a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_242.asset
+6b3636c0ea * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_243.asset
+deb999ead3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_245.asset
+1bf59d67a9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_246.asset
+b1760302c3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_247.asset
+2b015c4107 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_248.asset
+4f83aa5866 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_249.asset
+f2f36fc2cf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_25.asset
+092ee73ecf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_250.asset
+cbff22ab88 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_251.asset
+894ed53b1b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_252.asset
+5feb4adf8e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_253.asset
+d773550628 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_254.asset
+3e3416b513 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_255.asset
+57c544e9e1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_256.asset
+fbf4b3704b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_257.asset
+d9b657e472 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_258.asset
+086212d1ab * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_259.asset
+9ab435de64 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_26.asset
+6fcdb046ca * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_261.asset
+717aa6a0b7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_263.asset
+9c784be948 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_27.asset
+8db1bab1aa * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_28.asset
+0fe08c1259 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_35.asset
+e4745e5b06 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_36.asset
+b03cef52e9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_37.asset
+4ae7969148 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_38.asset
+ea8a1c762a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_39.asset
+e8ed5a1a68 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_52.asset
+d1906a7ed5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_53.asset
+cdf2af0522 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_54.asset
+3d5c7de82b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_55.asset
+65883da047 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_56.asset
+e7853e15aa * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_59.asset
+7afbdda014 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_60.asset
+2aeb947da4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_63.asset
+8901df109a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_65.asset
+768170f476 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_66.asset
+3fceaf16d8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_67.asset
+7b6efeebea * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_68.asset
+b417527efd * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_69.asset
+ee6b6f4a0e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_70.asset
+01805f8561 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_71.asset
+6d03d76c2b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_72.asset
+8c1ea40cd5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_73.asset
+a5d1409478 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_74.asset
+fc1876d4a0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_75.asset
+c91b7b1783 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_76.asset
+050ce4319a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_77.asset
+2c6a612686 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_78.asset
+066f888689 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_79.asset
+96e029b1d9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_80.asset
+1a250d0941 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_81.asset
+5847698b9c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_82.asset
+66cd4a2e5b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_83.asset
+42a8f70a3b * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_84.asset
+b47c557be0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_85.asset
+d64092ce50 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_86.asset
+c9548167e8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_87.asset
+ef8130aa84 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_88.asset
+9320677b92 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_89.asset
+973280ecb7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_90.asset
+7f7d2628b7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_91.asset
+1c49d63b50 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_92.asset
+0e4aa1cb1e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_93.asset
+c97c87a091 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_94.asset
+3172b486a2 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_95.asset
+1e3b08fe31 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_96.asset
+c9d53313d0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_97.asset
+44fe0f1a8e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_98.asset
+28dda014ee * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Floors_Tiles_99.asset
+8d0b4fd3ee * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_BotRight_0.asset
+f3ab9be6f9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_Bot_0.asset
+6e11713069 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_CenterDark_0.asset
+f3280db949 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_Center_0.asset
+f025d22b96 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerBotLeft_0.asset
+d8be8d4d32 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerBotRightB_0.asset
+376c2a4c7f * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerBotRight_0.asset
+38678198d8 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerTopLeft_0.asset
+5c07b00288 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerTopRightB_0.asset
+3cac0d8ec7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_InnerTopRight_0.asset
+5390fc0b89 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_Left_0.asset
+d208c6795e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_Right_0.asset
+4195dc4c76 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_TopLeft_0.asset
+d07129c3e0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Grass_Top_0.asset
+756ad3ddd0 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_BotLeft_0.asset
+f7db9977f3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_BotRight_0.asset
+08c0653042 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_Bot_0.asset
+d7e640c322 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_CenterDark_0.asset
+e9606d7438 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_Center_0.asset
+fee81a81c6 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_InnerBotLeft_0.asset
+43cb1781e5 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_InnerBotRight_0.asset
+bc1b04f326 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_InnerTopLeft_0.asset
+60e30c0254 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_InnerTopRight_0.asset
+b31863b355 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_Left_0.asset
+9806850ba7 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_Right_0.asset
+71dbcf97f1 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_TopLeft_0.asset
+4e3ac18621 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_TopRight_0.asset
+47f6e3f398 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Sand_Top_0.asset
+e84619424c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_BotLeft_0.asset
+7d8970e81c * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_BotRight_0.asset
+46a971290e * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_Bot_0.asset
+06873146cf * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_CenterDark_0.asset
+73aede7c73 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_Center_0.asset
+7eb69405c3 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_InnerBotLeft_0.asset
+c2bb247467 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_InnerBotRight_0.asset
+f66f9bcc04 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_InnerTopLeft_0.asset
+85a07f7c72 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_InnerTopRight_0.asset
+1b085be679 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_Left_0.asset
+882e1537e9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_Right_0.asset
+44ddc36bae * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_TopLeft_0.asset
+2a07a8eedb * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_TopRight_0.asset
+148097c535 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Snow_Top_0.asset
+9f476b6b48 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Stone_FullA_0.asset
+aea292bd56 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Stone_MissingMidBot_0.asset
+26f70a30c4 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Environment/Tilesets/tilesets/Stone_MissingMidLeft_0.asset
+bda3b1ebcb * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Weapons/Bone/Bone.png
+d135496bc9 * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Weapons/Hands/Hands.png
+980e01456a * Assets/_Project/Art/Sprites/Pixel Crawler - Free Pack/Weapons/Wood/Wood.png
+154eed88c9 * Assets/_Project/Art/Sprites/Tile Rule Sets/Desert Rule Tile.asset
+5bed7c31de * Assets/_Project/Art/Sprites/Tile Rule Sets/Dirt Rule Tile.asset
+9efc54958f * Assets/_Project/Art/Sprites/Tile Rule Sets/Grass Rule Tile.asset
+1f965efe84 * Assets/_Project/Art/Sprites/Tile Rule Sets/Island Rule Tile.asset
+55b984efcd * Assets/_Project/Art/Sprites/Tile Rule Sets/Snow Tile Rule.asset
+d7d1c3045a * Assets/_Project/Art/Sprites/Tile Rule Sets/Stone Tile Rule.asset
+d3162789f1 * Assets/_Project/Art/Sprites/Tile Rule Sets/Water Tile.asset
+a6c4ae62e9 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Artisan_free.png
+e792bf3b08 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Outdoor Decoration_free.png
+2c724a3b02 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/building.png
+4a25567bf5 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/item 16 x16.png
+c0356e9417 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/furniture.png
+8a754b79e3 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/tech.png
+5c8aadfc92 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/player/character.png
+1950e2776d * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/farm_Land.png
+357702d514 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/land.png
+faa3aa5b65 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/path.png
+5ce54ba5a0 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/room builder/Room_Builder.png
+3d1176b909 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/water.png
+25611da9d0 * Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/world barrier.png
+1f8924b531 * Assets/_Project/Art/Sprites/grass_tile_01.png
+f5ae400556 * Assets/_Project/Art/Sprites/player_idle_01.png
+aeedeb3243 * ProjectSettings/AudioManager.asset
+40e65dd214 * ProjectSettings/ClusterInputManager.asset
+b7c9a9dc08 * ProjectSettings/DynamicsManager.asset
+2e65f13693 * ProjectSettings/EditorBuildSettings.asset
+0b5c614ba2 * ProjectSettings/EditorSettings.asset
+35c8789412 * ProjectSettings/GraphicsSettings.asset
+7a1bb836a1 * ProjectSettings/InputManager.asset
+1e8379a461 * ProjectSettings/MemorySettings.asset
+aba89fd1a1 * ProjectSettings/MultiplayerManager.asset
+80106cfa7e * ProjectSettings/NavMeshAreas.asset
+46395def99 * ProjectSettings/NetworkManager.asset
+fe29386343 * ProjectSettings/PackageManagerSettings.asset
+66f5310616 * ProjectSettings/Packages/com.unity.dedicated-server/MultiplayerRolesSettings.asset
+50e61d70bc * ProjectSettings/Physics2DSettings.asset
+29c125923f * ProjectSettings/PresetManager.asset
+c47a6d368c * ProjectSettings/ProjectSettings.asset
+79b05cb349 * ProjectSettings/QualitySettings.asset
+5c432c9c73 * ProjectSettings/ShaderGraphSettings.asset
+5124359332 * ProjectSettings/TagManager.asset
+1a83e54adb * ProjectSettings/TimeManager.asset
+c317fe22b9 * ProjectSettings/URPProjectSettings.asset
+b7dd1e8290 * ProjectSettings/UnityConnectSettings.asset
+f066c64839 * ProjectSettings/VFXManager.asset
+e199cdfa6a * ProjectSettings/VersionControlSettings.asset
+edd2beb4a2 * ProjectSettings/XRSettings.asset

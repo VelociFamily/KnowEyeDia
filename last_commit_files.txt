@@ -1,0 +1,125 @@
+commit 78a7e5e1135d0b93278247611de41264302b99df
+Author: Kelly G. Thompson <velocitas@gmail.com>
+Date:   Sun Feb 8 20:34:07 2026 -0600
+
+    feat: Add initial game assets, astronaut character animations, and foundational game scripts.
+
+A	Assets/Art/Animations.meta
+A	Assets/Art/Animations/Characters.meta
+A	Assets/Art/Animations/Characters/Astronaut.meta
+A	Assets/Art/Animations/Characters/Astronaut/AstronautController.controller
+A	Assets/Art/Animations/Characters/Astronaut/AstronautController.controller.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_E.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_E.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_N.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_N.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_S.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_S.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_W.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Idle_W.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_E.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_E.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_N.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_N.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_NE.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_NE.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_NW.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_NW.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_S.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_S.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_SE.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_SE.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_SW.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_SW.anim.meta
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_W.anim
+A	Assets/Art/Animations/Characters/Astronaut/Astronaut_Walk_W.anim.meta
+A	Assets/Art/Sprites/Characters.meta
+A	Assets/Art/Sprites/Characters/Astronaut_Placeholder.png
+A	Assets/Art/Sprites/Characters/Astronaut_Placeholder.png.meta
+M	Assets/Scenes/ProceduralScene.unity
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/README.txt
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/README.txt.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/Artisan.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/Artisan.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/TextureImporter.preset
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/TextureImporter.preset.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/crops .png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/crops & Artisan/crops .png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/Outdoor Decoration.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/Outdoor Decoration.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building_industrial.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/building_industrial.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/fungus.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/fungus.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/mineral.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/decoration/mineral.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/furniture&tech.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/furniture&tech/furniture.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/furniture&tech/furniture.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/player.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/player/character.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/player/character.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/farm_Land.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/farm_Land.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/land.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/land.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/path.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/path.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/room builder.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/room builder/Room_Builder.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/room builder/Room_Builder.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/water.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/water.png.meta
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/world barrier.png
+A	Assets/_Project/Art/Sprites/Astronaut_farm_Prem/Astronaut_farm_Prem/tiles/world barrier.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Artisan_free.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Artisan_free.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Outdoor Decoration_free.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/Outdoor Decoration_free.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/building.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/building.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/item 16 x16.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/decoration/item 16 x16.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/furniture.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/furniture.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/tech.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/furniture/tech.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/player.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/player/character.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/player/character.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/farm_Land.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/farm_Land.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/land.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/land.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/path.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/path.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/room builder.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/room builder/Room_Builder.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/room builder/Room_Builder.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/water.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/water.png.meta
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/world barrier.png
+A	Assets/_Project/Art/Sprites/astronaut_farm_free/astronaut_farm_free/tiles/world barrier.png.meta
+A	Assets/_Project/Scripts/Editor/AstronautImporter.cs
+A	Assets/_Project/Scripts/Editor/AstronautImporter.cs.meta
+A	Assets/_Project/Scripts/Editor/SetupDiagnostic.cs
+A	Assets/_Project/Scripts/Editor/SetupDiagnostic.cs.meta
+M	Assets/_Project/Scripts/Presentation/Presenters/PlayerPresenter.cs
+M	Assets/_Project/Scripts/Presentation/Views/PlayerView.cs
+M	Assets/_Project/Scripts/Presentation/Views/WorldView.cs
+M	ProjectSettings/ProjectVersion.txt
+A	create_placeholder_sprite.py
