@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor.U2D.Sprites;
+using System.Linq;
 
 namespace KnowEyeDia.Editor.Tools
 {
@@ -69,7 +71,13 @@ namespace KnowEyeDia.Editor.Tools
             // Need to reload the texture to read pixels effectively
             Texture2D readableTex = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
             
-            List<SpriteMetaData> neMetas = new List<SpriteMetaData>();
+            // Use ISpriteEditorDataProvider
+            var factory = new UnityEditor.U2D.Sprites.SpriteDataProviderFactories();
+            factory.Init();
+            var dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
+            dataProvider.InitSpriteEditorDataProvider();
+            
+            List<SpriteRect> neMetas = new List<SpriteRect>();
             
             int cols = readableTex.width / _sliceWidth;
             int rows = readableTex.height / _sliceHeight;
@@ -91,17 +99,19 @@ namespace KnowEyeDia.Editor.Tools
                         continue;
                     }
 
-                    SpriteMetaData meta = new SpriteMetaData();
+                    SpriteRect meta = new SpriteRect();
                     meta.rect = new Rect(xPos, yPos, _sliceWidth, _sliceHeight);
-                    meta.alignment = 9; // Custom
+                    meta.alignment = SpriteAlignment.Custom; // Custom
                     meta.pivot = _pivot;
                     meta.name = $"{texture.name}_{x}_{y}";
+                    meta.spriteID = GUID.Generate();
                     neMetas.Add(meta);
                 }
             }
 
-            importer.spritesheet = neMetas.ToArray();
-            AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+            dataProvider.SetSpriteRects(neMetas.ToArray());
+            dataProvider.Apply();
+            importer.SaveAndReimport();
             Debug.Log($"Sliced {texture.name} into {neMetas.Count} sprites.");
         }
 

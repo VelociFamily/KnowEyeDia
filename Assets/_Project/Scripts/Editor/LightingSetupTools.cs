@@ -9,7 +9,7 @@ namespace KnowEyeDia.Editor
         public static void SetupLighting()
         {
             // Find or Create Directional Light
-            Light light = Object.FindObjectOfType<Light>();
+            Light light = Object.FindFirstObjectByType<Light>();
             if (light == null || light.type != LightType.Directional)
             {
                 GameObject lightObj = new GameObject("Directional Light");
