@@ -49,8 +49,12 @@ namespace KnowEyeDia.Presentation.Presenters
             // 1. Logic Update
             _survivalUseCase.Tick(dt);
 
+
             // 2. Input & Movement
             Vector2 input = _inputService.GetMovementInput();
+            
+            // Update Animation state
+            _view.SetInput(input);
             
             if (input != Vector2.zero)
             {

@@ -36,8 +36,15 @@ namespace KnowEyeDia.Presentation.Views
             ClearMap(_waterMap);
             ClearMap(_islandMap);
 
-            // Explicit Z-Layering (Lower Z = Closer to Camera = On Top)
-            // Water (Deepest) -> Island -> Dirt -> Desert -> Grass -> Snow -> Stone (Highest)
+            SetMapSorting(_waterMap, 0);
+            SetMapSorting(_islandMap, 5);
+            SetMapSorting(_dirtMap, 10);
+            SetMapSorting(_desertMap, 15);
+            SetMapSorting(_grassMap, 20);
+            SetMapSorting(_snowMap, 25);
+            SetMapSorting(_stoneMap, 30);
+
+            // Explicit Z-Layering (Backup for parallax/physics)
             SetMapZ(_waterMap, 5.0f);
             SetMapZ(_islandMap, 4.0f);
             SetMapZ(_dirtMap, 3.0f);
@@ -192,6 +199,14 @@ namespace KnowEyeDia.Presentation.Views
             {
                 var pos = map.transform.position;
                 map.transform.position = new Vector3(pos.x, pos.y, zPos);
+            }
+        }
+        private void SetMapSorting(Tilemap map, int order)
+        {
+            if (map != null)
+            {
+                var renderer = map.GetComponent<TilemapRenderer>();
+                if (renderer != null) renderer.sortingOrder = order;
             }
         }
     }
