@@ -29,8 +29,8 @@ namespace KnowEyeDia.Installers
             builder.Register<UnityInputService>(Lifetime.Singleton).As<IInputService>();
 
             // Presenters
-            builder.Register<PlayerPresenter>(Lifetime.Singleton).AsImplementedInterfaces();
             builder.Register<WorldPresenter>(Lifetime.Singleton).AsImplementedInterfaces();
+            builder.Register<PlayerPresenter>(Lifetime.Singleton).AsImplementedInterfaces();
 
             // Views
             if (_playerView != null)
