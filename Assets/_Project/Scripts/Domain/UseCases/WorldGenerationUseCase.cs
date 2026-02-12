@@ -181,5 +181,86 @@ namespace KnowEyeDia.Domain.UseCases
 
             return CurrentWorld.GetHeight(gridX, gridZ); 
         }
+
+        public bool IsWalkable(float x, float z)
+        {
+            if (CurrentWorld == null) return false;
+
+            const float sampleRadius = 0.45f;
+
+            return IsSampleWalkable(x - sampleRadius, z - sampleRadius)
+                && IsSampleWalkable(x + sampleRadius, z - sampleRadius)
+                && IsSampleWalkable(x - sampleRadius, z + sampleRadius)
+                && IsSampleWalkable(x + sampleRadius, z + sampleRadius);
+        }
+
+        public Vector2 GetDefaultSpawnPosition()
+        {
+            if (CurrentWorld == null) return Vector2.zero;
+
+            int startX = Mathf.RoundToInt(CurrentWorld.Width * 0.5f);
+            int startZ = Mathf.RoundToInt(CurrentWorld.Depth * 0.5f);
+
+            return FindNearestWalkable(startX, startZ);
+        }
+
+        private Vector2 FindNearestWalkable(int startX, int startZ)
+        {
+            int maxRadius = Mathf.Max(CurrentWorld.Width, CurrentWorld.Depth);
+
+            for (int radius = 0; radius <= maxRadius; radius++)
+            {
+                int minX = startX - radius;
+                int maxX = startX + radius;
+                int minZ = startZ - radius;
+                int maxZ = startZ + radius;
+
+                // Check perimeter of the square ring at this radius.
+                for (int x = minX; x <= maxX; x++)
+                {
+                    if (TryGetWalkableAt(x, minZ, out var pos)) return pos;
+                    if (TryGetWalkableAt(x, maxZ, out pos)) return pos;
+                }
+
+                for (int z = minZ + 1; z <= maxZ - 1; z++)
+                {
+                    if (TryGetWalkableAt(minX, z, out var pos)) return pos;
+                    if (TryGetWalkableAt(maxX, z, out pos)) return pos;
+                }
+            }
+
+            return Vector2.zero;
+        }
+
+        private bool TryGetWalkableAt(int x, int z, out Vector2 position)
+        {
+            position = Vector2.zero;
+            if (!IsTileWalkable(x, z)) return false;
+
+            position = new Vector2(x, z);
+            return true;
+        }
+
+        private bool IsSampleWalkable(float x, float z)
+        {
+            int gridX = Mathf.FloorToInt(x);
+            int gridZ = Mathf.FloorToInt(z);
+            return IsTileWalkable(gridX, gridZ);
+        }
+
+        private bool IsTileWalkable(int x, int z)
+        {
+            if (!CurrentWorld.IsValid(x, z)) return false;
+            if (!IsWithinWalkableBounds(x, z)) return false;
+
+            TileType tile = CurrentWorld.TileMap[x, z];
+            return tile != TileType.Water && tile != TileType.Empty;
+        }
+
+        private bool IsWithinWalkableBounds(int x, int z)
+        {
+            // Keep a 1-tile buffer around the entire map so edges are not steppable.
+            return x > 0 && x < CurrentWorld.Width - 1 && z > 0 && z < CurrentWorld.Depth - 1;
+        }
     }
 }

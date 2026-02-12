@@ -35,11 +35,10 @@ namespace KnowEyeDia.Presentation.Presenters
         {
             // Initialization
             Debug.Log("PlayerPresenter Started");
-            
-            // Set initial position on terrain
-             Vector3 currentPos = _view.transform.position;
-             float height = _worldService.GetHeightAt(currentPos.x, currentPos.z);
-             _view.SetPosition(new Vector3(currentPos.x, height, currentPos.z));
+
+            Vector3 currentPos = _view.transform.position;
+            Vector2 spawnPos = _worldService.GetDefaultSpawnPosition();
+            _view.SetPosition(new Vector3(spawnPos.x, spawnPos.y, currentPos.z));
         }
 
         public void Tick()
@@ -63,10 +62,13 @@ namespace KnowEyeDia.Presentation.Presenters
                 Vector3 move = new Vector3(input.x, input.y, 0) * 5f * dt; // Speed 5 (XY Movement)
                 
                 Vector3 targetPos = currentPos + move;
-                
-                // Note: Removed terrain height adjustment as requested (W/S now controls Y position directly)
-                
-                _view.SetPosition(targetPos);
+
+                // Block movement onto non-walkable tiles (e.g., water).
+                if (_worldService.IsWalkable(targetPos.x, targetPos.y))
+                {
+                    // Note: Removed terrain height adjustment as requested (W/S now controls Y position directly)
+                    _view.SetPosition(targetPos);
+                }
             }
         }
     }
