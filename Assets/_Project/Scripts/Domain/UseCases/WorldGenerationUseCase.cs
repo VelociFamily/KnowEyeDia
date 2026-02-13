@@ -1,6 +1,7 @@
 using KnowEyeDia.Domain.Entities;
 using KnowEyeDia.Domain.Interfaces;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace KnowEyeDia.Domain.UseCases
 {
@@ -17,23 +18,50 @@ namespace KnowEyeDia.Domain.UseCases
             Vector2 heightOffset = new Vector2(Random.Range(0f, 9999f), Random.Range(0f, 9999f));
             Vector2 tempOffset = new Vector2(Random.Range(0f, 9999f), Random.Range(0f, 9999f));
             Vector2 moistureOffset = new Vector2(Random.Range(0f, 9999f), Random.Range(0f, 9999f));
+            Vector2 detailOffset = new Vector2(Random.Range(0f, 9999f), Random.Range(0f, 9999f));
 
-            // Adjust scale for larger biomes. 
-            // If user passes ~0.05-0.1, we might need even smaller for 32x32 blocks.
-            // Let's use a fixed base scale modifier to ensure large features.
+            // Ocean border size - ensures islands don't touch edges
+            int oceanBorder = 65;
+            
+            // Adjust scale for larger biomes
             float baseScale = scale * 0.5f; 
 
-            // Iterate in steps of 2 to ensure 2x2 tile blocks
-            for (int x = 0; x < width; x += 2)
+            // Initialize all as water
+            for (int x = 0; x < width; x++)
             {
-                for (int z = 0; z < depth; z += 2)
+                for (int z = 0; z < depth; z++)
                 {
+                    CurrentWorld.TileMap[x, z] = TileType.Water;
+                }
+            }
+
+            // Playable area (inside the ocean border)
+            int playableWidth = width - (oceanBorder * 2);
+            int playableDepth = depth - (oceanBorder * 2);
+
+            // Iterate in steps of 2 to ensure 2x2 tile blocks
+            for (int x = oceanBorder; x < width - oceanBorder; x += 2)
+            {
+                for (int z = oceanBorder; z < depth - oceanBorder; z += 2)
+                {
+                    // Normalize coordinates relative to playable area for better generation
+                    float normX = (x - oceanBorder) / (float)playableWidth;
+                    float normZ = (z - oceanBorder) / (float)playableDepth;
+
                     float xCoord = (float)x + heightOffset.x;
                     float zCoord = (float)z + heightOffset.y;
                     
-                    // Height Noise (0 to 1)
-                    float heightSample = Mathf.PerlinNoise(xCoord * baseScale, zCoord * baseScale);
+                    // Multi-octave noise for rugged coastlines
+                    float heightSample = GetMultiOctaveNoise(xCoord, zCoord, baseScale);
                     
+                    // Add detail noise for coastline raggedness
+                    float detailNoise = Mathf.PerlinNoise(
+                        ((float)x + detailOffset.x) * baseScale * 3f, 
+                        ((float)z + detailOffset.y) * baseScale * 3f);
+                    
+                    // Apply detail to height for rougher edges
+                    heightSample = heightSample * 0.85f + detailNoise * 0.15f;
+
                     // Temperature Noise (0 to 1)
                     float tempSample = Mathf.PerlinNoise(((float)x + tempOffset.x) * baseScale, ((float)z + tempOffset.y) * baseScale);
 
@@ -42,27 +70,40 @@ namespace KnowEyeDia.Domain.UseCases
 
                     TileType tile = TileType.Water;
                     
+                    // Generate large central island 
+                    bool isCentralIsland = IsCentralIsland(normX, normZ, heightSample);
+                    
+                    // Generate smaller scattered islands
+                    bool isSmallIsland = IsSmallIsland(normX, normZ, heightSample);
+
                     // Height threshold for Water vs Land
-                    if (heightSample < 0.35f)
+                    if (isCentralIsland || isSmallIsland)
                     {
-                        tile = TileType.Water;
-                    }
-                    else if (heightSample > 0.85f)
-                    {
-                        tile = TileType.Stone; // High elevation -> Mountains
-                    }
-                    else
-                    {
-                        // Land Biome Selection
-                        // Shoreline check: Close to water
-                        if (heightSample < 0.40f) // 0.35 to 0.40
+                        if (isCentralIsland)
                         {
-                            tile = TileType.Island; // Beach/Shore uses Island tiles
-                        }
-                        else
-                        {
-                            // Biome based on Temp & Moisture
-                            if (tempSample < 0.3f)
+                            // Add river and lake generation to main island
+                            float riverNoise = Mathf.PerlinNoise(((float)x + detailOffset.x) * baseScale * 2f, ((float)z + detailOffset.y) * baseScale * 2f);
+                            float lakeNoise = Mathf.PerlinNoise(((float)x + detailOffset.x) * baseScale * 1.5f + 12.3f, ((float)z + detailOffset.y) * baseScale * 1.5f + 8.7f);
+                            
+                            // Create rivers (thin water channels)
+                            if (riverNoise < 0.20f && heightSample > 0.35f && heightSample < 0.70f)
+                            {
+                                tile = TileType.Water; // River
+                            }
+                            // Create lakes (larger water bodies)
+                            else if (lakeNoise < 0.15f && heightSample > 0.40f && heightSample < 0.65f)
+                            {
+                                tile = TileType.Water; // Lake
+                            }
+                            else if (heightSample < 0.38f)
+                            {
+                                tile = TileType.Stone; // High elevation -> Mountains
+                            }
+                            else if (heightSample < 0.43f) // Shore beach
+                            {
+                                tile = TileType.Island;
+                            }
+                            else if (tempSample < 0.3f)
                             {
                                 tile = TileType.Snow; // Cold
                             }
@@ -83,9 +124,25 @@ namespace KnowEyeDia.Domain.UseCases
                                 }
                             }
                         }
+                        else if (isSmallIsland)
+                        {
+                            // Small islands use stone/dirt/island primarily
+                            if (heightSample < 0.4f)
+                            {
+                                tile = TileType.Island; // Beaches
+                            }
+                            else if (moistureSample < 0.5f)
+                            {
+                                tile = TileType.Stone; // Rocky
+                            }
+                            else
+                            {
+                                tile = TileType.Dirt; // Less lush biome
+                            }
+                        }
                     }
 
-            // Apply to 2x2 block
+                    // Apply to 2x2 block
                     SetBlock(x, z, tile, CurrentWorld);
                     
                     // Set height map (for visual elevation if needed later)
@@ -102,38 +159,155 @@ namespace KnowEyeDia.Domain.UseCases
             return CurrentWorld;
         }
 
+        private float GetMultiOctaveNoise(float x, float y, float baseScale)
+        {
+            float result = 0f;
+            float amplitude = 1f;
+            float frequency = 1f;
+            float maxValue = 0f;
+
+            for (int i = 0; i < 3; i++)
+            {
+                result += Mathf.PerlinNoise(x * baseScale * frequency, y * baseScale * frequency) * amplitude;
+                maxValue += amplitude;
+                amplitude *= 0.5f;
+                frequency *= 2f;
+            }
+
+            return result / maxValue;
+        }
+
+        private bool IsCentralIsland(float normX, float normZ, float heightSample)
+        {
+            // Create an irregular, non-circular continent by stacking multiple shape patterns
+            float centerX = 0.5f;
+            float centerZ = 0.5f;
+            float distFromCenter = Mathf.Sqrt(
+                (normX - centerX) * (normX - centerX) + 
+                (normZ - centerZ) * (normZ - centerZ)
+            );
+
+            // Smaller base radius to give islands more room
+            float baseRadius = 0.30f;
+
+            // Use multiple independent noise patterns as separate "landmasses" stacked together
+            // Increased amplitudes for bigger peninsulas
+            float mainShape = Mathf.PerlinNoise(normX * 1.5f, normZ * 1.5f);
+            float shapeVariation1 = Mathf.PerlinNoise(normX * 2.2f + 5.5f, normZ * 2.2f + 3.3f);
+            float shapeVariation2 = Mathf.PerlinNoise(normX * 1.8f + 9.2f, normZ * 1.8f + 7.1f);
+            
+            // Combine shapes to create less circular landmass - increased weights for more impact
+            float combinedShape = (mainShape * 0.4f + shapeVariation1 * 0.4f + shapeVariation2 * 0.2f);
+
+            // Highly detailed coastline with many octaves for ruggediness
+            float coarse = Mathf.PerlinNoise(normX * 3f, normZ * 3f);
+            float medium = Mathf.PerlinNoise(normX * 6f, normZ * 6f);
+            float fine = Mathf.PerlinNoise(normX * 12f, normZ * 12f);
+            float detail = Mathf.PerlinNoise(normX * 24f, normZ * 24f);
+            float microDetail = Mathf.PerlinNoise(normX * 48f, normZ * 48f);
+            
+            // Weighted combination for very complex coastline - increased amplitude
+            float coastlineComplexity = (coarse * 0.4f + medium * 0.3f + fine * 0.15f + detail * 0.1f + microDetail * 0.05f);
+            
+            // Create much more extreme variation for rugged edges - increased peninsula amplitude
+            float variableRadius = baseRadius + (combinedShape - 0.5f) * 0.28f + (coastlineComplexity - 0.5f) * 0.22f;
+            
+            // Add angular variation for organic randomness
+            float angleFromCenter = Mathf.Atan2(normZ - centerZ, normX - centerX);
+            float angularNoise1 = Mathf.PerlinNoise(angleFromCenter * 3f, distFromCenter * 4f);
+            float angularNoise2 = Mathf.PerlinNoise(angleFromCenter * 5f + 2.7f, distFromCenter * 6f);
+            
+            float angularVariation = (angularNoise1 * 0.6f + angularNoise2 * 0.4f) - 0.5f;
+            variableRadius += angularVariation * 0.15f;
+
+            // Clamp to reasonable bounds
+            variableRadius = Mathf.Clamp(variableRadius, baseRadius * 0.35f, baseRadius * 1.8f);
+
+            // Add subtle erosion patterns - reduced aggressiveness for bigger peninsulas
+            float erosionNoise1 = Mathf.PerlinNoise(normX * 4.5f, normZ * 4.5f);
+            float erosionNoise2 = Mathf.PerlinNoise(normX * 9f + 11.3f, normZ * 9f + 8.9f);
+            float erosionPattern = (erosionNoise1 * 0.6f + erosionNoise2 * 0.4f);
+            
+            // Create subtle "bite marks" - much less aggressive than before
+            if (erosionPattern > 0.72f && distFromCenter < variableRadius * 0.90f)
+            {
+                variableRadius *= 0.85f; // Reduced from 0.7f
+            }
+            
+            // Create internal holes/bays that cut deeper - less aggressive
+            if (erosionNoise1 > 0.76f && distFromCenter < baseRadius * 0.75f)
+            {
+                variableRadius *= 0.80f; // Reduced from 0.65f
+            }
+
+            return distFromCenter < variableRadius;
+        }
+
+        private bool IsSmallIsland(float normX, float normZ, float heightSample)
+        {
+            // Small islands appear in outer regions (avoid center)
+            float centerDistance = Mathf.Sqrt((normX - 0.5f) * (normX - 0.5f) + (normZ - 0.5f) * (normZ - 0.5f));
+            
+            // Keep area around main continent clear - slightly reduced buffer
+            if (centerDistance < 0.36f) return false;
+            
+            // Don't generate at the very edges to avoid cut-off islands - reduced buffer
+            float edgeDistance = Mathf.Min(
+                Mathf.Min(normX, 1f - normX),
+                Mathf.Min(normZ, 1f - normZ)
+            );
+            if (edgeDistance < 0.05f) return false;
+
+            // Use multi-scale noise for archipelago patterns with more variation
+            float islandNoise1 = Mathf.PerlinNoise(normX * 2.5f, normZ * 2.5f);
+            float islandNoise2 = Mathf.PerlinNoise(normX * 5f, normZ * 5f);
+            float islandNoise3 = Mathf.PerlinNoise(normX * 10f, normZ * 10f);
+            float detailNoise = Mathf.PerlinNoise(normX * 20f, normZ * 20f);
+
+            // Weighted combination for organic clustering with finer detail
+            float combinedNoise = (islandNoise1 * 0.3f + islandNoise2 * 0.3f + islandNoise3 * 0.3f + detailNoise * 0.1f);
+
+            // Lowered thresholds significantly for more islands on larger map
+            bool smallCluster = combinedNoise > 0.55f && heightSample > 0.48f;
+            bool tinyCluster = combinedNoise > 0.62f && heightSample > 0.50f;
+            bool microCluster = combinedNoise > 0.68f && heightSample > 0.51f;
+
+            return smallCluster || tinyCluster || microCluster;
+        }
+
         private void ApplyShorelineBuffer(int width, int depth, WorldData world)
         {
-            // We need a temporary buffer or we process in strict order. 
-            // Since we are only turning Land -> Island (downgrading), 
-            // doing it in-place is mostly fine, but let's be safe to avoid cascading erosion.
-            // Actually, for a single 1-tile buffer, cascading is key if we wanted N tiles, 
-            // but for just 1 tile, in-place check against original "Water" is best.
-            // But we don't have a copy. 
-            // Simple check: If I am Land AND I have a Water neighbor, I become Island.
-            
-            System.Collections.Generic.List<Vector2Int> tilesToErode = new System.Collections.Generic.List<Vector2Int>();
+            // Apply shoreline buffering with multiple passes for better raggedness
+            List<Vector2Int> tilesToErode = new List<Vector2Int>();
 
-            for (int x = 0; x < width; x++)
+            for (int pass = 0; pass < 2; pass++)
             {
-                for (int z = 0; z < depth; z++)
+                tilesToErode.Clear();
+
+                for (int x = 0; x < width; x++)
                 {
-                    TileType current = world.TileMap[x, z];
-                    
-                    // Only check Land tiles that aren't already Island
-                    if (current != TileType.Water && current != TileType.Island && current != TileType.Empty)
+                    for (int z = 0; z < depth; z++)
                     {
-                        if (HasWaterNeighbor(x, z, world))
+                        TileType current = world.TileMap[x, z];
+                        
+                        // Only check Land tiles that aren't already Island
+                        if (current != TileType.Water && current != TileType.Island && current != TileType.Empty)
                         {
-                            tilesToErode.Add(new Vector2Int(x, z));
+                            if (HasWaterNeighbor(x, z, world))
+                            {
+                                tilesToErode.Add(new Vector2Int(x, z));
+                            }
                         }
                     }
                 }
-            }
 
-            foreach (var pos in tilesToErode)
-            {
-                world.TileMap[pos.x, pos.y] = TileType.Island;
+                // Apply erosion for this pass (creates rougher coastlines)
+                foreach (var pos in tilesToErode)
+                {
+                    world.TileMap[pos.x, pos.y] = TileType.Island;
+                }
+
+                if (tilesToErode.Count == 0) break; // No more tiles to erode
             }
         }
 
@@ -143,6 +317,11 @@ namespace KnowEyeDia.Domain.UseCases
             if (IsWater(x - 1, z, world)) return true;
             if (IsWater(x, z + 1, world)) return true;
             if (IsWater(x, z - 1, world)) return true;
+            // Diagonal neighbors for rougher coastlines
+            if (IsWater(x + 1, z + 1, world)) return true;
+            if (IsWater(x - 1, z + 1, world)) return true;
+            if (IsWater(x + 1, z - 1, world)) return true;
+            if (IsWater(x - 1, z - 1, world)) return true;
             return false;
         }
 
