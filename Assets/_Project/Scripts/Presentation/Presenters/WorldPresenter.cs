@@ -23,8 +23,8 @@ namespace KnowEyeDia.Presentation.Presenters
             Debug.Log("Generating World...");
             // Settings can be moved to a configuration file/ScriptableObject later
             var data = _worldGenUseCase.GenerateWorld(
-                width: 512,
-                depth: 512,
+                width: 700,
+                depth: 700,
                 seed: Random.Range(0, 10000),
                 scale: 0.02f,
                 maxElevation: 1 // elevation not strictly used for visuals anymore, but kept for logic
