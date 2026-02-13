@@ -21,7 +21,7 @@ namespace KnowEyeDia.Domain.UseCases
             Vector2 detailOffset = new Vector2(Random.Range(0f, 9999f), Random.Range(0f, 9999f));
 
             // Ocean border size - ensures islands don't touch edges
-            int oceanBorder = 65;
+            int oceanBorder = 90;
             
             // Adjust scale for larger biomes
             float baseScale = scale * 0.5f; 
@@ -81,17 +81,17 @@ namespace KnowEyeDia.Domain.UseCases
                     {
                         if (isCentralIsland)
                         {
-                            // Add river and lake generation to main island
-                            float riverNoise = Mathf.PerlinNoise(((float)x + detailOffset.x) * baseScale * 2f, ((float)z + detailOffset.y) * baseScale * 2f);
+                            // Generate winding rivers on main island
+                            bool isRiver = IsPartOfRiver(x, z, normX, normZ, CurrentWorld.Width, CurrentWorld.Depth, heightSample);
+                            
+                            // Create lakes (larger water bodies)
                             float lakeNoise = Mathf.PerlinNoise(((float)x + detailOffset.x) * baseScale * 1.5f + 12.3f, ((float)z + detailOffset.y) * baseScale * 1.5f + 8.7f);
                             
-                            // Create rivers (thin water channels)
-                            if (riverNoise < 0.20f && heightSample > 0.35f && heightSample < 0.70f)
+                            if (isRiver)
                             {
                                 tile = TileType.Water; // River
                             }
-                            // Create lakes (larger water bodies)
-                            else if (lakeNoise < 0.15f && heightSample > 0.40f && heightSample < 0.65f)
+                            else if (lakeNoise < 0.12f && heightSample > 0.40f && heightSample < 0.65f)
                             {
                                 tile = TileType.Water; // Lake
                             }
@@ -188,7 +188,7 @@ namespace KnowEyeDia.Domain.UseCases
             );
 
             // Smaller base radius to give islands more room
-            float baseRadius = 0.30f;
+            float baseRadius = 0.22f;
 
             // Use multiple independent noise patterns as separate "landmasses" stacked together
             // Increased amplitudes for bigger peninsulas
@@ -248,8 +248,8 @@ namespace KnowEyeDia.Domain.UseCases
             // Small islands appear in outer regions (avoid center)
             float centerDistance = Mathf.Sqrt((normX - 0.5f) * (normX - 0.5f) + (normZ - 0.5f) * (normZ - 0.5f));
             
-            // Keep area around main continent clear - slightly reduced buffer
-            if (centerDistance < 0.36f) return false;
+            // Keep area around main continent clear - adjusted for smaller main island
+            if (centerDistance < 0.32f) return false;
             
             // Don't generate at the very edges to avoid cut-off islands - reduced buffer
             float edgeDistance = Mathf.Min(
@@ -268,11 +268,41 @@ namespace KnowEyeDia.Domain.UseCases
             float combinedNoise = (islandNoise1 * 0.3f + islandNoise2 * 0.3f + islandNoise3 * 0.3f + detailNoise * 0.1f);
 
             // Lowered thresholds significantly for more islands on larger map
-            bool smallCluster = combinedNoise > 0.55f && heightSample > 0.48f;
-            bool tinyCluster = combinedNoise > 0.62f && heightSample > 0.50f;
-            bool microCluster = combinedNoise > 0.68f && heightSample > 0.51f;
+            bool smallCluster = combinedNoise > 0.54f && heightSample > 0.47f;
+            bool tinyCluster = combinedNoise > 0.60f && heightSample > 0.49f;
+            bool microCluster = combinedNoise > 0.66f && heightSample > 0.50f;
 
             return smallCluster || tinyCluster || microCluster;
+        }
+
+        private bool IsPartOfRiver(int x, int z, float normX, float normZ, int width, int depth, float heightSample)
+        {
+            // Only rivers on land within the main island, not near edges or water
+            if (heightSample < 0.42f || heightSample > 0.72f) return false;
+
+            // Create sparse river channels using low-frequency noise for source points
+            float riverSourceNoise = Mathf.PerlinNoise(normX * 2.5f, normZ * 2.5f);
+            
+            // Identify river regions - higher threshold means fewer rivers
+            if (riverSourceNoise < 0.65f) return false;
+
+            // Once in a river region, create the winding flow paths
+            float flowNoise1 = Mathf.PerlinNoise(normX * 6f, normZ * 1.5f);
+            float flowNoise2 = Mathf.PerlinNoise(normX * 1.5f, normZ * 6f);
+            
+            // Calculate distance from river centerlines
+            float path1Distance = Mathf.Abs((flowNoise1 - 0.5f) * 60f);
+            float path2Distance = Mathf.Abs((flowNoise2 - 0.5f) * 60f);
+            
+            // Use whichever river path is closest
+            float minDistance = Mathf.Min(path1Distance, path2Distance);
+
+            // River width (3-5 tiles)
+            float riverWidthNoise = Mathf.PerlinNoise(normX * 12f, normZ * 12f);
+            float riverWidth = 2f + (riverWidthNoise * 2.5f);
+            
+            // Check if tile is within river bounds
+            return minDistance < riverWidth;
         }
 
         private void ApplyShorelineBuffer(int width, int depth, WorldData world)
