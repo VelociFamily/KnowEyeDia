@@ -381,20 +381,30 @@ namespace KnowEyeDia.Presentation.Views
         {
             if (instance == null) return;
 
-            // Sort trees by Y position
+            // Sort trees by Y position (bottom of hitbox)
             // Lower Y (foreground) should have HIGHER sorting order to draw on top of Higher Y (background).
-            // Multiply by 100 for precision.
             float yPos = instance.transform.position.y;
+            
+            // Try to use collider bottom for more accurate sorting
+            Collider2D col = instance.GetComponent<Collider2D>();
+            if (col != null)
+            {
+                yPos = col.bounds.min.y;
+            }
+
             int depthSortOrder = Mathf.RoundToInt(-yPos * 100);
 
             SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
             for (int i = 0; i < renderers.Length; i++)
             {
+                // Add a small offset to tree sprites to ensure they don't Z-fight with things exactly at their base
+                // or just keep them same plane.
                 renderers[i].sortingOrder = _treeSortingOrder + depthSortOrder;
                 renderers[i].sortingLayerName = _treeSortingLayer;
                 renderers[i].enabled = true;
             }
         }
+
 
         private void ApplyDetailGrassSorting(GameObject instance)
         {
@@ -402,6 +412,14 @@ namespace KnowEyeDia.Presentation.Views
 
             // Sort grass by Y position as well
             float yPos = instance.transform.position.y;
+            
+            // Try to use collider bottom (if grass has one, unlikely but safe)
+            Collider2D col = instance.GetComponent<Collider2D>();
+            if (col != null)
+            {
+                yPos = col.bounds.min.y;
+            }
+
             int depthSortOrder = Mathf.RoundToInt(-yPos * 100);
 
             SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
