@@ -28,16 +28,18 @@ namespace KnowEyeDia.Presentation.Views
         [Header("Decoration - Grass Sprites")]
         [SerializeField] private Transform _detailGrassParent;
         [SerializeField] private string _detailGrassPrefabFolder = "DetailGrass";
-        [SerializeField] private float _detailGrassZ = 0.4f;
+        [SerializeField] private float _detailGrassZ = -1f;
         [SerializeField] private int _detailGrassSortingOrder = 28;
+        [SerializeField] private string _detailGrassSortingLayer = "Ground";
 
         private GameObject[] _cachedDetailGrassPrefabs;
 
         [Header("Decoration - Trees")]
         [SerializeField] private Transform _treeParent;
         [SerializeField] private BiomeTreeSet[] _treeSets;
-        [SerializeField] private float _treeZ = 0.25f;
+        [SerializeField] private float _treeZ = -1f;
         [SerializeField] private int _treeSortingOrder = 40;
+        [SerializeField] private string _treeSortingLayer = "Ground";
 
         [Header("Decoration - Grass")]
         [SerializeField, Range(0f, 1f)] private float _detailGrassChance = 0.2f;
@@ -141,8 +143,6 @@ namespace KnowEyeDia.Presentation.Views
                     tileCount++;
                 }
             }
-            
-            Debug.Log($"[WorldView] Rendered {tileCount} tiles for world size {worldData.Width}x{worldData.Depth}.");
         }
 
         // Checks if the neighbor at (nx, nz) is a biome that should be drawn UNDER the current tile
@@ -369,6 +369,8 @@ namespace KnowEyeDia.Presentation.Views
             for (int i = 0; i < renderers.Length; i++)
             {
                 renderers[i].sortingOrder = _treeSortingOrder;
+                renderers[i].sortingLayerName = _treeSortingLayer;
+                Debug.Log($"[WorldView] Tree {instance.name} - SortingLayer: {renderers[i].sortingLayerName}, Order: {renderers[i].sortingOrder}");
             }
         }
 
@@ -380,16 +382,14 @@ namespace KnowEyeDia.Presentation.Views
             for (int i = 0; i < renderers.Length; i++)
             {
                 renderers[i].sortingOrder = _detailGrassSortingOrder;
+                renderers[i].sortingLayerName = _detailGrassSortingLayer;
+                Debug.Log($"[WorldView] DetailGrass {instance.name} - SortingLayer: {renderers[i].sortingLayerName}, Order: {renderers[i].sortingOrder}");
             }
         }
 
         private void LoadDetailGrassPrefabs()
         {
             _cachedDetailGrassPrefabs = Resources.LoadAll<GameObject>(_detailGrassPrefabFolder);
-            if (_cachedDetailGrassPrefabs == null || _cachedDetailGrassPrefabs.Length == 0)
-            {
-                Debug.LogWarning($"[WorldView] No detail grass prefabs found in folder: {_detailGrassPrefabFolder}");
-            }
         }
      }
  }
