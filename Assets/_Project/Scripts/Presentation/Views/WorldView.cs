@@ -234,8 +234,7 @@ namespace KnowEyeDia.Presentation.Views
             spawnPos.z = _treeZ;
 
             GameObject instance = Instantiate(prefab, spawnPos, Quaternion.identity, parent);
-            float scale = Random.Range(set.scaleRange.x, set.scaleRange.y);
-            instance.transform.localScale = new Vector3(scale, scale, scale);
+            instance.transform.localScale = new Vector3(4f, 4f, 4f);
             ApplyTreeSorting(instance);
         }
 
@@ -365,12 +364,16 @@ namespace KnowEyeDia.Presentation.Views
         {
             if (instance == null) return;
 
+            // Sort trees by Y position: higher Y (bottom) = higher order (in front)
+            float yPos = instance.transform.position.y;
+            int depthSortOrder = Mathf.RoundToInt(yPos * 10);
+
             SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
             for (int i = 0; i < renderers.Length; i++)
             {
-                renderers[i].sortingOrder = _treeSortingOrder;
+                renderers[i].sortingOrder = _treeSortingOrder + depthSortOrder;
                 renderers[i].sortingLayerName = _treeSortingLayer;
-                Debug.Log($"[WorldView] Tree {instance.name} - SortingLayer: {renderers[i].sortingLayerName}, Order: {renderers[i].sortingOrder}");
+                renderers[i].enabled = true;
             }
         }
 
