@@ -27,7 +27,7 @@ namespace KnowEyeDia.Presentation.Views
 
         [Header("Decoration - Grass Sprites")]
         [SerializeField] private Transform _detailGrassParent;
-        [SerializeField] private string _detailGrassPrefabFolder = "Assets/Prefabs/DetailGrass";
+        [SerializeField] private string _detailGrassPrefabFolder = "DetailGrass";
         [SerializeField] private float _detailGrassZ = 0.4f;
         [SerializeField] private int _detailGrassSortingOrder = 28;
 
