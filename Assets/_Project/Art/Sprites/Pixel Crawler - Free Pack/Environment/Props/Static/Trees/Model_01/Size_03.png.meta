@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,15 +141,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Size_03_0
+      name: Green tree
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 97
-        height: 192
+        y: 96
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,15 +163,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_03_1
+      name: Greenyellow tree
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 50
-        height: 192
+        x: 48
+        y: 96
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,15 +185,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_03_2
+      name: dead tree
       rect:
         serializedVersion: 2
-        x: 143
-        y: 0
-        width: 50
-        height: 192
+        x: 96
+        y: 96
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,15 +207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_03_3
+      name: frozen tree
       rect:
         serializedVersion: 2
-        x: 192
-        y: 159
-        width: 16
-        height: 24
+        x: 144
+        y: 96
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,15 +229,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_03_4
+      name: brown tree
       rect:
         serializedVersion: 2
-        x: 192
-        y: 127
-        width: 16
-        height: 24
+        x: 0
+        y: 0
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,15 +251,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_03_5
+      name: yellow tree
       rect:
         serializedVersion: 2
-        x: 192
-        y: 95
-        width: 16
-        height: 24
+        x: 48
+        y: 0
+        width: 48
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,11 +272,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dead tree brown
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34945245baf0ef4a90533fdb4c4004c
+      internalID: 2009350722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frozen tre
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52844a33b025a404194144679ab8159e
+      internalID: 941412478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d962d3d070118c045bfa425e0e3c73b3
     internalID: 0
     vertices: []
     indices: 
@@ -284,14 +328,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Size_03_0: 5903473390127743887
-      Size_03_1: 29793422648762467
-      Size_03_2: 3358523353687935341
-      Size_03_3: -1072641817589923930
-      Size_03_4: 5188767115401433409
-      Size_03_5: 6910053292580695166
+      Green tree: 5903473390127743887
+      Greenyellow tree: 29793422648762467
+      brown tree: 5188767115401433409
+      dead tree: 3358523353687935341
+      dead tree brown: 2009350722
+      frozen tre: 941412478
+      frozen tree: -1072641817589923930
+      yellow tree: 6910053292580695166
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

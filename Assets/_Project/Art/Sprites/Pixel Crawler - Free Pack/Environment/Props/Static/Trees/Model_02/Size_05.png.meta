@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -152,7 +152,7 @@ TextureImporter:
         width: 94
         height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,7 +166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_05_1
+      name: evergreen 2.0 infinite
       rect:
         serializedVersion: 2
         x: 96
@@ -174,7 +174,7 @@ TextureImporter:
         width: 94
         height: 159
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,7 +196,7 @@ TextureImporter:
         width: 89
         height: 154
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Size_05_3
+      name: evergreen tree infinite
       rect:
         serializedVersion: 2
         x: 0
@@ -218,7 +218,7 @@ TextureImporter:
         width: 94
         height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,7 +240,7 @@ TextureImporter:
         width: 94
         height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,7 +262,7 @@ TextureImporter:
         width: 21
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,7 +284,7 @@ TextureImporter:
         width: 21
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e762abfe82eef3442afcd3db735c6efd
     internalID: 0
     vertices: []
     indices: 
@@ -312,12 +312,12 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Size_05_0: -1349718751397675806
-      Size_05_1: 3162693681921726263
       Size_05_2: -9177382543613911066
-      Size_05_3: 5338711548977870589
       Size_05_4: -1140514109475582866
       Size_05_5: 4602902602686403710
       Size_05_6: 9119333629722733290
+      evergreen 2.0 infinite: 3162693681921726263
+      evergreen tree infinite: 5338711548977870589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

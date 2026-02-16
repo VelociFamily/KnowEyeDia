@@ -25,6 +25,34 @@ namespace KnowEyeDia.Presentation.Views
         [SerializeField] private TileBase _waterTile;
         [SerializeField] private TileBase _islandTile;
 
+        [Header("Decoration - Grass Sprites")]
+        [SerializeField] private Transform _detailGrassParent;
+        [SerializeField] private string _detailGrassPrefabFolder = "Assets/Prefabs/DetailGrass";
+        [SerializeField] private float _detailGrassZ = 0.4f;
+        [SerializeField] private int _detailGrassSortingOrder = 28;
+
+        private GameObject[] _cachedDetailGrassPrefabs;
+
+        [Header("Decoration - Trees")]
+        [SerializeField] private Transform _treeParent;
+        [SerializeField] private BiomeTreeSet[] _treeSets;
+        [SerializeField] private float _treeZ = 0.25f;
+        [SerializeField] private int _treeSortingOrder = 40;
+
+        [Header("Decoration - Grass")]
+        [SerializeField, Range(0f, 1f)] private float _detailGrassChance = 0.2f;
+        [SerializeField] private TileType[] _detailGrassAllowedBiomes = { TileType.Grass, TileType.Dirt };
+        [SerializeField] private Vector2 _detailGrassScaleRange = new Vector2(0.9f, 1.1f);
+
+        [System.Serializable]
+        private class BiomeTreeSet
+        {
+            public TileType biome;
+            public GameObject[] prefabs;
+            [Range(0f, 1f)] public float spawnChance = 0.03f;
+            public Vector2 scaleRange = new Vector2(0.9f, 1.1f);
+        }
+
         public void Render(WorldData worldData)
         {
             // Clear all layers to start fresh
@@ -35,6 +63,9 @@ namespace KnowEyeDia.Presentation.Views
             ClearMap(_dirtMap);
             ClearMap(_waterMap);
             ClearMap(_islandMap);
+
+            ClearTreeObjects();
+            ClearDetailGrassObjects();
 
             SetMapSorting(_waterMap, 0);
             SetMapSorting(_islandMap, 5);
@@ -104,6 +135,8 @@ namespace KnowEyeDia.Presentation.Views
                                 targetMap.SetTile(pos, tileToPlace);
                             }
                         }
+
+                        TrySpawnDecorations(type, pos);
                     }
                     tileCount++;
                 }
@@ -156,9 +189,107 @@ namespace KnowEyeDia.Presentation.Views
             }
         }
 
+        private void TrySpawnDecorations(TileType type, Vector3Int cellPos)
+        {
+            TrySpawnDetailGrass(type, cellPos);
+            TrySpawnTree(type, cellPos);
+        }
+
+        private void TrySpawnDetailGrass(TileType type, Vector3Int cellPos)
+        {
+            if (_cachedDetailGrassPrefabs == null || _cachedDetailGrassPrefabs.Length == 0)
+            {
+                LoadDetailGrassPrefabs();
+            }
+            if (_cachedDetailGrassPrefabs == null || _cachedDetailGrassPrefabs.Length == 0) return;
+
+            if (!IsAllowedBiome(type, _detailGrassAllowedBiomes)) return;
+            if (Random.value > _detailGrassChance) return;
+
+            GameObject prefab = _cachedDetailGrassPrefabs[Random.Range(0, _cachedDetailGrassPrefabs.Length)];
+            if (prefab == null) return;
+
+            Transform parent = GetOrCreateDetailGrassParent();
+            Vector3 spawnPos = GetCellCenterWorld(cellPos);
+            spawnPos.z = _detailGrassZ;
+
+            GameObject instance = Instantiate(prefab, spawnPos, Quaternion.identity, parent);
+            ApplyDetailGrassSorting(instance);
+
+            float scale = Random.Range(_detailGrassScaleRange.x, _detailGrassScaleRange.y);
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+        }
+
+        private void TrySpawnTree(TileType type, Vector3Int cellPos)
+        {
+            BiomeTreeSet set = GetTreeSet(type);
+            if (set == null || set.prefabs == null || set.prefabs.Length == 0) return;
+            if (Random.value > set.spawnChance) return;
+
+            GameObject prefab = set.prefabs[Random.Range(0, set.prefabs.Length)];
+            if (prefab == null) return;
+
+            Transform parent = GetOrCreateTreeParent();
+            Vector3 spawnPos = GetCellCenterWorld(cellPos);
+            spawnPos.z = _treeZ;
+
+            GameObject instance = Instantiate(prefab, spawnPos, Quaternion.identity, parent);
+            float scale = Random.Range(set.scaleRange.x, set.scaleRange.y);
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+            ApplyTreeSorting(instance);
+        }
+
+        private BiomeTreeSet GetTreeSet(TileType type)
+        {
+            if (_treeSets == null || _treeSets.Length == 0) return null;
+
+            for (int i = 0; i < _treeSets.Length; i++)
+            {
+                if (_treeSets[i] != null && _treeSets[i].biome == type) return _treeSets[i];
+            }
+
+            return null;
+        }
+
+        private Vector3 GetCellCenterWorld(Vector3Int cellPos)
+        {
+            Tilemap map = _grassMap ?? _dirtMap ?? _islandMap ?? _snowMap ?? _stoneMap ?? _desertMap ?? _waterMap;
+            return map != null ? map.GetCellCenterWorld(cellPos) : new Vector3(cellPos.x + 0.5f, cellPos.y + 0.5f, 0f);
+        }
+
+        private bool IsAllowedBiome(TileType type, TileType[] allowed)
+        {
+            if (allowed == null || allowed.Length == 0) return false;
+            for (int i = 0; i < allowed.Length; i++)
+            {
+                if (allowed[i] == type) return true;
+            }
+            return false;
+        }
+
         private void ClearMap(Tilemap map)
         {
             if (map != null) map.ClearAllTiles();
+        }
+
+        private void ClearTreeObjects()
+        {
+            if (_treeParent == null) return;
+
+            for (int i = _treeParent.childCount - 1; i >= 0; i--)
+            {
+                Destroy(_treeParent.GetChild(i).gameObject);
+            }
+        }
+
+        private void ClearDetailGrassObjects()
+        {
+            if (_detailGrassParent == null) return;
+
+            for (int i = _detailGrassParent.childCount - 1; i >= 0; i--)
+            {
+                Destroy(_detailGrassParent.GetChild(i).gameObject);
+            }
         }
 
         private Tilemap GetMapForType(TileType type)
@@ -209,5 +340,56 @@ namespace KnowEyeDia.Presentation.Views
                 if (renderer != null) renderer.sortingOrder = order;
             }
         }
-    }
-}
+
+        private Transform GetOrCreateTreeParent()
+        {
+            if (_treeParent != null) return _treeParent;
+
+            GameObject container = new GameObject("Trees");
+            container.transform.SetParent(transform, false);
+            _treeParent = container.transform;
+            return _treeParent;
+        }
+
+        private Transform GetOrCreateDetailGrassParent()
+        {
+            if (_detailGrassParent != null) return _detailGrassParent;
+
+            GameObject container = new GameObject("DetailGrass");
+            container.transform.SetParent(transform, false);
+            _detailGrassParent = container.transform;
+            return _detailGrassParent;
+        }
+
+        private void ApplyTreeSorting(GameObject instance)
+        {
+            if (instance == null) return;
+
+            SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                renderers[i].sortingOrder = _treeSortingOrder;
+            }
+        }
+
+        private void ApplyDetailGrassSorting(GameObject instance)
+        {
+            if (instance == null) return;
+
+            SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                renderers[i].sortingOrder = _detailGrassSortingOrder;
+            }
+        }
+
+        private void LoadDetailGrassPrefabs()
+        {
+            _cachedDetailGrassPrefabs = Resources.LoadAll<GameObject>(_detailGrassPrefabFolder);
+            if (_cachedDetailGrassPrefabs == null || _cachedDetailGrassPrefabs.Length == 0)
+            {
+                Debug.LogWarning($"[WorldView] No detail grass prefabs found in folder: {_detailGrassPrefabFolder}");
+            }
+        }
+     }
+ }
