@@ -52,7 +52,7 @@ namespace KnowEyeDia.Presentation.Views
             public TileType biome;
             public GameObject[] prefabs;
             [Range(0f, 1f)] public float spawnChance = 0.03f;
-            public Vector2 scaleRange = new Vector2(0.9f, 1.1f);
+            public Vector2 scaleRange = new Vector2(3.5f, 4.5f);
         }
 
         public void Render(WorldData worldData)
@@ -69,13 +69,13 @@ namespace KnowEyeDia.Presentation.Views
             ClearTreeObjects();
             ClearDetailGrassObjects();
 
-            SetMapSorting(_waterMap, 0);
-            SetMapSorting(_islandMap, 5);
-            SetMapSorting(_dirtMap, 10);
-            SetMapSorting(_desertMap, 15);
-            SetMapSorting(_grassMap, 20);
-            SetMapSorting(_snowMap, 25);
-            SetMapSorting(_stoneMap, 30);
+            SetMapSorting(_waterMap, -1000000, "Default");
+            SetMapSorting(_islandMap, -999995, "Default");
+            SetMapSorting(_dirtMap, -999990, "Default");
+            SetMapSorting(_desertMap, -999985, "Default");
+            SetMapSorting(_grassMap, -999980, "Default");
+            SetMapSorting(_snowMap, -999975, "Default");
+            SetMapSorting(_stoneMap, -999970, "Default");
 
             // Explicit Z-Layering (Backup for parallax/physics)
             SetMapZ(_waterMap, 5.0f);
@@ -234,7 +234,19 @@ namespace KnowEyeDia.Presentation.Views
             spawnPos.z = _treeZ;
 
             GameObject instance = Instantiate(prefab, spawnPos, Quaternion.identity, parent);
-            instance.transform.localScale = new Vector3(4f, 4f, 4f);
+            
+            // Validate scale range from config (Inspector might have serialized it as 0,0)
+            Vector2 range = set.scaleRange;
+            if (range == Vector2.zero) range = new Vector2(3.5f, 4.5f); // Updated Default fallback
+
+            // Calculate scale
+            float scale = Random.Range(range.x, range.y);
+
+            // Final safety check against NaN or Zero
+            if (float.IsNaN(scale) || scale <= 0.001f) scale = 1.0f;
+
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+
             ApplyTreeSorting(instance);
         }
 
@@ -331,12 +343,17 @@ namespace KnowEyeDia.Presentation.Views
                 map.transform.position = new Vector3(pos.x, pos.y, zPos);
             }
         }
-        private void SetMapSorting(Tilemap map, int order)
+
+        private void SetMapSorting(Tilemap map, int order, string sortingLayerName)
         {
             if (map != null)
             {
                 var renderer = map.GetComponent<TilemapRenderer>();
-                if (renderer != null) renderer.sortingOrder = order;
+                if (renderer != null) 
+                {
+                    renderer.sortingOrder = order;
+                    renderer.sortingLayerName = sortingLayerName;
+                }
             }
         }
 
@@ -364,9 +381,11 @@ namespace KnowEyeDia.Presentation.Views
         {
             if (instance == null) return;
 
-            // Sort trees by Y position: higher Y (bottom) = higher order (in front)
+            // Sort trees by Y position
+            // Lower Y (foreground) should have HIGHER sorting order to draw on top of Higher Y (background).
+            // Multiply by 100 for precision.
             float yPos = instance.transform.position.y;
-            int depthSortOrder = Mathf.RoundToInt(yPos * 10);
+            int depthSortOrder = Mathf.RoundToInt(-yPos * 100);
 
             SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
             for (int i = 0; i < renderers.Length; i++)
@@ -381,12 +400,15 @@ namespace KnowEyeDia.Presentation.Views
         {
             if (instance == null) return;
 
+            // Sort grass by Y position as well
+            float yPos = instance.transform.position.y;
+            int depthSortOrder = Mathf.RoundToInt(-yPos * 100);
+
             SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
             for (int i = 0; i < renderers.Length; i++)
             {
-                renderers[i].sortingOrder = _detailGrassSortingOrder;
+                renderers[i].sortingOrder = _detailGrassSortingOrder + depthSortOrder;
                 renderers[i].sortingLayerName = _detailGrassSortingLayer;
-                Debug.Log($"[WorldView] DetailGrass {instance.name} - SortingLayer: {renderers[i].sortingLayerName}, Order: {renderers[i].sortingOrder}");
             }
         }
 
