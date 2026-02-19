@@ -46,6 +46,16 @@ namespace KnowEyeDia.Presentation.Views
         [SerializeField] private TileType[] _detailGrassAllowedBiomes = { TileType.Grass, TileType.Dirt };
         [SerializeField] private Vector2 _detailGrassScaleRange = new Vector2(0.9f, 1.1f);
 
+        [Header("Decoration - Ore Blocks")]
+        [Tooltip("Ore block configurations per biome")]
+        [SerializeField] private BiomeOreSet[] _oreSets;
+        
+        [SerializeField] private Transform _oreParent;
+        [SerializeField] private float _oreZ = -1f;
+        [SerializeField] private int _oreBlockSortingOrder = 32;
+        [SerializeField] private string _oreBlockSortingLayer = "Ground";
+        [SerializeField] private TileType[] _oreAllowedBiomes = { TileType.Stone };
+
         [System.Serializable]
         private class BiomeTreeSet
         {
@@ -53,6 +63,23 @@ namespace KnowEyeDia.Presentation.Views
             public GameObject[] prefabs;
             [Range(0f, 1f)] public float spawnChance = 0.03f;
             public Vector2 scaleRange = new Vector2(3.5f, 4.5f);
+        }
+
+        [System.Serializable]
+        private class BiomeOreSet
+        {
+            [Tooltip("Biome type to spawn ore on")]
+            public TileType biome;
+            
+            [Tooltip("Ore block prefabs (must have SpriteRenderer and Collider2D)")]
+            public GameObject[] prefabs;
+            
+            [Range(0f, 1f)]
+            [Tooltip("Chance to spawn ore on each valid tile (0-1)")]
+            public float spawnChance = 0.05f;
+            
+            [Tooltip("Random scale range for spawned ore blocks")]
+            public Vector2 scaleRange = new Vector2(4f, 5f);
         }
 
         public void Render(WorldData worldData)
@@ -68,6 +95,7 @@ namespace KnowEyeDia.Presentation.Views
 
             ClearTreeObjects();
             ClearDetailGrassObjects();
+            ClearOreObjects();
 
             SetMapSorting(_waterMap, -1000000, "Default");
             SetMapSorting(_islandMap, -999995, "Default");
@@ -193,6 +221,7 @@ namespace KnowEyeDia.Presentation.Views
         {
             TrySpawnDetailGrass(type, cellPos);
             TrySpawnTree(type, cellPos);
+            TrySpawnOre(type, cellPos);
         }
 
         private void TrySpawnDetailGrass(TileType type, Vector3Int cellPos)
@@ -250,6 +279,38 @@ namespace KnowEyeDia.Presentation.Views
             ApplyTreeSorting(instance);
         }
 
+        private void TrySpawnOre(TileType type, Vector3Int cellPos)
+        {
+            if (!IsAllowedBiome(type, _oreAllowedBiomes)) return;
+
+            BiomeOreSet set = GetOreSet(type);
+            if (set == null || set.prefabs == null || set.prefabs.Length == 0) return;
+            if (Random.value > set.spawnChance) return;
+
+            GameObject prefab = set.prefabs[Random.Range(0, set.prefabs.Length)];
+            if (prefab == null) return;
+
+            Transform parent = GetOrCreateOreParent();
+            Vector3 spawnPos = GetCellCenterWorld(cellPos);
+            spawnPos.z = _oreZ;
+
+            GameObject instance = Instantiate(prefab, spawnPos, Quaternion.identity, parent);
+            
+            // Validate scale range from config
+            Vector2 range = set.scaleRange;
+            if (range == Vector2.zero) range = new Vector2(4f, 5f); // Default fallback
+
+            // Calculate scale
+            float scale = Random.Range(range.x, range.y);
+
+            // Safety check against NaN or Zero
+            if (float.IsNaN(scale) || scale <= 0.001f) scale = 1.0f;
+
+            instance.transform.localScale = new Vector3(scale, scale, scale);
+
+            ApplyOreSorting(instance);
+        }
+
         private BiomeTreeSet GetTreeSet(TileType type)
         {
             if (_treeSets == null || _treeSets.Length == 0) return null;
@@ -257,6 +318,29 @@ namespace KnowEyeDia.Presentation.Views
             for (int i = 0; i < _treeSets.Length; i++)
             {
                 if (_treeSets[i] != null && _treeSets[i].biome == type) return _treeSets[i];
+            }
+
+            return null;
+        }
+
+        private BiomeOreSet GetOreSet(TileType type)
+        {
+            if (_oreSets == null || _oreSets.Length == 0) return null;
+
+            // Collect all matching ore sets for this biome
+            List<BiomeOreSet> matching = new List<BiomeOreSet>();
+            for (int i = 0; i < _oreSets.Length; i++)
+            {
+                if (_oreSets[i] != null && _oreSets[i].biome == type)
+                {
+                    matching.Add(_oreSets[i]);
+                }
+            }
+
+            // Return a random one from the matching sets
+            if (matching.Count > 0)
+            {
+                return matching[Random.Range(0, matching.Count)];
             }
 
             return null;
@@ -300,6 +384,16 @@ namespace KnowEyeDia.Presentation.Views
             for (int i = _detailGrassParent.childCount - 1; i >= 0; i--)
             {
                 Destroy(_detailGrassParent.GetChild(i).gameObject);
+            }
+        }
+
+        private void ClearOreObjects()
+        {
+            if (_oreParent == null) return;
+
+            for (int i = _oreParent.childCount - 1; i >= 0; i--)
+            {
+                Destroy(_oreParent.GetChild(i).gameObject);
             }
         }
 
@@ -377,6 +471,16 @@ namespace KnowEyeDia.Presentation.Views
             return _detailGrassParent;
         }
 
+        private Transform GetOrCreateOreParent()
+        {
+            if (_oreParent != null) return _oreParent;
+
+            GameObject container = new GameObject("OreBlocks");
+            container.transform.SetParent(transform, false);
+            _oreParent = container.transform;
+            return _oreParent;
+        }
+
         private void ApplyTreeSorting(GameObject instance)
         {
             if (instance == null) return;
@@ -433,6 +537,31 @@ namespace KnowEyeDia.Presentation.Views
         private void LoadDetailGrassPrefabs()
         {
             _cachedDetailGrassPrefabs = Resources.LoadAll<GameObject>(_detailGrassPrefabFolder);
+        }
+
+        private void ApplyOreSorting(GameObject instance)
+        {
+            if (instance == null) return;
+
+            // Sort ore by Y position
+            float yPos = instance.transform.position.y;
+            
+            // Try to use collider bottom for more accurate sorting
+            Collider2D col = instance.GetComponent<Collider2D>();
+            if (col != null)
+            {
+                yPos = col.bounds.min.y;
+            }
+
+            int depthSortOrder = Mathf.RoundToInt(-yPos * 100);
+
+            SpriteRenderer[] renderers = instance.GetComponentsInChildren<SpriteRenderer>();
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                renderers[i].sortingOrder = _oreBlockSortingOrder + depthSortOrder;
+                renderers[i].sortingLayerName = _oreBlockSortingLayer;
+                renderers[i].enabled = true;
+            }
         }
      }
  }
