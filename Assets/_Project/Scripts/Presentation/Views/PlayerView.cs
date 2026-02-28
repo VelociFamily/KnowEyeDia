@@ -24,6 +24,33 @@ namespace KnowEyeDia.Presentation.Views
                 _visuals.sprite = sprite;
         }
 
+        [SerializeField] private string _sortingLayerName = "Ground";
+        private Collider2D _collider;
+
+        private void Awake()
+        {
+            _collider = GetComponent<Collider2D>();
+        }
+
+        private void LateUpdate()
+        {
+            UpdateSorting();
+        }
+
+        private void UpdateSorting()
+        {
+            if (_visuals != null)
+            {
+                _visuals.sortingLayerName = _sortingLayerName;
+                
+                // Use collider bottom (feet) for sorting if available, otherwise pivot
+                float yPos = _collider != null ? _collider.bounds.min.y : transform.position.y;
+                
+                int sortOrder = Mathf.RoundToInt(-yPos * 100);
+                _visuals.sortingOrder = sortOrder;
+            }
+        }
+
         public void SetInput(Vector2 input)
         {
             if (_animator != null)
