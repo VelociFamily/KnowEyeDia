@@ -299,6 +299,13 @@ namespace KnowEyeDia.Presentation.Views
             // Validate scale range from config
             Vector2 range = set.scaleRange;
             if (range == Vector2.zero) range = new Vector2(4f, 5f); // Default fallback
+            // Normalize range if inspector values are inverted
+            if (range.x > range.y)
+            {
+                float tmp = range.x;
+                range.x = range.y;
+                range.y = tmp;
+            }
 
             // Calculate scale
             float scale = Random.Range(range.x, range.y);
