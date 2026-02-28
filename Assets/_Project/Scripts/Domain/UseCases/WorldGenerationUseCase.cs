@@ -156,6 +156,9 @@ namespace KnowEyeDia.Domain.UseCases
             // This prevents "Hard" biome edges against water.
             ApplyShorelineBuffer(width, depth, CurrentWorld);
 
+            // Clean up isolated single tiles and small clusters
+            CleanupIsolatedTiles(width, depth, CurrentWorld);
+
             return CurrentWorld;
         }
 
@@ -339,6 +342,132 @@ namespace KnowEyeDia.Domain.UseCases
 
                 if (tilesToErode.Count == 0) break; // No more tiles to erode
             }
+        }
+
+        private void CleanupIsolatedTiles(int width, int depth, WorldData world)
+        {
+            // Remove small isolated biome clusters (1-7 tiles) that create thin lines or odd shapes
+            // Multiple passes ensure even small remnants are cleaned up
+            
+            for (int pass = 0; pass < 3; pass++)
+            {
+                HashSet<Vector2Int> processedTiles = new HashSet<Vector2Int>();
+                List<Vector2Int> tilesToConvert = new List<Vector2Int>();
+
+                for (int x = 0; x < width; x++)
+                {
+                    for (int z = 0; z < depth; z++)
+                    {
+                        Vector2Int pos = new Vector2Int(x, z);
+                        if (processedTiles.Contains(pos)) continue;
+
+                        TileType type = world.TileMap[x, z];
+                        
+                        // Skip water and empty tiles
+                        if (type == TileType.Water || type == TileType.Empty) continue;
+
+                        // Find connected cluster of same biome type
+                        List<Vector2Int> cluster = new List<Vector2Int>();
+                        Queue<Vector2Int> toCheck = new Queue<Vector2Int>();
+                        toCheck.Enqueue(pos);
+                        processedTiles.Add(pos);
+
+                        while (toCheck.Count > 0)
+                        {
+                            Vector2Int current = toCheck.Dequeue();
+                            cluster.Add(current);
+
+                            // Check 4-directional neighbors (not diagonal)
+                            Vector2Int[] neighbors = new Vector2Int[]
+                            {
+                                new Vector2Int(current.x + 1, current.y),
+                                new Vector2Int(current.x - 1, current.y),
+                                new Vector2Int(current.x, current.y + 1),
+                                new Vector2Int(current.x, current.y - 1)
+                            };
+
+                            foreach (var neighbor in neighbors)
+                            {
+                                if (world.IsValid(neighbor.x, neighbor.y) && 
+                                    !processedTiles.Contains(neighbor) &&
+                                    world.TileMap[neighbor.x, neighbor.y] == type)
+                                {
+                                    processedTiles.Add(neighbor);
+                                    toCheck.Enqueue(neighbor);
+                                }
+                            }
+
+                            // Limit cluster search to avoid performance issues
+                            if (cluster.Count > 20) break;
+                        }
+
+                        // If cluster is too small, convert to surrounding biome
+                        if (cluster.Count <= 7)
+                        {
+                            tilesToConvert.AddRange(cluster);
+                        }
+                    }
+                }
+
+                // Convert small clusters to the most common neighboring biome type
+                foreach (var pos in tilesToConvert)
+                {
+                    TileType replacement = GetMostCommonNeighborBiome(pos.x, pos.y, world);
+                    if (replacement != TileType.Empty)
+                    {
+                        world.TileMap[pos.x, pos.y] = replacement;
+                    }
+                }
+
+                // Stop if no more conversions were made
+                if (tilesToConvert.Count == 0) break;
+            }
+        }
+
+        private TileType GetMostCommonNeighborBiome(int x, int z, WorldData world)
+        {
+            // Count neighboring biomes (8-directional)
+            Dictionary<TileType, int> biomeCounts = new Dictionary<TileType, int>();
+
+            for (int dx = -1; dx <= 1; dx++)
+            {
+                for (int dz = -1; dz <= 1; dz++)
+                {
+                    if (dx == 0 && dz == 0) continue;
+
+                    int nx = x + dx;
+                    int nz = z + dz;
+
+                    if (world.IsValid(nx, nz))
+                    {
+                        TileType neighborType = world.TileMap[nx, nz];
+                        
+                        // Skip water and empty
+                        if (neighborType == TileType.Water || neighborType == TileType.Empty) continue;
+
+                        if (!biomeCounts.ContainsKey(neighborType))
+                        {
+                            biomeCounts[neighborType] = 0;
+                        }
+                        biomeCounts[neighborType]++;
+                    }
+                }
+            }
+
+            // Return the most common neighboring biome
+            TileType mostCommon = TileType.Island; // Default fallback
+            int maxCount = 0;
+
+            foreach (var kvp in biomeCounts)
+            {
+                if (kvp.Value > maxCount)
+                {
+                    maxCount = kvp.Value;
+                    mostCommon = kvp.Key;
+                }
+            }
+
+            return mostCommon;
         }
 
         private bool HasWaterNeighbor(int x, int z, WorldData world)

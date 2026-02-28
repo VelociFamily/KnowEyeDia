@@ -142,13 +142,11 @@ namespace KnowEyeDia.Presentation.Views
                         if (_islandMap != null) _islandMap.SetTile(pos, _islandTile);
 
                         // 2. Neighbor Underlay Logic
-                        // "Overlap by one more" -> Check neighbors up to 2 tiles away
-                        // This pulls "lower" biomes (like Dirt) underneath "higher" biomes (like Desert)
-                        // to hide the Island (green) foundation at the edges.
-                        int range = 2;
-                        for (int nx = x - range; nx <= x + range; nx++)
+                        // Check surrounding area for underlays, but only place from immediate neighbors
+                        // This ensures coverage while preventing weird extended shapes
+                        for (int nx = x - 2; nx <= x + 2; nx++)
                         {
-                            for (int nz = z - range; nz <= z + range; nz++)
+                            for (int nz = z - 2; nz <= z + 2; nz++)
                             {
                                 if (nx == x && nz == z) continue;
                                 TryRenderUnderlay(nx, nz, type, pos, worldData);
@@ -166,7 +164,7 @@ namespace KnowEyeDia.Presentation.Views
                             }
                         }
 
-                        TrySpawnDecorations(type, pos);
+                        TrySpawnDecorations(type, pos, worldData, x, z);
                     }
                     tileCount++;
                 }
@@ -183,6 +181,11 @@ namespace KnowEyeDia.Presentation.Views
             // Only care about Land neighbors
             if (neighborType == TileType.Empty || neighborType == TileType.Water || neighborType == TileType.Island) return;
             if (neighborType == currentType) return;
+
+            // Only place underlay from immediate neighbors (1 tile away) to prevent weird extended shapes
+            int distX = Mathf.Abs(nx - (int)currentPos.x);
+            int distZ = Mathf.Abs(nz - (int)currentPos.z);
+            if (distX > 1 || distZ > 1) return;
 
             // Check Layer Hierarchy
             // If Neighbor is "Behind" Current (Higher Z value), we draw it as backing
@@ -217,11 +220,42 @@ namespace KnowEyeDia.Presentation.Views
             }
         }
 
-        private void TrySpawnDecorations(TileType type, Vector3Int cellPos)
+        private void TrySpawnDecorations(TileType type, Vector3Int cellPos, WorldData worldData, int x, int z)
         {
+            // Don't spawn decorations near water edges
+            if (HasWaterNearby(x, z, worldData, 1)) return;
+            
             TrySpawnDetailGrass(type, cellPos);
-            TrySpawnTree(type, cellPos);
+            
+            // Trees need a larger buffer due to their visual size
+            if (!HasWaterNearby(x, z, worldData, 2))
+            {
+                TrySpawnTree(type, cellPos);
+            }
+            
             TrySpawnOre(type, cellPos);
+        }
+
+        private bool HasWaterNearby(int x, int z, WorldData worldData, int range = 1)
+        {
+            // Check all tiles within the specified range (including diagonals)
+            for (int dx = -range; dx <= range; dx++)
+            {
+                for (int dz = -range; dz <= range; dz++)
+                {
+                    if (dx == 0 && dz == 0) continue; // Skip center tile
+                    
+                    int nx = x + dx;
+                    int nz = z + dz;
+                    
+                    // Check if position is valid and if it contains water
+                    if (worldData.IsValid(nx, nz) && worldData.TileMap[nx, nz] == TileType.Water)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
         private void TrySpawnDetailGrass(TileType type, Vector3Int cellPos)
