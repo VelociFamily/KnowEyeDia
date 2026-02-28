@@ -23,12 +23,12 @@ namespace KnowEyeDia.Presentation.Presenters
         {
             Debug.Log("Generating World...");
             
-            // Generate seed from current system time (no symbols)
-            // Format: HHmmss (e.g., 1:32:56 becomes 13256)
-            string timeString = System.DateTime.Now.ToString("HHmmss");
+            // Generate seed from current system time including milliseconds (no symbols)
+            // Format: HHmmssSSS (e.g., 1:32:56.123 becomes 13256123)
+            string timeString = System.DateTime.Now.ToString("HHmmssfff");
             int seed = int.Parse(timeString);
             
-            Debug.Log($"World Seed: {seed} (from time: {System.DateTime.Now:HH:mm:ss})");
+            Debug.Log($"World Seed: {seed} (from time: {System.DateTime.Now:HH:mm:ss.fff})");
             
             // Settings can be moved to a configuration file/ScriptableObject later
             var data = _worldGenUseCase.GenerateWorld(
