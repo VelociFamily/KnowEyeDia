@@ -142,7 +142,7 @@
     },
     "com.unity.ai.generators": {
       "version": "1.6.0-pre.3",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.sprite": "1.0.0",
@@ -168,7 +168,7 @@
     },
     "com.unity.ai.toolkit": {
       "version": "1.6.0-pre.3",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
@@ -176,7 +176,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.27",
+      "version": "1.8.28",
       "depth": 1,
       "source": "registry",
       "dependencies": {
