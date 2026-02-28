@@ -327,23 +327,24 @@ namespace KnowEyeDia.Presentation.Views
         {
             if (_oreSets == null || _oreSets.Length == 0) return null;
 
-            // Collect all matching ore sets for this biome
-            List<BiomeOreSet> matching = new List<BiomeOreSet>();
+            BiomeOreSet selected = null;
+            int matchCount = 0;
+
             for (int i = 0; i < _oreSets.Length; i++)
             {
-                if (_oreSets[i] != null && _oreSets[i].biome == type)
+                BiomeOreSet current = _oreSets[i];
+                if (current != null && current.biome == type)
                 {
-                    matching.Add(_oreSets[i]);
+                    matchCount++;
+                    // Reservoir sampling: each matching entry has equal chance of being selected.
+                    if (Random.Range(0, matchCount) == 0)
+                    {
+                        selected = current;
+                    }
                 }
             }
 
-            // Return a random one from the matching sets
-            if (matching.Count > 0)
-            {
-                return matching[Random.Range(0, matching.Count)];
-            }
-
-            return null;
+            return selected;
         }
 
         private Vector3 GetCellCenterWorld(Vector3Int cellPos)
